@@ -1,7 +1,6 @@
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy
 import lda
-
 def main():
     filename = "femaleItalianOutput.txt"
 
@@ -20,5 +19,5 @@ def main():
     n_top_words = 8
 
     for i, topic_dist in enumerate(topic_word):
-        topic_words = numpy.array([count_vect.vocabulary_])[numpy.argsort(topic_dist)][:-n_top_words:-1]
+        topic_words = numpy.array(list(count_vect.vocabulary_.keys()))[numpy.argsort(topic_dist)][:-n_top_words:-1]
         print('Topic {}: {}'.format(i, ' '.join(topic_words)))
