@@ -36,5 +36,12 @@ def output_lines(names, read_file, write_file):
 	f.write("\n".join(final_lines))
 	f.close()
 	
-output_lines(["TONY", "IRON MAN", "STEVE", "CAPTAIN AMERICA", "THOR"], "AvengersScript.txt", "Avengers_Male.txt")
-output_lines(["PEPPER", "BLACK WIDOW", "NATASHA", "AGENT MARIA HILL"], "AvengersScript.txt", "Avengers_Female.txt")
+#output_lines(["TONY", "IRON MAN", "STEVE", "CAPTAIN AMERICA", "THOR"], "AvengersScript.txt", "Avengers_Male.txt")
+#output_lines(["PEPPER", "BLACK WIDOW", "NATASHA", "AGENT MARIA HILL"], "AvengersScript.txt", "Avengers_Female.txt")
+
+def output_ItalianJob():
+        ITALIAN_JOB = "italianjob.txt"
+        MALE_CHARS = ['CHARLIE', 'BULLY', 'LYLE', 'STEVE', 'JOHN BRIDGER', 'HANDSOME ROB', 'RICHARD', 'VALET', 'DETECTIVE', 'MAKOV', 'FURIOUS DRIVER']
+        FEMALE_CHARS = ['CHRISTINA', 'KAREN', 'STELLA']
+        output_lines(MALE_CHARS, ITALIAN_JOB, "maleItalianOutput.txt")
+        output_lines(FEMALE_CHARS, ITALIAN_JOB, "femaleItalianOutput.txt")
