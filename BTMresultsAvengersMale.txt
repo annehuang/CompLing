@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/Avengers_Malecleaned.txt
+write file: ../output/doc_wids.txt
+n(w)=918
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+../src/btm est 20 918 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=918, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 0.060000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=918
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):918
+p(z)		Top words
+0.067395	s:0.096762 captain:0.045609 america:0.043760 need:0.036365 just:0.032667 tri:0.028353 grab:0.022806 gonna:0.020957 run:0.019108 men:0.018492
+0.066149	s:0.109887 t:0.035794 just:0.033282 like:0.031399 fli:0.029515 man:0.028259 let:0.026375 shawarma:0.025119 guy:0.024492 tri:0.020096
+0.064903	thor:0.090878 man:0.072319 iron:0.069119 hand:0.041601 pull:0.039041 knock:0.033281 loki:0.031361 mjã¶lnir:0.031361 light:0.028162 fli:0.027522
+0.057844	man:0.039498 chitauri:0.032317 lead:0.030881 s:0.025137 iron:0.024418 arrow:0.017956 ll:0.016520 red:0.016520 mean:0.015801 know:0.015801
+0.056598	s:0.060183 iron:0.044771 man:0.031561 got:0.031561 t:0.025690 cap:0.024222 suit:0.023488 m:0.022021 right:0.022021 fli:0.021287
+0.055851	loki:0.082557 s:0.040165 thor:0.026778 earth:0.023803 tesseract:0.022315 missil:0.019341 agent:0.018597 readi:0.018597 man:0.017853 chase:0.017853
+0.055436	man:0.063694 captain:0.050206 america:0.048708 iron:0.038967 jump:0.026978 rotor:0.026978 panel:0.025480 cool:0.023981 control:0.022483 fli:0.020984
+0.055103	cube:0.035433 need:0.027895 cap:0.026387 furi:0.025633 steve:0.023372 hand:0.021864 walk:0.021864 turn:0.020357 barton:0.019603 ll:0.018849
+0.049539	man:0.066247 iron:0.060377 stark:0.037737 tower:0.035222 selvig:0.029352 booster:0.028514 cms:0.028514 energi:0.027675 hand:0.027675 fall:0.027675
+0.048044	toni:0.054475 walk:0.040641 loki:0.036318 suit:0.036318 look:0.034589 banner:0.032859 brother:0.031130 piss:0.022484 stark:0.018161 turn:0.018161
+0.046383	want:0.063591 s:0.051053 loki:0.036723 toni:0.029559 open:0.026872 come:0.024185 yeah:0.020603 night:0.020603 ll:0.019707 just:0.018812
+0.046300	thor:0.064602 loki:0.052042 s:0.036789 right:0.035892 want:0.034995 hulk:0.023331 blast:0.023331 energi:0.020640 send:0.020640 tri:0.017051
+0.045802	way:0.043538 look:0.033562 m:0.028120 just:0.027213 thor:0.026306 come:0.026306 walk:0.021771 agent:0.020865 control:0.020865 t:0.019958
+0.045636	s:0.060082 t:0.050979 come:0.032774 secret:0.031864 toni:0.028223 mayb:0.027312 banner:0.026402 huge:0.020030 steve:0.019120 like:0.017299
+0.043975	loki:0.047237 got:0.044403 s:0.041569 need:0.028344 power:0.026455 ve:0.024566 doe:0.023621 know:0.022676 lab:0.020787 perimet:0.017008
+0.043892	loki:0.074774 thor:0.047327 look:0.044487 hope:0.035970 way:0.029344 s:0.024612 rage:0.023666 hit:0.018934 brother:0.018934 tri:0.017987
+0.039822	ve:0.036517 got:0.031301 like:0.022956 bit:0.022956 portal:0.022956 right:0.021912 eye:0.021912 use:0.020869 look:0.020869 fli:0.018783
+0.039739	t:0.060637 s:0.027185 rider:0.025094 iron:0.024049 say:0.023004 war:0.020913 explod:0.019867 didn:0.018822 man:0.018822 corner:0.018822
+0.036251	toni:0.049284 man:0.033240 iron:0.030948 fall:0.024072 know:0.018342 away:0.017196 dive:0.017196 energi:0.016050 knock:0.016050 cap:0.014904
+0.035338	toni:0.072897 look:0.047032 s:0.029397 pepper:0.029397 miss:0.025870 stark:0.023519 rotor:0.021168 thing:0.017641 t:0.016465 got:0.016465

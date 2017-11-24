@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/Avengers_Femalecleaned.txt
+write file: ../output/doc_wids.txt
+n(w)=487
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+../src/btm est 20 487 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=487, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 0.020000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=487
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):487
+p(z)		Top words
+0.083522	furi:0.090870 step:0.053388 entranc:0.051117 gun:0.048845 shot:0.047709 s:0.034080 barton:0.031808 enter:0.031808 watch:0.031808 readi:0.031808
+0.074442	loki:0.147884 quinjet:0.073945 aim:0.053548 blast:0.050999 maneuv:0.045899 jet:0.043350 hawkey:0.043350 energi:0.034426 feet:0.033151 scepter:0.031876
+0.073496	hulk:0.104599 natasha:0.089104 catwalk:0.050366 start:0.038744 maze:0.032288 let:0.030997 pull:0.029705 maneuv:0.029705 fall:0.029705 crawl:0.028414
+0.069334	s:0.130066 know:0.047924 gamma:0.041078 tesseract:0.039709 t:0.036971 like:0.036971 d:0.031495 energi:0.030126 wipe:0.030126 banner:0.027388
+0.061956	cap:0.119560 loki:0.099634 throw:0.075111 shield:0.073578 time:0.058251 way:0.047522 swat:0.039858 ground:0.038326 use:0.038326 stand:0.036793
+0.061389	coulson:0.072714 s:0.063433 champagn:0.054151 trade:0.047963 file:0.044869 gonna:0.037134 pass:0.035588 thought:0.027853 let:0.026306 card:0.026306
+0.059875	natasha:0.066629 face:0.057111 hulk:0.036491 thug:0.034904 head:0.033318 rubbl:0.031732 free:0.028560 sens:0.028560 roll:0.025387 struggl:0.025387
+0.057794	look:0.067394 street:0.064107 swoop:0.060820 build:0.049315 banner:0.041097 parti:0.036167 train:0.036167 barrel:0.034523 t:0.029592 intens:0.029592
+0.056848	walk:0.081889 pretti:0.045126 s:0.035100 sir:0.031758 t:0.031758 m:0.026745 open:0.025074 hell:0.025074 banner:0.025074 vintag:0.023403
+0.056092	loki:0.081305 race:0.040656 like:0.037269 build:0.037269 send:0.032188 banner:0.030495 time:0.030495 cap:0.030495 ve:0.027107 got:0.027107
+0.049281	thug:0.084880 tall:0.059805 like:0.057876 natasha:0.048232 start:0.046303 eleg:0.044374 luchkov:0.042445 stand:0.042445 spider:0.040516 roll:0.040516
+0.046065	s:0.088774 toni:0.055745 coulson:0.041295 place:0.039231 hard:0.035103 sudden:0.035103 look:0.033038 agent:0.026846 work:0.022717 pepper:0.022717
+0.041146	gonna:0.055511 away:0.055511 gotta:0.053199 okay:0.041636 loki:0.039324 listen:0.037011 soldier:0.037011 check:0.037011 furious:0.037011 shield:0.034699
+0.038498	start:0.046991 gonna:0.044519 insid:0.042046 minut:0.042046 littl:0.042046 breath:0.042046 sudden:0.042046 helicarri:0.042046 shake:0.042046 prepar:0.042046
+0.034525	widow:0.068992 engin:0.060714 turbin:0.055196 start:0.049678 got:0.041400 roll:0.038641 run:0.038641 catwalk:0.033123 s:0.027605 t:0.024846
+0.033579	tall:0.056762 thug:0.051087 realli:0.048250 man:0.045413 freight:0.045413 luchkov:0.039738 slowli:0.034063 pick:0.034063 think:0.031226 m:0.031226
+0.031877	glass:0.086728 pass:0.065797 drop:0.047857 maneuv:0.038886 slam:0.038886 soon:0.035896 air:0.032906 street:0.032906 s:0.026926 coulson:0.026926
+0.027715	don:0.082652 t:0.079209 mean:0.058550 close:0.051664 natasha:0.034448 m:0.031005 portal:0.027562 barton:0.024119 romanoff:0.024119 loki:0.024119
+0.022229	natasha:0.060253 like:0.055951 man:0.055951 iron:0.051649 suit:0.038742 hi-tech:0.038742 gadget:0.038742 stair:0.038742 toni:0.034440 skyscrap:0.034440
+0.020337	come:0.070633 loki:0.061219 s:0.042389 drop:0.042389 jet:0.037682 cap:0.037682 air:0.032975 like:0.028268 d:0.028268 use:0.028268

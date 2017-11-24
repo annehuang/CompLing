@@ -1,0 +1,55 @@
+=============== Index Docs =============
+index file: ../sample-data/maleItalianOutputcleaned.txt
+write file: ../output/doc_wids.txt
+n(w)=884
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+../src/btm est 20 884 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=884, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+
+iter 1/5
+iter 2/5
+iter 3/5
+iter 4/5
+iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 0.040000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=884
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):884
+p(z)		Top words
+0.069605	mayb:0.030575 guy:0.029046 way:0.027518 safe:0.025225 surpris:0.025225 thing:0.024461 come:0.023696 drive:0.020639 make:0.019111 board:0.019111
+0.066734	s:0.045443 just:0.031891 gold:0.030297 like:0.029500 man:0.029500 right:0.020731 handsom:0.020731 wheel:0.020731 buy:0.019136 rob:0.019136
+0.066309	s:0.042526 alarm:0.034503 way:0.025677 amaz:0.022468 make:0.020864 know:0.019259 charli:0.018457 real:0.018457 door:0.017655 best:0.016852
+0.064288	ll:0.042208 secur:0.035588 car:0.034760 know:0.030623 new:0.027312 goe:0.024830 first:0.024002 guard:0.022347 ttratio:0.020692 screw:0.019865
+0.061523	know:0.044106 t:0.043241 didn:0.029405 littl:0.027676 brink:0.027676 m:0.024217 better:0.024217 s:0.022488 did:0.020758 pull:0.019029
+0.054717	like:0.044734 traffic:0.041817 signal:0.025286 time:0.025286 use:0.024314 drive:0.023342 sure:0.021397 got:0.020425 worker:0.019452 right:0.018480
+
+#vehicle
+0.054504	s:0.056622 time:0.032218 truck:0.031242 view:0.027337 plate:0.026361 know:0.023433 direct:0.022457 ferrari:0.020504 ratio:0.016600 rise:0.016600
+0.052377	s:0.038607 ve:0.023369 job:0.022353 like:0.021337 shit:0.020322 drop:0.020322 thirti:0.019306 million:0.019306 sight:0.019306 gold:0.017274
+0.051845	ve:0.052344 gold:0.051318 s:0.043108 ll:0.033871 time:0.028740 d:0.027714 cousin:0.026688 girl:0.025661 accuraci:0.024635 brick:0.024635
+0.051739	cabl:0.049367 m:0.037026 servic:0.032913 d:0.029828 hous:0.029828 confirm:0.029828 p:0.025714 technician:0.025714 accuraci:0.024686 think:0.024686
+0.048017	s:0.072034 cabl:0.056520 m:0.036574 ve:0.032141 hous:0.031033 fake:0.024384 unless:0.022168 napster:0.021060 compani:0.021060 know:0.019952
+0.046315	s:0.049407 time:0.035621 got:0.033323 t:0.028727 girl:0.028727 want:0.027579 minut:0.027579 ll:0.024132 brick:0.022983 ve:0.021834
+0.046102	s:0.085415 d:0.048481 gotten:0.038094 caus:0.028860 tonight:0.023089 minut:0.020781 sweat:0.020781 sleep:0.020781 free:0.020781 know:0.017318
+0.042380	traffic:0.084133 detector:0.064043 algorithm:0.047720 data:0.046464 control:0.043953 video:0.040186 info:0.035164 vehicl:0.033908 fuse:0.033908 special:0.032652
+0.041955	t:0.057083 know:0.057083 thought:0.049472 don:0.039325 instal:0.035520 s:0.029179 worthington:0.029179 like:0.026642 fine:0.025374 shirt:0.025374
+0.040253	s:0.060819 t:0.052887 m:0.046277 guy:0.039667 live:0.027769 hit:0.025125 p:0.019837 damn:0.019837 don:0.018515 bring:0.017193
+0.040253	ll:0.085938 s:0.068751 line:0.060819 think:0.055531 offic:0.034379 fool:0.026447 legal:0.026447 rerout:0.026447 central:0.023803 monitor:0.023803
+0.038552	s:0.051082 m:0.038658 truck:0.037278 rich:0.028996 veri:0.027615 time:0.022093 t:0.022093 live:0.022093 charli:0.020713 armor:0.020713
+0.033660	t:0.060095 like:0.055351 don:0.052188 look:0.044282 m:0.041120 s:0.036376 talk:0.033214 just:0.025308 deal:0.025308 night:0.025308
+0.028874	truck:0.053473 time:0.040568 s:0.038725 awp:0.036881 lesbian:0.035037 look:0.035037 differ:0.033194 armor:0.031350 want:0.025819 know:0.023976
