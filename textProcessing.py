@@ -36,7 +36,7 @@ def vectorize(gender, stemmer):
     else:
         data = female(stemmer)
 
-    produceTopics(gender, matrix, matrix.fit_transform(data))
+    produceTopicsSK(gender, matrix, matrix.fit_transform(data))
 
 def male(stemmer):
     data = []
@@ -62,8 +62,26 @@ def openFile(stemmer, filename):
 
 def produceTopicsSK(gender, count_vect, arr):
     # http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html#sklearn.decomposition.LatentDirichletAllocation
-    model = LatentDirichletAllocation(n_topics = 20)
+    model = LatentDirichletAllocation(n_topics = 20,  max_iter=5,
+                                learning_method='online',
+                                learning_offset=50,
+                                random_state=0)
     model.fit(arr)
+    message = ""
+
+    # Code for printing by
+    # Author: Olivier Grisel <olivier.grisel@ensta.org>
+    #         Lars Buitinck
+    #         Chyi-Kwei Yau <chyikwei.yau@gmail.com>
+    #http://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html#sphx-glr-auto-examples-applications-plot-topics-extraction-with-nmf-lda-py
+    for topic_idx, topic in enumerate(model.components_):
+        message += "Topic #%d: " % topic_idx
+        message += " ".join([count_vect.get_feature_names()[i]
+                             for i in topic.argsort()[:-20 - 1:-1]])
+        message += "\n"
+    f2 = open(gender + "TopicsSK.txt", "w")
+    f2.write(message)
+    f2.close()
     
 def produceTopics(gender, count_vect, arr):
     # from documentation: http://pythonhosted.org/lda/
