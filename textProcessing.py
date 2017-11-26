@@ -29,30 +29,30 @@ def vectorize(gender, stemmer):
     # http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
     # using parameters from http://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html#sphx-glr-auto-examples-applications-plot-topics-extraction-with-nmf-lda-py
     matrix = CountVectorizer(max_df=0.95, min_df=2, max_features=1000, stop_words=CUSTOMIZED_STOP_WORDS)
-    data = []
+    collection = []
     
     if gender == 'MALE':
-        data = male(stemmer)
+        collection = male(stemmer)
     else:
-        data = female(stemmer)
+        collection = female(stemmer)
 
-    produceTopicsSK(gender, matrix, matrix.fit_transform(data))
+    produceTopicsSK(gender, matrix, matrix.fit_transform(collection))
 
 def male(stemmer):
-    data = []
-    data.append(openFile(stemmer, "AmericanSniper_ChrisKylecleaned.txt"))
-    data.append(openFile(stemmer, "Avengers_Malecleaned.txt"))
-    data.append(openFile(stemmer, "BourneUltimatum_JasonBournecleaned.txt"))
-    data.append(openFile(stemmer, "maleItalianOutputcleaned.txt"))
-    return data;
+    collection = []
+    collection.append(openFile(stemmer, "AmericanSniper_ChrisKylecleaned.txt"))
+    collection.append(openFile(stemmer, "Avengers_Malecleaned.txt"))
+    collection.append(openFile(stemmer, "BourneUltimatum_JasonBournecleaned.txt"))
+    collection.append(openFile(stemmer, "maleItalianOutputcleaned.txt"))
+    return collection;
 
 def female(stemmer):
-    data = []
-    data.append(openFile(stemmer, "AmericanSniper_TayaKylecleaned.txt"))
-    data.append(openFile(stemmer, "Avengers_Femalecleaned.txt"))
-    data.append(openFile(stemmer, "BourneUltimatum_NickyParsonscleaned.txt"))
-    data.append(openFile(stemmer, "femaleItalianOutputcleaned.txt"))
-    return data;
+    collection = []
+    collection.append(openFile(stemmer, "AmericanSniper_TayaKylecleaned.txt"))
+    collection.append(openFile(stemmer, "Avengers_Femalecleaned.txt"))
+    collection.append(openFile(stemmer, "BourneUltimatum_NickyParsonscleaned.txt"))
+    collection.append(openFile(stemmer, "femaleItalianOutputcleaned.txt"))
+    return collection;
 
 def openFile(stemmer, filename):
     ret = ""
