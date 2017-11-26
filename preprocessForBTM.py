@@ -1,4 +1,5 @@
 from nltk.stem.snowball import SnowballStemmer
+import nltk
 import re
 # http://www.nltk.org/howto/stem.html
 
@@ -8,6 +9,7 @@ import re
 # http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/
 # "first" comes on in some topics from existing work
 # http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
+# take out could perhaps may
 CUSTOMIZED_STOP_WORDS = [
     "a", "about", "above", "across", "after", "afterwards", "again", "against",
     "all", "almost", "alone", "along", "already", "also", "although", "always",
@@ -16,8 +18,8 @@ CUSTOMIZED_STOP_WORDS = [
     "around", "as", "at", "back", "be", "became", "because", "become",
     "becomes", "becoming", "been", "before", "beforehand", "behind", "being",
     "below", "beside", "besides", "between", "beyond", "bill", "both",
-    "bottom", "but", "by", "call", "can", "cannot", "cant", "co", "con",
-    "could", "couldnt", "cry", "de", "describe", "detail", "do", "done",
+    "bottom", "but", "by", "call", "can", "cannot", "cant", "co", "con","couldnt",
+    "cry", "de", "describe", "detail", "do", "done",
     "down", "due", "during", "each", "eg", "eight", "either", "eleven", "else",
     "elsewhere", "empty", "enough", "etc", "even", "ever", "every", "everyone",
     "everything", "everywhere", "except", "few", "fifteen", "fifty", "fill",
@@ -27,13 +29,13 @@ CUSTOMIZED_STOP_WORDS = [
     "hereby", "herein", "hereupon", "hers", "herself", "him", "himself", "his",
     "how", "however", "hundred", "i", "ie", "if", "i'm", "in", "inc", "indeed",
     "interest", "into", "is", "it", "its", "itself", "keep", "last", "latter",
-    "latterly", "least", "less", "ltd", "made", "many", "may", "me",
+    "latterly", "least", "less", "ltd", "made", "many", "me",
     "meanwhile", "might", "mill", "mine", "more", "moreover", "most", "mostly",
     "move", "much", "must", "me", "my", "myself", "name", "namely", "neither",
     "never", "nevertheless", "next", "nine", "no", "nobody", "none", "noone",
     "nor", "not", "nothing", "now", "nowhere", "of", "off", "often", "on",
     "once", "one", "only", "onto", "or", "other", "others", "otherwise", "our",
-    "ours", "ourselves", "out", "over", "own", "part", "per", "perhaps",
+    "ours", "ourselves", "out", "over", "own", "part", "per",
     "please", "put", "rather", "re", "same", "see", "seem", "seemed",
     "seeming", "seems", "serious", "several", "she", "should", "show", "side",
     "since", "sincere", "six", "sixty", "so", "some", "somehow", "someone",
@@ -58,23 +60,30 @@ def preprocessForBTM(filename):
     for line in f:
         line = re.sub(r'\d', '', line)
         line = line.lower()
-        line = line.replace(".", " ")
-        line = line.replace(",", " ")
-        line = line.replace("'", " ")
-        line = line.replace("?", " ")
+        line = line.replace(".", "")
+        line = line.replace(",", "")
+        line = line.replace("'", "")
+        line = line.replace("?", "")
+        line = line.replace("  ", " ")
+        line = line.strip(" ")
         line = line.split(" ")
         for word in line:
-            if word not in CUSTOMIZED_STOP_WORDS:
-                word = stemmer.stem(word)
-                if word not in CUSTOMIZED_STOP_WORDS:
-                    ret += word
-                    ret += " "
+            if word != " ":
+                try:
+                    if nltk.pos_tag([word])[0][1] != "JJ": # http://www.nltk.org/book/ch05.html https://pythonprogramming.net/natural-language-toolkit-nltk-part-speech-tagging/
+                    # empathy paper
+                        if word not in CUSTOMIZED_STOP_WORDS:
+                            word = stemmer.stem(word)
+                            if word not in CUSTOMIZED_STOP_WORDS:
+                                ret += word
+                                ret += " "
+                except:
+                    continue
     f2 = open(filename + "cleaned.txt", "w")
     f2.write(ret)
     f2.close()
 
 def main():
-    SCRIPTS = ["Avengers_Male", "BourneUltimatum_JasonBourne", "maleItalianOutput", "AmericanSniper_TayaKyle", "Avengers_Female", "BourneUltimatum_NickyParsons", "femaleItalianOutput"]
-    #preprocessForBTM("AmericanSniper_ChrisKyle")
+    SCRIPTS = ["AmericanSniper_ChrisKyle", "Avengers_Male", "BourneUltimatum_JasonBourne", "maleItalianOutput", "AmericanSniper_TayaKyle", "Avengers_Female", "BourneUltimatum_NickyParsons", "femaleItalianOutput"]
     for script in SCRIPTS:
         preprocessForBTM(script)
