@@ -2,6 +2,7 @@
 # CS 521 Project
 # Fall 2017
 
+from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy
 import lda
@@ -26,7 +27,8 @@ def glob():
 def vectorize(gender, stemmer):
     # English stop words
     # http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
-    matrix = CountVectorizer(stop_words=CUSTOMIZED_STOP_WORDS)
+    # using parameters from http://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html#sphx-glr-auto-examples-applications-plot-topics-extraction-with-nmf-lda-py
+    matrix = CountVectorizer(max_df=0.95, min_df=2, max_features=1000, stop_words=CUSTOMIZED_STOP_WORDS)
     data = []
     
     if gender == 'MALE':
@@ -58,6 +60,11 @@ def openFile(stemmer, filename):
     f = re.sub(r'\d', '', f)
     return f
 
+def produceTopicsSK(gender, count_vect, arr):
+    # http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html#sklearn.decomposition.LatentDirichletAllocation
+    model = LatentDirichletAllocation(n_topics = 20)
+    model.fit(arr)
+    
 def produceTopics(gender, count_vect, arr):
     # from documentation: http://pythonhosted.org/lda/
     model = lda.LDA(n_topics=20, n_iter=1500, random_state=1)
