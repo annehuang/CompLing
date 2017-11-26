@@ -1,3 +1,7 @@
+# Natawut Monaikul, Anne Huang
+# CS 521 Project
+# Fall 2017
+
 import re
 
 # "lines" is f.readlines() from a file f
