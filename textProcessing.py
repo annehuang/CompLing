@@ -1,3 +1,7 @@
+# Anne Huang, Natawut Monaikul
+# CS 521 Project
+# Fall 2017
+
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy
 import lda
