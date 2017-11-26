@@ -25,15 +25,16 @@ def glob():
     
 def vectorize(gender, stemmer):
     # English stop words
-    count_vect = CountVectorizer(stop_words=CUSTOMIZED_STOP_WORDS)
+    # http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+    matrix = CountVectorizer(stop_words=CUSTOMIZED_STOP_WORDS)
     data = []
     
     if gender == 'MALE':
         data = male(stemmer)
     else:
         data = female(stemmer)
-    
-    produceTopics(gender, count_vect, count_vect.fit_transform(data))
+
+    produceTopics(gender, matrix, matrix.fit_transform(data))
 
 def male(stemmer):
     data = []
@@ -58,6 +59,7 @@ def openFile(stemmer, filename):
     return f
 
 def produceTopics(gender, count_vect, arr):
+    # from documentation: http://pythonhosted.org/lda/
     model = lda.LDA(n_topics=20, n_iter=1500, random_state=1)
     model.fit(arr)
     topic_word = model.topic_word_
