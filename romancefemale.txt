@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/romancefemale.txt
+write file: ../output/doc_wids.txt
+n(w)=2776
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
+../src/btm est 20 2776 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=2776, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 0.180000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=2776
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):2776
+p(z)		Top words
+0.062596	--:0.078896 im:0.041191 sorri:0.024592 think:0.017215 dont:0.013116 oh:0.012296 jack:0.010862 theyr:0.010657 flower:0.010452 let:0.010247
+0.061800	--:0.073477 know:0.023248 im:0.018059 dont:0.015983 want:0.012870 shall:0.011624 like:0.010794 dinner:0.010794 realli:0.010171 mean:0.010171
+0.060103	--:0.052286 im:0.026890 love:0.020275 know:0.017500 dont:0.016220 peopl:0.015580 believ:0.015153 ill:0.014726 just:0.014299 want:0.014299
+0.057328	mr:0.038033 -:0.029756 --:0.023268 yes:0.020136 elizabeth:0.018346 bennet:0.016780 sister:0.015885 collin:0.015661 look:0.014990 come:0.014767
+0.053601	-:0.019619 day:0.019141 --:0.015552 jane:0.015313 women:0.015073 like:0.014116 mr:0.012920 dress:0.011963 know:0.011724 look:0.011724
+0.053241	look:0.028904 jane:0.026977 know:0.015657 elizabeth:0.015175 man:0.014934 -:0.014934 bingley:0.013248 just:0.013248 mr:0.013007 think:0.010358
+0.052547	mr:0.027088 collin:0.023184 --:0.021232 hous:0.016351 look:0.016351 elizabeth:0.016107 jane:0.013667 girl:0.012447 handkerchief:0.011471 leav:0.010982
+0.052007	mr:0.028602 bennet:0.027862 -:0.025890 lydia:0.024164 mrs:0.017507 kitti:0.016274 room:0.014795 offic:0.012822 elizabeth:0.012576 wed:0.012329
+0.051802	darci:0.028220 dont:0.024012 im:0.022032 know:0.019556 mr:0.015348 --:0.014853 away:0.013120 realli:0.012625 like:0.012378 just:0.011883
+0.050619	mr:0.026598 --:0.016213 darci:0.014946 know:0.014693 help:0.013173 watch:0.012160 kind:0.011400 •:0.011147 im:0.010893 just:0.010640
+0.048023	--:0.046986 just:0.019489 walk:0.012815 time:0.012282 im:0.011748 come:0.011481 know:0.011481 look:0.010413 hand:0.010413 say:0.010146
+0.047407	--:0.038402 im:0.036779 feel:0.024340 shoe:0.020824 tell:0.019742 love:0.017849 want:0.016227 oh:0.015416 thing:0.013793 talk:0.012441
+0.045813	--:0.038895 darci:0.026303 -:0.022386 could:0.021267 carri:0.017909 dont:0.017629 play:0.017629 know:0.014272 away:0.013992 want:0.013992
+0.045016	dont:0.033602 love:0.028476 know:0.025344 say:0.023351 --:0.023066 like:0.019934 want:0.018225 just:0.016802 im:0.016802 thing:0.012815
+0.045016	-:0.052110 mr:0.040151 collin:0.029900 lizzi:0.022781 elizabeth:0.017941 veri:0.017656 bennet:0.017086 wickham:0.014808 come:0.012815 look:0.012815
+0.044657	elizabeth:0.028992 face:0.016075 mr:0.015501 -:0.015501 mind:0.013779 veri:0.012631 im:0.012631 chang:0.012344 friend:0.011770 look:0.011483
+0.043834	like:0.025441 elizabeth:0.021347 look:0.016376 room:0.016376 darci:0.016376 --:0.015791 veri:0.014914 -:0.014037 yes:0.013745 smile:0.013745
+0.043012	elizabeth:0.033078 mr:0.020562 mrs:0.019668 face:0.018774 jane:0.017881 hous:0.017583 bennet:0.017285 veri:0.015497 gasp:0.013113 sens:0.012517
+0.040981	mr:0.058165 darci:0.025018 bingley:0.024705 --:0.019389 come:0.015324 look:0.015324 leav:0.013135 make:0.012823 know:0.012510 say:0.011884
+0.040596	know:0.034409 --:0.029674 mr:0.019257 im:0.016416 dont:0.015154 sure:0.014207 make:0.011050 home:0.010734 wickham:0.009472 idea:0.009156
