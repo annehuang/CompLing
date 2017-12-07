@@ -13,8 +13,9 @@ import re
 # take out could perhaps may
 # add hes shes youv isn wasnt youll id
 # added im - !
+## PP names
 CUSTOMIZED_STOP_WORDS = [
-    "a", "about", "above", "across", "after", "afterwards", "again", "against",
+    "elizabeth", "collin", "jane", "bingley", "darci", "lizzi", "bennet", "a", "about", "above", "across", "after", "afterwards", "again", "against",
     "all", "almost", "alone", "along", "already", "also", "although", "always",
     "am", "among", "amongst", "amoungst", "amount", "an", "and", "another",
     "any", "anyhow", "anyone", "anything", "anyway", "anywhere", "are",
@@ -84,12 +85,14 @@ def preprocessForBTM(filename):
                                 ret += " "
                 except:
                     continue
-    f2 = open(filename + "cleaned.txt", "w")
-    f2.write(ret)
-    f2.close()
+    #f2 = open(filename + "cleaned.txt", "w")
+    #f2.write(ret)
+    #f2.close()
+    return ret
 
 def romanceMovies():
-    SCRIPTS = ["PrideFemaleOutput", "PrideMaleOutput", "SexCityFemaleOutput", "SexCityMaleOutput", "TitanicFemaleOutput", "TitanicMaleOutput", "YouveGotFemaleOutput", "YouveGotMaleOutput"]
+    SCRIPTS = ["PrideFemaleOutput", "SexCityFemaleOutput", "TitanicFemaleOutput", "YouveGotFemaleOutput"]
+    #SCRIPTS = ["PrideFemaleOutput", "PrideMaleOutput", "SexCityFemaleOutput", "SexCityMaleOutput", "TitanicFemaleOutput", "TitanicMaleOutput", "YouveGotFemaleOutput", "YouveGotMaleOutput"]
     batch(SCRIPTS)
     
 def action():
@@ -97,5 +100,9 @@ def action():
     batch(SCRIPTS)
     
 def batch(scripts):
+    ret = ""
     for script in scripts:
-        preprocessForBTM(script)        
+        ret += preprocessForBTM(script)        
+    f2 = open("romancefemalecleanedforbtm.txt", "w")
+    f2.write(ret)
+    f2.close()
