@@ -85,7 +85,14 @@ def preprocessForBTM(filename):
     f2.write(ret)
     f2.close()
 
-def main():
+def romanceMovies():
+    SCRIPTS = ["PrideFemaleOutput", "PrideMaleOutput", "SexCityFemaleOutput", "SexCityMaleOutput", "TitanicFemaleOutput", "TitanicMaleOutput", "YouveGotFemaleOutput", "YouveGotMaleOutput"]
+    batch(SCRIPTS)
+    
+def action():
     SCRIPTS = ["AmericanSniper_ChrisKyle", "Avengers_Male", "BourneUltimatum_JasonBourne", "maleItalianOutput", "AmericanSniper_TayaKyle", "Avengers_Female", "BourneUltimatum_NickyParsons", "femaleItalianOutput"]
-    for script in SCRIPTS:
+    batch(SCRIPTS)
+    
+def batch(scripts):
+    for script in scripts:
         preprocessForBTM(script)        

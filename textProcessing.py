@@ -28,31 +28,53 @@ def vectorize(gender, stemmer):
     # English stop words
     # http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
     # using parameters from http://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html#sphx-glr-auto-examples-applications-plot-topics-extraction-with-nmf-lda-py
-    matrix = CountVectorizer(max_df=0.95, min_df=2, max_features=1000, stop_words=CUSTOMIZED_STOP_WORDS)
-    collection = []
+    matrix = CountVectorizer(stop_words = CUSTOMIZED_STOP_WORDS)
+    #matrix = CountVectorizer(max_df=0.95, min_df=2, max_features=1000, stop_words=CUSTOMIZED_STOP_WORDS)
+    data = []
     
     if gender == 'MALE':
-        collection = male(stemmer)
+        data = male(stemmer)
     else:
-        collection = female(stemmer)
+        data = female(stemmer)
 
-    produceTopicsSK(gender, matrix, matrix.fit_transform(collection))
+    produceTopics(gender, matrix, matrix.fit_transform(data))
+
+def maleAction(stemmer):
+    data = []
+    data.append(openFile(stemmer, "AmericanSniper_ChrisKylecleaned.txt"))
+    data.append(openFile(stemmer, "Avengers_Malecleaned.txt"))
+    data.append(openFile(stemmer, "BourneUltimatum_JasonBournecleaned.txt"))
+    data.append(openFile(stemmer, "maleItalianOutputcleaned.txt"))
+    print(data)
+    return data
 
 def male(stemmer):
-    collection = []
-    collection.append(openFile(stemmer, "AmericanSniper_ChrisKylecleaned.txt"))
-    collection.append(openFile(stemmer, "Avengers_Malecleaned.txt"))
-    collection.append(openFile(stemmer, "BourneUltimatum_JasonBournecleaned.txt"))
-    collection.append(openFile(stemmer, "maleItalianOutputcleaned.txt"))
-    return collection;
+    return maleRomance(stemmer)
 
 def female(stemmer):
-    collection = []
-    collection.append(openFile(stemmer, "AmericanSniper_TayaKylecleaned.txt"))
-    collection.append(openFile(stemmer, "Avengers_Femalecleaned.txt"))
-    collection.append(openFile(stemmer, "BourneUltimatum_NickyParsonscleaned.txt"))
-    collection.append(openFile(stemmer, "femaleItalianOutputcleaned.txt"))
-    return collection;
+    return femaleRomance(stemmer)
+
+def maleRomance(stemmer):
+    SCRIPTS = ['YouveGotMaleOutputcleaned.txt', 'TitanicMaleOutputcleaned.txt', 'SexCityMaleOutputcleaned.txt', 'PrideMaleOutputcleaned.txt']
+    return generateData(stemmer, SCRIPTS)
+
+def femaleRomance(stemmer):
+    SCRIPTS = ['YouveGotFemaleOutputcleaned.txt', 'TitanicFemaleOutputcleaned.txt', 'SexCityFemaleOutputcleaned.txt', 'PrideFemaleOutputcleaned.txt']
+    return generateData(stemmer, SCRIPTS)
+
+def generateData(stemmer, scripts):
+    data = []
+    for script in scripts:
+        data.append(openFile(stemmer, script))
+    return data
+
+def femaleAction(stemmer):
+    data = []
+    data.append(openFile(stemmer, "AmericanSniper_TayaKylecleaned.txt"))
+    data.append(openFile(stemmer, "Avengers_Femalecleaned.txt"))
+    data.append(openFile(stemmer, "BourneUltimatum_NickyParsonscleaned.txt"))
+    data.append(openFile(stemmer, "femaleItalianOutputcleaned.txt"))
+    return data
 
 def openFile(stemmer, filename):
     ret = ""
