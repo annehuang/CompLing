@@ -12,8 +12,10 @@ import re
 # http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
 # take out could perhaps may
 # add hes shes youv isn wasnt youll id
+# added im - !
+## PP names
 CUSTOMIZED_STOP_WORDS = [
-    "a", "about", "above", "across", "after", "afterwards", "again", "against",
+    "elizabeth", "collin", "jane", "bingley", "darci", "lizzi", "bennet", "a", "about", "above", "across", "after", "afterwards", "again", "against",
     "all", "almost", "alone", "along", "already", "also", "although", "always",
     "am", "among", "amongst", "amoungst", "amount", "an", "and", "another",
     "any", "anyhow", "anyone", "anything", "anyway", "anywhere", "are",
@@ -29,11 +31,11 @@ CUSTOMIZED_STOP_WORDS = [
     "found", "four", "from", "front", "full", "further", "get", "give", "go",
     "had", "has", "hasnt", "have", "he", "hes", "hence", "her", "here", "hereafter",
     "hereby", "herein", "hereupon", "hers", "herself", "him", "himself", "his",
-    "how", "however", "hundred", "i", "id", "ie", "if", "i'm", "in", "inc", "indeed",
-    "interest", "into", "is", "isn", "it", "its", "itself", "keep", "last", "latter",
+    "how", "however", "hundred", "i", "id", "ie", "if", "i'm", "im", "in", "inc", "indeed",
+    "interest", "into", "ill", "is", "isn", "it", "its", "itself", "keep", "last", "latter",
     "latterly", "least", "less", "ltd", "made", "many", "me",
     "meanwhile", "might", "mill", "mine", "more", "moreover", "most", "mostly",
-    "move", "much", "must", "me", "my", "myself", "name", "namely", "neither",
+    "move", "mr", "mrs", "ms", "much", "must", "me", "my", "myself", "name", "namely", "neither",
     "never", "nevertheless", "next", "nine", "no", "nobody", "none", "noone",
     "nor", "not", "nothing", "now", "nowhere", "of", "off", "often", "on",
     "once", "one", "only", "onto", "or", "other", "others", "otherwise", "our",
@@ -66,6 +68,8 @@ def preprocessForBTM(filename):
         line = line.replace(",", "")
         line = line.replace("'", "")
         line = line.replace("?", "")
+        line = line.replace("!", "")
+        line = line.replace("-", "")
         line = line.replace("  ", " ")
         line = line.strip(" ")
         line = line.split(" ")
@@ -81,11 +85,24 @@ def preprocessForBTM(filename):
                                 ret += " "
                 except:
                     continue
-    f2 = open(filename + "cleaned.txt", "w")
+    #f2 = open(filename + "cleaned.txt", "w")
+    #f2.write(ret)
+    #f2.close()
+    return ret
+
+def romanceMovies():
+    SCRIPTS = ["PrideFemaleOutput", "SexCityFemaleOutput", "TitanicFemaleOutput", "YouveGotFemaleOutput"]
+    #SCRIPTS = ["PrideFemaleOutput", "PrideMaleOutput", "SexCityFemaleOutput", "SexCityMaleOutput", "TitanicFemaleOutput", "TitanicMaleOutput", "YouveGotFemaleOutput", "YouveGotMaleOutput"]
+    batch(SCRIPTS)
+    
+def action():
+    SCRIPTS = ["AmericanSniper_ChrisKyle", "Avengers_Male", "BourneUltimatum_JasonBourne", "maleItalianOutput", "AmericanSniper_TayaKyle", "Avengers_Female", "BourneUltimatum_NickyParsons", "femaleItalianOutput"]
+    batch(SCRIPTS)
+    
+def batch(scripts):
+    ret = ""
+    for script in scripts:
+        ret += preprocessForBTM(script)        
+    f2 = open("romancefemalecleanedforbtm.txt", "w")
     f2.write(ret)
     f2.close()
-
-def main():
-    SCRIPTS = ["AmericanSniper_ChrisKyle", "Avengers_Male", "BourneUltimatum_JasonBourne", "maleItalianOutput", "AmericanSniper_TayaKyle", "Avengers_Female", "BourneUltimatum_NickyParsons", "femaleItalianOutput"]
-    for script in SCRIPTS:
-        preprocessForBTM(script)        
