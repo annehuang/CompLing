@@ -1,0 +1,20 @@
+Sentence 1 5 tokens :
+This is another test.
+
+
+
+
+
+ROOT
+S
+NP DT This
+VP VBZ is
+NP DT another NN test
+. .
+
+root ROOT-0, test-4
+nsubj test-4, This-1
+cop test-4, is-2
+det test-4, another-3
+punct test-4, .-5
+

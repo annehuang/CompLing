@@ -1,0 +1,600 @@
+What's he gonna tell me?
+0.152972992937
+0.847027007063
+Who are you?
+0.331208806863
+0.668791193137
+Why have you been following me?
+0.157743681279
+0.842256318721
+You cool the broad out?
+0.333899227173
+0.666100772827
+Once a Musketeer, always a Musketeer, eh?
+0.338022939179
+0.661977060821
+When you... What?
+0.334175011917
+0.665824988083
+A name?
+0.269621721538
+0.730378278462
+Sir...?
+0.24678660293
+0.75321339707
+He squeezed money out of you?
+0.43669435015
+0.56330564985
+Y'know, I've been listening and reading 'bout Farrakhan, ya didn't know that, did you?
+0.304867118453
+0.695132881547
+Are they going to kill you?
+0.403357407431
+0.596642592569
+And you just figured that out?
+0.393215112683
+0.606784887317
+The Swede isn't a hitman, is he?
+0.223929567247
+0.776070432753
+Sparazza didn't want Israel's heart for a trophy, he wanted it for a transplant... why?
+0.162704863264
+0.837295136736
+Have you received acknowledgements from every plane?
+0.369676486831
+0.630323513169
+Porters?
+0.30681352693
+0.69318647307
+What're you talkin' about?
+0.285753603021
+0.714246396979
+Duke, will you take that belly back there?
+0.517278190011
+0.482721809989
+The Australian?
+0.285141607622
+0.714858392378
+It's one of the great lies, right?
+0.5
+0.5
+You wanna go downtown and discuss this officially?
+0.19997944025
+0.80002055975
+You have one hell of a knack for getting into trouble, don't you?
+0.178370247562
+0.821629752438
+So how much does it come to?
+0.332670131555
+0.667329868445
+Do you really think I'm mad?
+0.441859884188
+0.558140115812
+What do you want?
+0.375158570613
+0.624841429387
+You didn't think about it did you ?
+0.201488026352
+0.798511973648
+Thirty-bucks?
+0.30681352693
+0.69318647307
+That's it?
+0.273850652133
+0.726149347867
+There is no second... Now what would you like to ask me?
+0.366738553959
+0.633261446041
+You live near here, don't you?
+0.110847843068
+0.889152156932
+...Would it kill you to say something?
+0.238561335607
+0.761438664393
+Who'd you kill?
+0.359643644964
+0.640356355036
+How did you know?
+0.241438970198
+0.758561029802
+Did they tell you to sleep with me?
+0.353420830939
+0.646579169061
+What's up?
+0.249573339445
+0.750426660555
+You want me to show up late a few nights?
+0.345588829643
+0.654411170357
+Charlie MacCorry!...You weren't fixin' to marry HIM?
+0.140275801211
+0.859724198789
+?
+0.30681352693
+0.69318647307
+And who was Arturo Esparza?
+0.229359204904
+0.770640795096
+How long do I have?
+0.343749412102
+0.656250587898
+Ain't you goin' to say something?
+0.0838606661112
+0.916139333889
+How are you?
+0.303446627918
+0.696553372082
+You look great, how's Shelly?
+0.303193249011
+0.696806750989
+Your dad?
+0.292875126807
+0.707124873193
+Did you have anything to do with his death?
+0.226660200479
+0.773339799521
+Were you watching your pack on the ride in?
+0.462766174122
+0.537233825878
+Why didn't you go?
+0.0632965409739
+0.936703459026
+Why do you think I can't afford a lawyer?
+0.216385992142
+0.783614007858
+Why are you calling me, Zoe?
+0.173476728874
+0.826523271126
+How's it coming?
+0.266483492229
+0.733516507771
+You think I don't know what you're doing?
+0.152918400484
+0.847081599516
+You're so quiet all the time?
+0.187772995904
+0.812227004096
+Why?
+0.182059255292
+0.817940744708
+Are you waiting for someone else?
+0.5
+0.5
+What you got up there, Chinese bells?
+0.397718304459
+0.602281695541
+What?
+0.345535507929
+0.654464492071
+Who is this?
+0.310846529645
+0.689153470355
+He wants to know if you killed Freddie Miles and then killed Dickie Greenleaf?
+0.447060707815
+0.552939292185
+Happy now?
+0.269284996552
+0.730715003448
+Does Burgess know about this?
+0.371259339007
+0.628740660993
+About the Minority Report?
+0.353677003239
+0.646322996761
+Why are ya goin' so early?
+0.149345992348
+0.850654007652
+What about after?
+0.373037917462
+0.626962082538
+What'd you do?
+0.330693400899
+0.669306599101
+But what if something extraordinary happened?
+0.319544912202
+0.680455087798
+Something so unusual that all the attention went to someone else?
+0.371495558868
+0.628504441132
+What is this business with you and explosives?
+0.381331870735
+0.618668129265
+Do you think you're immune?
+0.336311138033
+0.663688861967
+Do you follow so far?
+0.524849906094
+0.475150093906
+Do you remember what we talked about?
+0.412045696258
+0.587954303742
+You want to go back in?
+0.269097542492
+0.730902457508
+What're you gonna do, waste your talent?
+0.370498384309
+0.629501615691
+You can do that, you know?
+0.334090384716
+0.665909615284
+Where did you go when you left here?
+0.299338734655
+0.700661265345
+How about a snort?
+0.29041749213
+0.70958250787
+How's it going?
+0.26700723314
+0.73299276686
+Right here?
+0.285858756454
+0.714141243546
+What are you, his shadow?
+0.364102029532
+0.635897970468
+Do you hold his dick for him when he goes to take a leak?
+0.51213106423
+0.48786893577
+Okay, pal?
+0.345204889207
+0.654795110793
+What is it?
+0.285000994829
+0.714999005171
+Why?
+0.182059255292
+0.817940744708
+What about coffins?
+0.344381215089
+0.655618784911
+Is he helping you?
+0.368452173638
+0.631547826362
+Is he putting food on the table?
+0.483480630426
+0.516519369574
+You on a roll?
+0.284130652941
+0.715869347059
+Can you walk?
+0.613935505618
+0.386064494382
+Puedes caminar?
+0.30681352693
+0.69318647307
+Hey?
+0.30681352693
+0.69318647307
+No other aspiration?
+0.33030051689
+0.66969948311
+Who the hell is this "they?"
+0.263483590219
+0.736516409781
+But what?
+0.221213618839
+0.778786381161
+Do I have a private office somewhere in the building?
+0.595574189812
+0.404425810188
+You like this house, Max?
+0.280418741392
+0.719581258608
+So you're still on the Zoloft?
+0.358589239964
+0.641410760036
+When did this happen?
+0.286207922688
+0.713792077312
+Bruce Wayne?
+0.30681352693
+0.69318647307
+Date?
+0.30681352693
+0.69318647307
+He called you up and asked you for a date?
+0.38439707278
+0.61560292722
+Is there a connection between them, Alderman?
+0.61422984959
+0.38577015041
+What are you going to report back to Earth?
+0.361701381739
+0.638298618261
+Who -- that guy at the Zoo?
+0.371594417504
+0.628405582496
+Well, what do you have for me today?
+0.574083737982
+0.425916262018
+As in the...?
+0.305201934679
+0.694798065321
+You killed him -- didn't you?
+0.0971878086432
+0.902812191357
+Did you know I still don't know your name or where you work?
+0.28238196292
+0.71761803708
+I dunno... Cinnamon roll?
+0.303926041511
+0.696073958489
+Do you wanna have sex?
+0.402658378987
+0.597341621013
+Perhaps you could convince her?
+0.5
+0.5
+How about a check?
+0.296645598712
+0.703354401288
+Eddie... What's a DD-5?
+0.229550170055
+0.770449829945
+You know everybody, don't you?
+0.120363612886
+0.879636387114
+What do you need a Bible for?
+0.473025698975
+0.526974301025
+Okay, you're right... What about Sal?
+0.25352915049
+0.74647084951
+Why?
+0.182059255292
+0.817940744708
+What's on the other end of this thing?
+0.354624909948
+0.645375090052
+You think this boy Moss has got any notion of the sorts of sons of bitches that are huntin' him?
+0.274954684657
+0.725045315343
+The nigra boy with the Philadelphia Eagles?
+0.372379759276
+0.627620240724
+If there's nothing wrong with me then why does he want me to come back for tests?
+0.102434668453
+0.897565331547
+... Mentor...?
+0.24678660293
+0.75321339707
+Is she here?
+0.362762326116
+0.637237673884
+I'm about to scrape the bottom of my shoe off my tongue, right?
+0.392318668769
+0.607681331231
+What's your name?
+0.248578896871
+0.751421103129
+What was it, pneumonia or cancer?
+0.40596422826
+0.59403577174
+But Chief?
+0.30681352693
+0.69318647307
+Over this?
+0.332419339369
+0.667580660631
+?
+0.30681352693
+0.69318647307
+What baby?
+0.345535507929
+0.654464492071
+What baby?
+0.345535507929
+0.654464492071
+What baby are you speaking about?
+0.319340712307
+0.680659287693
+So Childs made some side money, so what?
+0.167812102487
+0.832187897513
+Aren't you a bit late?
+0.158691935923
+0.841308064077
+Can you give me address?
+0.640363302594
+0.359636697406
+Say, why don't we have ourselves a party -- the four of us?
+0.0581864785196
+0.94181352148
+Like...?
+0.24678660293
+0.75321339707
+Rich old ladies and their daughters?
+0.281415996817
+0.718584003183
+Where is that?
+0.283974314714
+0.716025685286
+You can't be more specific than that?
+0.174610420793
+0.825389579207
+Those are all 78s... Can you play 78s?
+0.523754716242
+0.476245283758
+Look, what are you doing?
+0.364034473373
+0.635965526627
+Do I have your word?
+0.45525785789
+0.54474214211
+Who?
+0.30681352693
+0.69318647307
+Do we care?
+0.350100145701
+0.649899854299
+How much is your soul worth if you don't?
+0.178068977649
+0.821931022351
+What do you mean?
+0.298317035261
+0.701682964739
+Can you understand how meaningless everything is?
+0.536781544176
+0.463218455824
+Have you ever thought about becoming an actor?
+0.406127817622
+0.593872182378
+Who are all these?
+0.283149771711
+0.716850228289
+Benefits?
+0.30681352693
+0.69318647307
+How long has this man been here?
+0.301314236912
+0.698685763088
+Hear him?
+0.277742673598
+0.722257326402
+Did you ever see the lads play knife?
+0.405775783987
+0.594224216013
+You come from Green Point?
+0.21298330882
+0.78701669118
+Let me guess--breakfast is served?
+0.288154130884
+0.711845869116
+You wanna score some go-fast?
+0.237737349183
+0.762262650817
+What was his voice like?
+0.289322029551
+0.710677970449
+Should I put one back?
+0.33795981502
+0.66204018498
+Adelle?
+0.30681352693
+0.69318647307
+On that old shortwave?
+0.300895285081
+0.699104714919
+You couldn't even get a hand job from bridge and tunnel posse, how you gonna get a gun?
+0.193058407484
+0.806941592516
+Why is this man being taken out?
+0.206446822975
+0.793553177025
+What is it?
+0.285000994829
+0.714999005171
+If his friends don't help him, who is going to help him?
+0.159702636148
+0.840297363852
+Like this thing we're in here, he's paying you to tune me up, right?
+0.209338765591
+0.790661234409
+See what I mean?
+0.309493246562
+0.690506753438
+What is it, mother?
+0.383908508161
+0.616091491839
+Seriously?
+0.30681352693
+0.69318647307
+How come all these new names are pasted into the plat book?
+0.393394751524
+0.606605248476
+What makes you think he's my friend?
+0.260702580411
+0.739297419589
+May I lift my eyebrows?
+0.328803366726
+0.671196633274
+What is this?
+0.346025781053
+0.653974218947
+What are you trying to do?
+0.247998452502
+0.752001547498
+If you can't trust the man you've hired to kill your wife ...?
+0.169385602447
+0.830614397553
+What about him?
+0.310776778856
+0.689223221144
+I don't?
+0.181498846934
+0.818501153066
+You want to know what your problem is, Jeff?
+0.259436338388
+0.740563661612
+What's that supposed to mean?
+0.204735482043
+0.795264517957
+Did you bring the first aid kit?
+0.44889147597
+0.55110852403
+Are you packed?
+0.405896922762
+0.594103077238
+Ready to go?
+0.277954885311
+0.722045114689
+108 and still active?
+0.275572220721
+0.724427779279
+Play?
+0.30681352693
+0.69318647307
+Was that supposed to make me feel better?
+0.322250790768
+0.677749209232
+You don't got a headache?
+0.114160345966
+0.885839654034
+What's your name, buddy?
+0.280264280651
+0.719735719349
+Can I take you out?
+0.596952893114
+0.403047106886
+Come again?
+0.263622833517
+0.736377166483
+Where can we go?
+0.403398449241
+0.596601550759
+You stayin' in or not?
+0.180363310584
+0.819636689416
+Are you sure this is okay?
+0.391133806252
+0.608866193748
+You remember me?
+0.20588547156
+0.79411452844
+You do?
+0.228845758085
+0.771154241915
+Yeah?
+0.30681352693
+0.69318647307
+Now, you want to do me a favor?
+0.297972935195
+0.702027064805
+What did he say?
+0.220310814512
+0.779689185488
+What kind of weight?
+0.352993377975
+0.647006622025
+What's wrong?
+0.217446280415
+0.782553719585
+'?
+0.238406369435
+0.761593630565
+Where do I go?
+0.308602794374
+0.691397205626
+So right now there's little replicators spreading throughout Argon's lab?
+0.232256737045
+0.767743262955

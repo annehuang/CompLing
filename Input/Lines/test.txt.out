@@ -1,0 +1,20 @@
+Sentence #1 (5 tokens):
+This is another test.
+[Text=This CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=DT Lemma=this]
+[Text=is CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=VBZ Lemma=be]
+[Text=another CharacterOffsetBegin=8 CharacterOffsetEnd=15 PartOfSpeech=DT Lemma=another]
+[Text=test CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=NN Lemma=test]
+[Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=. Lemma=.]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT another) (NN test)))
+    (. .)))
+
+root(ROOT-0, test-4)
+nsubj(test-4, This-1)
+cop(test-4, is-2)
+det(test-4, another-3)
+punct(test-4, .-5)
+

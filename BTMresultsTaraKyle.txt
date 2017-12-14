@@ -1,28 +1,0 @@
-=============== Index Docs =============
-index file: ../sample-data/AmericanSniper_TaraKylecleaned.txt
-=============== Topic Learning =============
-make: Entering directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
-make: Nothing to be done for `all'.
-make: Leaving directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
-../src/btm est 3 650 16.666 0.005 5 501 ../output/doc_wids.txt ../output/model/
-Run BTM, K=3, W=650, alpha=16.666, beta=0.005, n_iter=5, save_step=501 ====
-load docs: ../output/doc_wids.txt
-Begin iteration
-iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
-write p(z): ../output/model/k3.pz
-write p(w|z): ../output/model/k3.pw_z
-cost 0.000000s
-================ Infer P(z|d)===============
-../src/btm inf sum_b 3 ../output/doc_wids.txt ../output/model/
-Run inference:K=3, type sum_b ====
-load p(z):../output/model/k3.pz
-load p(w|z):../output/model/k3.pw_z
-n(z)=3, n(w)=650
-Infer p(z|d) for docs in: ../output/doc_wids.txt
-write p(z|d): ../output/model/k3.pz_d
-================ Topic Display =============
-K:3, n(W):650
-p(z)		Top words
-0.333333	fuck:0.001538 hot:0.001538 box:0.001538 guess:0.001538 d:0.001538 know:0.001538 got:0.001538 military-ag:0.001538 male:0.001538 cell:0.001538
-0.333333	fuck:0.001538 hot:0.001538 box:0.001538 guess:0.001538 d:0.001538 know:0.001538 got:0.001538 military-ag:0.001538 male:0.001538 cell:0.001538
-0.333333	fuck:0.001538 hot:0.001538 box:0.001538 guess:0.001538 d:0.001538 know:0.001538 got:0.001538 military-ag:0.001538 male:0.001538 cell:0.001538

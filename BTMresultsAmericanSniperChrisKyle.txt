@@ -1,48 +1,0 @@
-=============== Index Docs =============
-index file: ../sample-data/AmericanSniper_ChrisKylecleaned.txt
-write file: ../output/doc_wids.txt
-n(w)=650
-write:../output/voca.txt
-=============== Topic Learning =============
-make: Entering directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
-make: Nothing to be done for `all'.
-make: Leaving directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
-../src/btm est 20 650 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
-Run BTM, K=20, W=650, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
-load docs: ../output/doc_wids.txt
-Begin iteration
-iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
-write p(z): ../output/model/k20.pz
-write p(w|z): ../output/model/k20.pw_z
-cost 0.010000s
-================ Infer P(z|d)===============
-../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
-Run inference:K=20, type sum_b ====
-load p(z):../output/model/k20.pz
-load p(w|z):../output/model/k20.pw_z
-n(z)=20, n(w)=650
-Infer p(z|d) for docs in: ../output/doc_wids.txt
-write p(z|d): ../output/model/k20.pz_d
-================ Topic Display =============
-K:20, n(W):650
-p(z)		Top words
-0.074096	t:0.082124 d:0.058437 start:0.058437 coke:0.052120 pour:0.034749 drove:0.034749 pregnant--:0.033170 liter:0.033170 took:0.033170 wood:0.031591
-0.073629	s:0.085824 look:0.066754 like:0.055630 t:0.034970 m:0.033381 don:0.031792 know:0.030203 long:0.023846 need:0.022257 die:0.022257
-0.068961	t:0.086559 don:0.072983 told:0.033950 got:0.028859 know:0.027162 shit:0.025465 sure:0.025465 just:0.023768 --and:0.023768 broke:0.023768
-0.063594	m:0.090207 s:0.086526 just:0.062595 peopl:0.042347 like:0.034984 fine:0.029462 degre:0.029462 die:0.027621 look:0.025780 sunni:0.025780
-0.063361	t:0.090540 don:0.055436 s:0.046199 but--:0.033266 butcher:0.031418 wanna:0.029570 shoot:0.029570 ll:0.027723 pop:0.025875 think:0.024028
-0.062894	butcher:0.044681 target:0.037236 ll:0.035375 head:0.035375 shit:0.035375 cover:0.035375 trap:0.035375 amir:0.035375 khalaf:0.035375 fanus:0.035375
-0.060560	s:0.094741 d:0.036742 gun:0.029009 way:0.029009 roll:0.029009 t:0.027076 wanna:0.027076 air:0.023209 ll:0.021276 butcher:0.021276
-0.060327	just:0.065997 and--:0.048530 t:0.042707 aqi:0.036885 shot:0.031063 m:0.027181 said:0.027181 sniper:0.023299 walk:0.021359 war:0.019418
-0.058226	scream:0.086486 d:0.060342 s:0.046265 stop:0.046265 start:0.044253 "it:0.042242 did:0.040231 stings":0.040231 "no:0.040231 don:0.038220
-0.053326	got:0.065909 convoy:0.046139 hold:0.043943 phone:0.039550 watch:0.032960 cell:0.026370 ship:0.026370 yeah:0.026370 military-ag:0.024174 male:0.024174
-0.050058	heard:0.046823 tell:0.046823 did:0.042142 come:0.039801 coke:0.032779 virgin:0.030439 won:0.030439 fight:0.030439 want:0.025758 protect:0.023417
-0.048425	s:0.147623 m:0.060508 sorri:0.043569 protect:0.041149 talk:0.041149 countri:0.038730 greatest:0.038730 earth:0.038730 worth:0.038730 hurt:0.038730
-0.043524	grenad:0.086209 m:0.064660 just:0.053886 pull:0.053886 kid:0.045805 think:0.045805 rkg:0.043111 russian:0.043111 gave:0.043111 t:0.024256
-0.040257	s:0.067021 m:0.058281 thing:0.043715 happen:0.043715 tell:0.043715 t:0.037888 marin:0.037888 sniper:0.032061 say:0.029148 right:0.029148
-0.040257	gonna:0.055368 need:0.040801 `em:0.040801 mayb:0.032061 got:0.029148 military-ag:0.029148 male:0.029148 polish:0.029148 arm:0.026235 t:0.026235
-0.033022	guy:0.099573 kill:0.064018 m:0.053351 tri:0.053351 answer:0.053351 shot:0.049796 protect:0.049796 soldier:0.049796 save:0.046240 haunt:0.046240
-0.027655	t:0.051031 make:0.051031 m:0.034028 man:0.029777 biggl:0.029777 chisel:0.029777 grief):0.029777 buddi:0.029777 no!:0.029777 know:0.025526
-0.027188	s:0.108130 t:0.073535 help:0.069211 arm:0.034616 savag:0.034616 aren:0.030292 swing:0.030292 m:0.030292 want:0.030292 ring:0.025968
-0.027188	look:0.086508 did:0.047589 floor:0.047589 hand:0.043265 rd:0.038941 fruit:0.038941 locker:0.038941 breath:0.038941 race:0.038941 tremor:0.038941
-0.023454	t:0.070289 don:0.070289 just:0.055232 right:0.055232 like:0.050213 come:0.045194 know:0.040176 pray:0.035157 job:0.035157 day:0.035157

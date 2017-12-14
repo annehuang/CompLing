@@ -1,0 +1,8 @@
+All_Action_Female_Lines.txt
+All_Action_Male_Lines.txt
+All_Adventure_Female_Lines.txt
+All_Adventure_Male_Lines.txt
+All_Drama_Female_Lines.txt
+All_Drama_Male_Lines.txt
+All_Romance_Female_Lines.txt
+All_Romance_Male_Lines.txt

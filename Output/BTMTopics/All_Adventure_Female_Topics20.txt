@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/All_Adventure_Female_Lines.txt
+write file: ../output/doc_wids.txt
+n(w)=5789
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+../src/btm est 20 5789 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=5789, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 0.360000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=5789
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):5789
+p(z)		Top words
+0.061566	never:0.012934 oh:0.012330 mr:0.011242 said:0.009671 sorry:0.009429 very:0.008825 little:0.008220 think:0.008099 look:0.007858 god:0.007737
+0.060924	d:0.018322 home:0.013314 could:0.011971 time:0.010872 little:0.010749 think:0.010627 come:0.010505 tell:0.009650 believe:0.008551 look:0.008551
+0.058073	think:0.011019 d:0.010507 love:0.009610 oh:0.008969 good:0.008713 very:0.007560 really:0.007304 new:0.007047 tell:0.006791 dr:0.006791
+0.057043	let:0.013826 believe:0.012783 time:0.012000 oh:0.011087 thing:0.009783 love:0.009131 really:0.008087 always:0.007957 think:0.007566 come:0.007174
+0.053759	d:0.022693 oh:0.015498 could:0.014115 never:0.013561 make:0.010379 years:0.008995 think:0.008580 ago:0.008026 first:0.007334 right:0.007058
+0.053013	very:0.010945 feel:0.009402 right:0.009121 look:0.007999 always:0.007718 half:0.007718 oh:0.007297 bad:0.006876 boy:0.006595 d:0.006455
+0.051894	little:0.013904 think:0.012470 way:0.012327 let:0.011324 people:0.009890 thousand:0.009747 told:0.009604 d:0.009030 guy:0.008314 time:0.007884
+0.050490	stop:0.013110 come:0.012079 doesn:0.010606 oh:0.009133 live:0.008102 never:0.007808 thing:0.007660 haven:0.007218 very:0.007218 c:0.007071
+0.050311	wouldn:0.011087 say:0.010644 people:0.010348 oh:0.010200 need:0.008870 mean:0.008870 way:0.008574 right:0.008427 life:0.006948 goodbye:0.006653
+0.049326	could:0.016283 let:0.012665 yes:0.011157 tell:0.008745 always:0.008745 doing:0.008142 very:0.007840 look:0.007539 things:0.007388 thing:0.007388
+0.048789	world:0.019663 people:0.013414 think:0.010365 come:0.009603 never:0.008993 thought:0.008536 plants:0.007926 safe:0.007469 earth:0.007317 d:0.006860
+0.048311	oh:0.023858 d:0.012006 right:0.010006 god:0.008774 wait:0.008158 tell:0.007851 kill:0.007851 could:0.007081 stop:0.006927 won:0.006773
+0.046833	oh:0.010796 jealousy:0.007304 come:0.007145 mean:0.007145 sleep:0.006827 feel:0.006827 okay:0.006669 knew:0.006510 past:0.006351 right:0.006351
+0.045908	oh:0.012794 never:0.011661 d:0.010851 could:0.009556 good:0.006964 world:0.006802 look:0.006317 wish:0.006317 thousand:0.005993 read:0.005993
+0.045893	driver:0.012313 city:0.011827 right:0.009397 job:0.009235 reactor:0.008749 sub:0.008587 oh:0.008587 come:0.008587 left:0.008587 lake:0.007129
+0.045460	mean:0.017663 could:0.017172 maybe:0.013247 never:0.012429 think:0.011285 uh:0.008505 say:0.008341 ship:0.008178 need:0.008178 day:0.008178
+0.045057	love:0.010890 man:0.008910 need:0.008250 earth:0.007095 way:0.006930 people:0.006600 thousand:0.006435 right:0.006270 good:0.006270 actually:0.006270
+0.043908	figure:0.014560 doing:0.011343 right:0.010328 feel:0.008296 place:0.008127 shiites:0.007619 people:0.007450 little:0.007450 yes:0.007280 tell:0.007111
+0.042684	oh:0.013409 good:0.011667 think:0.010971 man:0.009926 tell:0.009752 d:0.009578 little:0.009404 won:0.009404 night:0.009404 come:0.009055
+0.040758	make:0.010758 day:0.010575 say:0.010393 d:0.009846 thought:0.008388 father:0.008205 things:0.007111 life:0.006382 da:0.005835 car:0.005835

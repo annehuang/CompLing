@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/All_Drama_Male_Lines.txt
+write file: ../output/doc_wids.txt
+n(w)=28451
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+../src/btm est 20 28451 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=28451, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 8.280000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=28451
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):28451
+p(z)		Top words
+0.051115	right:0.007344 think:0.006424 man:0.005915 tell:0.005788 good:0.005701 d:0.005551 look:0.005291 time:0.005135 little:0.004892 could:0.004805
+0.051035	right:0.007129 good:0.006226 make:0.005861 think:0.005815 time:0.005786 d:0.005305 man:0.005085 could:0.004761 said:0.004575 look:0.004436
+0.050858	think:0.008154 tell:0.006573 say:0.006416 d:0.006154 right:0.006091 could:0.005969 man:0.005445 make:0.005364 come:0.005085 good:0.004893
+0.050619	d:0.008869 think:0.008385 right:0.007316 let:0.006277 come:0.006143 man:0.006061 tell:0.005693 could:0.005576 gonna:0.005331 thing:0.005051
+0.050586	man:0.006778 time:0.006766 think:0.006608 good:0.006158 right:0.005960 tell:0.005703 gonna:0.005650 people:0.005498 d:0.005276 come:0.005206
+0.050331	right:0.008039 think:0.007335 d:0.007282 good:0.006900 man:0.006824 never:0.006013 say:0.005473 time:0.005291 tell:0.005091 look:0.005044
+0.050263	right:0.007015 think:0.007009 man:0.006321 time:0.005733 good:0.005698 could:0.005551 d:0.005304 tell:0.005204 say:0.005045 let:0.004987
+0.050228	right:0.008197 think:0.007361 let:0.006390 man:0.006367 time:0.006232 d:0.006067 people:0.005555 tell:0.005555 could:0.005543 come:0.005149
+0.050161	think:0.006523 right:0.006305 man:0.006057 d:0.005957 time:0.005715 never:0.005486 way:0.005374 look:0.005344 good:0.004914 let:0.004714
+0.049966	right:0.008187 think:0.007104 good:0.006199 could:0.006128 time:0.005827 d:0.005620 look:0.005412 never:0.004821 gonna:0.004697 man:0.004638
+0.049919	d:0.008739 think:0.007129 people:0.005767 right:0.005258 man:0.005110 come:0.004908 could:0.004760 good:0.004725 never:0.004524 let:0.004257
+0.049898	think:0.008530 right:0.007185 man:0.007114 d:0.006847 time:0.006705 good:0.006030 come:0.005177 tell:0.005053 could:0.004839 little:0.004810
+0.049864	right:0.007694 think:0.007202 time:0.006911 man:0.006141 d:0.005874 good:0.005678 gonna:0.005097 people:0.004831 look:0.004558 little:0.004357
+0.049807	think:0.007934 man:0.007756 could:0.006486 right:0.005881 say:0.005347 make:0.004765 d:0.004581 come:0.004522 way:0.004510 good:0.004510
+0.049620	think:0.008297 d:0.007547 good:0.006087 man:0.005867 tell:0.005742 could:0.005569 right:0.005283 people:0.004950 time:0.004908 look:0.004592
+0.049485	think:0.006928 good:0.006851 man:0.006761 right:0.006498 make:0.005895 time:0.005363 d:0.005232 come:0.005029 let:0.004892 way:0.004808
+0.049468	d:0.007845 think:0.007158 man:0.006411 right:0.005855 could:0.005097 tell:0.005097 little:0.005013 time:0.004971 say:0.004786 people:0.004786
+0.049375	think:0.007051 man:0.006495 could:0.006207 tell:0.006124 right:0.005878 d:0.005513 time:0.004968 good:0.004837 gonna:0.004675 make:0.004358
+0.048812	think:0.007254 right:0.005710 good:0.005546 d:0.005528 time:0.005328 people:0.005171 little:0.005074 man:0.005050 could:0.004705 way:0.004553
+0.048590	think:0.007433 right:0.006673 d:0.005115 time:0.005091 tell:0.004915 say:0.004805 gonna:0.004775 could:0.004550 man:0.004355 let:0.004331

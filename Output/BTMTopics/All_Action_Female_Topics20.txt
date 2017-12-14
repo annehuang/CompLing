@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/All_Action_Female_Lines.txt
+write file: ../output/doc_wids.txt
+n(w)=8209
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+../src/btm est 20 8209 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=8209, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 0.650000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=8209
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):8209
+p(z)		Top words
+0.054969	think:0.009158 d:0.008649 never:0.008504 oh:0.007850 god:0.007268 really:0.007196 said:0.006978 help:0.006396 live:0.005742 let:0.005597
+0.053230	think:0.008406 does:0.008180 place:0.007280 very:0.007055 time:0.006830 right:0.006529 tell:0.006454 life:0.006379 mr:0.006154 little:0.005779
+0.052990	d:0.010781 never:0.007765 say:0.007539 tell:0.007237 man:0.006861 work:0.006257 think:0.006031 thought:0.006031 called:0.006031 could:0.005730
+0.052926	d:0.019247 let:0.012681 world:0.011699 think:0.010341 people:0.009133 sure:0.008907 believe:0.008378 could:0.008378 say:0.006869 little:0.006793
+0.052782	think:0.011504 maybe:0.010823 life:0.010218 right:0.008174 d:0.008098 little:0.008023 man:0.007871 could:0.007493 won:0.007342 make:0.006888
+0.052637	tell:0.010777 way:0.010473 right:0.010397 little:0.009411 could:0.007817 never:0.006375 d:0.006375 always:0.006072 gonna:0.005768 days:0.004857
+0.052317	think:0.009850 let:0.008323 day:0.008170 d:0.008094 time:0.007636 feel:0.007025 night:0.006872 people:0.006490 thing:0.006032 making:0.005727
+0.052181	could:0.016612 man:0.009493 come:0.009263 let:0.008880 think:0.008651 look:0.008268 right:0.007656 d:0.006737 mean:0.006660 time:0.006431
+0.051924	god:0.009001 way:0.008924 oh:0.005770 always:0.005155 time:0.005001 think:0.004924 right:0.004924 feel:0.004924 come:0.004847 kill:0.004847
+0.051900	need:0.009082 time:0.008466 okay:0.007466 d:0.006619 man:0.006234 gonna:0.006234 think:0.006158 doing:0.005542 mean:0.005465 trying:0.005465
+0.050426	look:0.012832 think:0.012119 never:0.009109 mean:0.008872 d:0.007367 maybe:0.006733 right:0.006733 could:0.006575 good:0.006337 away:0.006020
+0.049657	time:0.008687 oh:0.008606 dr:0.008124 says:0.007400 first:0.007239 very:0.007159 tell:0.006435 wanted:0.006435 pretty:0.005952 job:0.005711
+0.049369	mean:0.010922 right:0.010436 look:0.009223 need:0.008333 men:0.008090 good:0.007281 doesn:0.006796 create:0.006391 really:0.006149 could:0.006068
+0.049136	never:0.012436 years:0.008941 left:0.007966 came:0.007803 remember:0.007803 thought:0.007560 say:0.007316 seen:0.006991 leave:0.006665 oh:0.006584
+0.048480	think:0.013922 never:0.011616 could:0.010710 time:0.009639 come:0.008815 seen:0.007332 need:0.007085 man:0.006508 kill:0.006261 said:0.006261
+0.046557	d:0.008835 oh:0.007806 look:0.007034 right:0.006776 mean:0.006262 think:0.006004 maybe:0.006004 world:0.005833 sorry:0.005661 wanted:0.005490
+0.046549	sir:0.010295 mu:0.008750 li:0.007893 bai:0.007807 think:0.007550 doesn:0.006949 let:0.006777 right:0.006692 stop:0.006606 very:0.006520
+0.044506	people:0.011304 time:0.008613 way:0.008433 john:0.007626 d:0.006280 power:0.006011 make:0.005742 say:0.005114 need:0.005114 thing:0.004934
+0.044065	could:0.011054 make:0.010329 sid:0.007883 way:0.007611 kill:0.007611 need:0.006615 let:0.006524 6:0.005890 right:0.005709 7:0.005618
+0.043400	really:0.010119 think:0.009475 mean:0.008923 make:0.008647 way:0.007727 come:0.007451 things:0.007359 always:0.007359 new:0.007267 night:0.006624

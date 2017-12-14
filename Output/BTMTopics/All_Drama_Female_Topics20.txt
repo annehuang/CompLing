@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/All_Drama_Female_Lines.txt
+write file: ../output/doc_wids.txt
+n(w)=15871
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+../src/btm est 20 15871 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=15871, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 2.700000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=15871
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):15871
+p(z)		Top words
+0.052497	think:0.010188 oh:0.009088 d:0.007542 things:0.007353 never:0.007250 time:0.006649 tell:0.006374 love:0.005962 thing:0.005962 come:0.005893
+0.051729	oh:0.008508 think:0.008508 d:0.007881 life:0.007288 love:0.007131 time:0.006939 man:0.006486 say:0.006416 mean:0.006294 people:0.006189
+0.051710	think:0.011756 d:0.009296 little:0.007238 really:0.006767 time:0.006575 right:0.006418 mean:0.006209 never:0.006052 good:0.005372 say:0.005337
+0.051598	oh:0.010592 think:0.009474 d:0.007953 mean:0.006660 time:0.006625 people:0.005489 love:0.005314 years:0.005174 right:0.004947 okay:0.004947
+0.051236	think:0.011177 love:0.009488 d:0.007639 oh:0.007604 say:0.007446 never:0.006935 good:0.006935 tell:0.006795 little:0.006548 could:0.006231
+0.051096	right:0.008772 mean:0.007484 think:0.007325 mr:0.006743 look:0.006690 oh:0.005895 really:0.005842 time:0.005754 d:0.005684 years:0.005242
+0.050619	right:0.010369 d:0.009746 think:0.008552 oh:0.007501 never:0.007002 man:0.006592 people:0.006468 make:0.006093 mother:0.005559 look:0.005078
+0.050586	think:0.012337 good:0.007595 oh:0.007399 way:0.006614 could:0.006258 time:0.006258 thing:0.006240 said:0.006169 new:0.006151 right:0.006151
+0.050386	love:0.010292 d:0.007178 thou:0.007106 think:0.006909 very:0.006300 tell:0.006014 night:0.005853 come:0.005585 o:0.005477 maybe:0.005244
+0.050297	think:0.012587 could:0.009700 mean:0.008248 never:0.008015 d:0.007531 time:0.006670 right:0.006204 said:0.005989 tell:0.005738 people:0.005684
+0.049936	never:0.010059 think:0.008181 d:0.007892 oh:0.006773 mean:0.006466 right:0.005815 tell:0.005292 come:0.005201 could:0.005165 time:0.005111
+0.049775	think:0.009566 said:0.009114 d:0.007592 could:0.007211 time:0.006812 oh:0.006631 right:0.006631 say:0.006559 little:0.006378 tell:0.006305
+0.049555	good:0.008335 think:0.007862 tell:0.007789 come:0.006806 say:0.006151 oh:0.006133 d:0.006097 let:0.006097 could:0.005933 really:0.005842
+0.049383	think:0.009423 d:0.007688 could:0.007104 little:0.006684 right:0.006483 really:0.006337 love:0.006173 mr:0.005953 tell:0.005917 remember:0.005899
+0.049363	think:0.011729 d:0.007198 never:0.006760 little:0.006595 good:0.006431 maybe:0.005883 say:0.005718 time:0.005682 tell:0.005481 make:0.005298
+0.049062	think:0.009963 oh:0.008419 d:0.008198 time:0.007941 never:0.006838 maybe:0.006801 right:0.006581 good:0.006544 really:0.006213 mr:0.005974
+0.049028	think:0.008792 time:0.007431 gonna:0.007008 never:0.006769 people:0.006199 d:0.005997 right:0.005555 way:0.005463 said:0.005334 come:0.005261
+0.048827	d:0.009216 never:0.008090 told:0.007831 really:0.006926 could:0.006741 right:0.006594 think:0.006538 look:0.006464 love:0.006187 man:0.005984
+0.047109	think:0.009628 people:0.008959 right:0.007197 love:0.006891 time:0.006566 never:0.006547 d:0.006547 very:0.005992 way:0.005877 good:0.005628
+0.046206	think:0.010753 right:0.008626 really:0.007787 oh:0.006343 tell:0.005913 never:0.005777 little:0.005542 uh:0.005191 life:0.005035 mean:0.004957

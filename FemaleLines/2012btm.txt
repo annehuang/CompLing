@@ -1,48 +1,0 @@
-=============== Index Docs =============
-index file: ../sample-data/2012_Female.txt
-write file: ../output/doc_wids.txt
-n(w)=463
-write:../output/voca.txt
-=============== Topic Learning =============
-make: Entering directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
-make: Nothing to be done for `all'.
-make: Leaving directory `/nfsdirs/home2/grad2/ahuang/BTM/src'
-../src/btm est 20 463 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
-Run BTM, K=20, W=463, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
-load docs: ../output/doc_wids.txt
-Begin iteration
-iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
-write p(z): ../output/model/k20.pz
-write p(w|z): ../output/model/k20.pw_z
-cost 0.030000s
-================ Infer P(z|d)===============
-../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
-Run inference:K=20, type sum_b ====
-load p(z):../output/model/k20.pz
-load p(w|z):../output/model/k20.pw_z
-n(z)=20, n(w)=463
-Infer p(z|d) for docs in: ../output/doc_wids.txt
-write p(z|d): ../output/model/k20.pz_d
-================ Topic Display =============
-K:20, n(W):463
-p(z)		Top words
-0.077092	you:0.051895 he:0.049777 to:0.043423 s:0.036010 think:0.032833 the:0.029656 know:0.029656 a:0.027539 we:0.027539 ve:0.025420
-0.066347	I:0.060328 to:0.048017 is:0.040631 actually:0.035707 Silberman:0.034475 you:0.032013 Dr:0.032013 that:0.029551 have:0.027089 looked:0.025858
-0.057880	you:0.101657 your:0.055067 s:0.042361 re:0.039538 if:0.028243 some:0.028243 and:0.025420 my:0.024008 too:0.022596 is:0.021184
-0.057717	me:0.045313 the:0.042481 with:0.038234 up:0.038234 on:0.036818 world:0.031155 You:0.028323 He:0.028323 as:0.028323 foot:0.025492
-0.057555	I:0.052540 me:0.041182 you:0.038342 a:0.036922 man:0.035503 that:0.034083 Foundation:0.032663 Heritage:0.031243 the:0.029823 world:0.028404
-0.055438	You:0.101730 out:0.039812 always:0.036863 you:0.035389 things:0.035389 re:0.032441 just:0.032441 of:0.032441 could:0.028018 Jackson:0.026544
-0.054461	the:0.070545 s:0.070545 and:0.064542 Space:0.042030 Busters:0.042030 car:0.039028 Look:0.036027 Daddy:0.036027 Noah:0.030023 in:0.030023
-0.051205	the:0.094210 You:0.052697 to:0.038327 me:0.036731 well:0.033537 it:0.031941 s:0.030344 got:0.027151 I:0.025554 girl:0.025554
-0.050554	I:0.113219 you:0.090577 for:0.042058 m:0.035589 back:0.032354 And:0.029119 he:0.029119 the:0.025885 will:0.024268 honey:0.022650
-0.050554	I:0.098663 you:0.080873 a:0.043675 m:0.035589 for:0.033971 my:0.030737 but:0.030737 as:0.029119 understand:0.029119 mother:0.029119
-0.048763	you:0.097272 s:0.057025 in:0.055348 re:0.046963 if:0.040256 young:0.031871 talent:0.031871 Texas:0.031871 Podunk:0.030194 Vinci:0.028517
-0.048274	the:0.047441 and:0.042359 has:0.038971 all:0.035583 block:0.033889 done:0.028807 on:0.028807 crazy:0.025419 World:0.023725 always:0.023725
-0.047460	I:0.113740 t:0.055151 m:0.046535 the:0.034473 He:0.034473 arrogant:0.031026 humor:0.031026 acting:0.031026 don:0.029303 your:0.027580
-0.046483	to:0.073912 Noah:0.049277 has:0.045758 and:0.038720 Lil:0.038720 Lilly:0.035201 just:0.033441 Gordon:0.029922 m:0.026403 re:0.024643
-0.044529	s:0.082682 a:0.067985 on:0.067985 He:0.062473 TV:0.055124 the:0.042264 in:0.034915 of:0.034915 WOMAN:0.034915 fireworks:0.034915
-0.043064	the:0.077910 s:0.077910 a:0.045610 to:0.045610 What:0.039910 for:0.034210 now:0.026610 man:0.026610 we:0.024709 It:0.024709
-0.040785	you:0.128443 can:0.044159 re:0.032118 t:0.032118 father:0.030111 Daddy:0.028105 s:0.028105 are:0.026098 this:0.026098 looking:0.026098
-0.039482	you:0.058064 and:0.045624 to:0.045624 that:0.039404 in:0.035257 your:0.035257 people:0.026964 Anheuser:0.026964 her:0.024890 What:0.024890
-0.032970	You:0.082038 I:0.052210 and:0.037297 to:0.032325 big:0.032325 before:0.029840 me:0.029840 had:0.027354 on:0.024869 t:0.024869
-0.029388	the:0.061412 you:0.055831 we:0.050249 are:0.036295 have:0.027922 of:0.027922 LILLY:0.027922 In:0.027922 background:0.027922 Kate:0.027922

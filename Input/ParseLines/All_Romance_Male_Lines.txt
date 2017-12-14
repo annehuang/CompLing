@@ -1,0 +1,6787 @@
+Who're you?
+nsubj(you, Who)
+cop(you, 're)
+$$$
+How long have we known each other now?
+dep(known, long)
+advmod(long, How)
+aux(known, have)
+nsubj(known, we)
+dobj(known, other)
+det(other, each)
+advmod(known, now)
+$$$
+Our asses gonna be in a sling if we get caught.
+nsubj(caught, asses)
+nmod:poss(asses, Our)
+acl(asses, gon)
+xcomp(gon, sling)
+mark(sling, na)
+cop(sling, be)
+case(sling, in)
+det(sling, a)
+advcl(sling, get)
+mark(get, if)
+nsubj(get, we)
+$$$
+That's so.
+nsubj('s, That)
+advmod('s, so)
+$$$
+Like thick molasses, with one of those wide noses perfect for smelling trouble and prison food...
+case(molasses, Like)
+amod(molasses, thick)
+nmod(molasses, one)
+case(one, with)
+nmod(one, noses)
+case(noses, of)
+det(noses, those)
+amod(noses, wide)
+amod(noses, perfect)
+advcl(perfect, smelling)
+mark(smelling, for)
+dobj(smelling, food)
+compound(food, trouble)
+cc(trouble, and)
+conj(trouble, prison)
+$$$
+In the trunk?
+case(trunk, In)
+det(trunk, the)
+$$$
+Y'know, Annie, I been thinking if it works for one game, maybe it'll work for a whole buncha games.
+nsubj(know, Y')
+dobj(know, Annie)
+appos(Annie, I)
+acl(I, thinking)
+aux(thinking, been)
+advcl(thinking, works)
+mark(works, if)
+nsubj(works, it)
+nmod(works, game)
+case(game, for)
+nummod(game, one)
+parataxis(know, work)
+advmod(work, maybe)
+nsubj(work, it)
+aux(work, 'll)
+nmod(work, games)
+case(games, for)
+det(games, a)
+amod(games, whole)
+compound(games, buncha)
+$$$
+Hey, that's not so bad.
+discourse(bad, Hey)
+nsubj(bad, that)
+cop(bad, 's)
+neg(bad, not)
+advmod(bad, so)
+$$$
+Compare it to the Love Canal -- that was twenty years ago, and those people still haven't seen a dime.
+dobj(Compare, it)
+nmod(Compare, Canal)
+case(Canal, to)
+det(Canal, the)
+compound(Canal, Love)
+conj(Compare, was)
+nsubj(was, that)
+advmod(was, ago)
+nmod:npmod(ago, years)
+nummod(years, twenty)
+cc(Compare, and)
+conj(Compare, seen)
+nsubj(seen, people)
+det(people, those)
+advmod(seen, still)
+aux(seen, have)
+neg(seen, n't)
+dobj(seen, dime)
+det(dime, a)
+$$$
+So in legal terms, ten years is --
+advmod(is, So)
+nmod(So, terms)
+case(terms, in)
+amod(terms, legal)
+nsubj(is, years)
+nummod(years, ten)
+$$$
+Yes, I will.
+discourse(will, Yes)
+nsubj(will, I)
+$$$
+If duty and safety are served by the same end then, aye, I do.
+advcl(do, served)
+mark(served, If)
+nsubjpass(served, duty)
+cc(duty, and)
+conj(duty, safety)
+auxpass(served, are)
+nmod(served, end)
+case(end, by)
+det(end, the)
+amod(end, same)
+advmod(served, then)
+advmod(do, aye)
+nsubj(do, I)
+$$$
+It was.
+nsubj(was, It)
+$$$
+I haven't been back in over twenty years, but I wouldn't be surprised.
+nsubj(years, I)
+aux(years, have)
+neg(years, n't)
+cop(years, been)
+advmod(years, back)
+case(years, in)
+amod(years, over)
+nummod(years, twenty)
+cc(years, but)
+conj(years, surprised)
+nsubj(surprised, I)
+aux(surprised, would)
+neg(surprised, n't)
+cop(surprised, be)
+$$$
+The population's larger.
+nsubj(larger, population)
+det(population, The)
+cop(larger, 's)
+$$$
+How do you propose I write it?
+advmod(propose, How)
+aux(propose, do)
+nsubj(propose, you)
+ccomp(propose, write)
+nsubj(write, I)
+dobj(write, it)
+$$$
+With dust, upon the air?
+case(dust, With)
+nmod(dust, air)
+case(air, upon)
+det(air, the)
+$$$
+Did you look for his passport, driving licence?
+aux(look, Did)
+nsubj(look, you)
+nmod(look, passport)
+case(passport, for)
+nmod:poss(passport, his)
+appos(passport, licence)
+amod(licence, driving)
+$$$
+Thief, I think, is more accurate.
+nsubj(accurate, Thief)
+parataxis(accurate, think)
+nsubj(think, I)
+cop(accurate, is)
+advmod(accurate, more)
+$$$
+I want the treatment plant licenses to be top priority right now.
+nsubj(want, I)
+ccomp(want, licenses)
+nsubj(licenses, plant)
+det(plant, the)
+compound(plant, treatment)
+xcomp(licenses, priority)
+mark(priority, to)
+cop(priority, be)
+amod(priority, top)
+advmod(priority, now)
+advmod(now, right)
+$$$
+Did you see anything in Miss Wolfe's hand?
+aux(see, Did)
+nsubj(see, you)
+dobj(see, anything)
+nmod(see, hand)
+case(hand, in)
+nmod:poss(hand, Wolfe)
+compound(Wolfe, Miss)
+case(Wolfe, 's)
+$$$
+Sun's coming up ... We've been in the fog for six hours.
+nsubj(coming, Sun)
+aux(coming, 's)
+compound:prt(coming, up)
+parataxis(coming, fog)
+nsubj(fog, We)
+aux(fog, 've)
+cop(fog, been)
+case(fog, in)
+det(fog, the)
+nmod(fog, hours)
+case(hours, for)
+nummod(hours, six)
+$$$
+She said lots of thing.s
+nsubj(said, She)
+dobj(said, lots)
+nmod(lots, thing.s)
+case(thing.s, of)
+$$$
+What break?
+nsubj(break, What)
+$$$
+Huh?
+$$$
+What break!
+nsubj(break, What)
+$$$
+Who am I to give breaks!
+nsubj(am, Who)
+dobj(am, I)
+xcomp(am, give)
+mark(give, to)
+dobj(give, breaks)
+$$$
+I'm a fighter, you haul meat.
+nsubj(fighter, I)
+cop(fighter, 'm)
+det(fighter, a)
+dep(fighter, haul)
+nsubj(haul, you)
+dobj(haul, meat)
+$$$
+You do what you do an' I do what I do best -- that's it -- that's life, man!
+nsubj(do, You)
+ccomp(do, do)
+dobj(do, what)
+nsubj(do, you)
+dobj(do, an)
+acl:relcl(an, do)
+nsubj(do, I)
+ccomp(do, do)
+dobj(do, what)
+nsubj(do, I)
+dobj(do, best)
+dep(best, it)
+nsubj(it, that)
+cop(it, 's)
+acl:relcl(best, life)
+nsubj(life, that)
+cop(life, 's)
+appos(an, man)
+$$$
+I'll whisper some of the main parts of the story to you.
+nsubj(whisper, I)
+aux(whisper, 'll)
+dobj(whisper, some)
+nmod(some, parts)
+case(parts, of)
+det(parts, the)
+amod(parts, main)
+nmod(parts, story)
+case(story, of)
+det(story, the)
+nmod(whisper, you)
+case(you, to)
+$$$
+But you'll be surprised how much you understand.
+cc(surprised, But)
+nsubjpass(surprised, you)
+aux(surprised, 'll)
+auxpass(surprised, be)
+ccomp(surprised, understand)
+dep(understand, much)
+advmod(much, how)
+nsubj(understand, you)
+$$$
+The music conveys the story more powerfully than any words.
+nsubj(conveys, music)
+det(music, The)
+xcomp(conveys, powerfully)
+nsubj(powerfully, story)
+det(story, the)
+advmod(powerfully, more)
+nmod(powerfully, words)
+case(words, than)
+det(words, any)
+$$$
+Ahm -- combination of factors really.
+dep(Ahm, combination)
+nmod(combination, factors)
+case(factors, of)
+advmod(factors, really)
+$$$
+No clean clothes...
+neg(clothes, No)
+amod(clothes, clean)
+$$$
+If you want a partner, I think you should recalculate the split.
+advcl(think, want)
+mark(want, If)
+nsubj(want, you)
+dobj(want, partner)
+det(partner, a)
+nsubj(think, I)
+ccomp(think, recalculate)
+nsubj(recalculate, you)
+aux(recalculate, should)
+dobj(recalculate, split)
+det(split, the)
+$$$
+I hope that's you, buddy; 'cause I'd hate to start believing in ghosts.
+nsubj(hope, I)
+ccomp(hope, 'cause)
+advcl('cause, you)
+nsubj(you, that)
+cop(you, 's)
+nsubj('cause, buddy)
+ccomp('cause, hate)
+nsubj(hate, I)
+aux(hate, 'd)
+xcomp(hate, start)
+mark(start, to)
+xcomp(start, believing)
+nmod(believing, ghosts)
+case(ghosts, in)
+$$$
+Anything I can do back here?
+advmod(do, Anything)
+nsubj(do, I)
+aux(do, can)
+compound:prt(do, back)
+advmod(do, here)
+$$$
+Then it's a good thing.
+advmod(thing, Then)
+nsubj(thing, it)
+cop(thing, 's)
+det(thing, a)
+amod(thing, good)
+$$$
+Well, maybe not exactly -- I tried to do it with a gun.
+dep(tried, exactly)
+discourse(exactly, Well)
+advmod(exactly, maybe)
+dep(exactly, not)
+nsubj(tried, I)
+xcomp(tried, do)
+mark(do, to)
+dobj(do, it)
+nmod(do, gun)
+case(gun, with)
+det(gun, a)
+$$$
+Goodbye.
+$$$
+I'll drop off my fare, hit a quick choke-and-puke and be blocking for you pronto.
+nsubj(drop, I)
+aux(drop, 'll)
+compound:prt(drop, off)
+dobj(drop, fare)
+nmod:poss(fare, my)
+conj(drop, hit)
+dobj(hit, choke-and-puke)
+det(choke-and-puke, a)
+amod(choke-and-puke, quick)
+cc(drop, and)
+conj(drop, blocking)
+aux(blocking, be)
+advcl(blocking, pronto)
+mark(pronto, for)
+nsubj(pronto, you)
+$$$
+That would be Devil's Needle.
+nsubj(Needle, That)
+aux(Needle, would)
+cop(Needle, be)
+nmod:poss(Needle, Devil)
+case(Devil, 's)
+$$$
+Last landmark I know in these woods.
+nsubj(know, I)
+amod(I, Last)
+compound(I, landmark)
+nmod(know, woods)
+case(woods, in)
+det(woods, these)
+$$$
+Where's your joy if you cannot sing?
+advmod('s, Where)
+nsubj('s, joy)
+nmod:poss(joy, your)
+acl:relcl(joy, sing)
+mark(sing, if)
+nsubj(sing, you)
+aux(sing, can)
+neg(sing, not)
+$$$
+How're you doing--?
+advmod(you, How)
+cop(you, 're)
+acl(you, doing)
+$$$
+You have my word.
+nsubj(have, You)
+dobj(have, word)
+nmod:poss(word, my)
+$$$
+As a gentleman
+case(gentleman, As)
+det(gentleman, a)
+$$$
+And he doesn't care about me?
+cc(care, And)
+nsubj(care, he)
+aux(care, does)
+neg(care, n't)
+nmod(care, me)
+case(me, about)
+$$$
+You look good, Bunny.
+nsubj(look, You)
+xcomp(look, good)
+xcomp(look, Bunny)
+$$$
+It's nice to see you.
+nsubj(nice, It)
+cop(nice, 's)
+xcomp(nice, see)
+mark(see, to)
+dobj(see, you)
+$$$
+For god's sake, woman, I'm just trying to keep you safe!
+nmod(trying, sake)
+case(sake, For)
+nmod:poss(sake, god)
+case(god, 's)
+appos(sake, woman)
+nsubj(trying, I)
+aux(trying, 'm)
+advmod(trying, just)
+xcomp(trying, keep)
+mark(keep, to)
+xcomp(keep, safe)
+nsubj(safe, you)
+$$$
+Her name is Annie.
+nsubj(Annie, name)
+nmod:poss(name, Her)
+cop(Annie, is)
+$$$
+Annie Reed.
+compound(Reed, Annie)
+$$$
+If you'd gone on about how much you liked it, I'm not sure I'd have believed you.
+advcl(sure, gone)
+mark(gone, If)
+nsubj(gone, you)
+aux(gone, 'd)
+compound:prt(gone, on)
+advcl(gone, liked)
+mark(liked, about)
+dep(liked, much)
+advmod(much, how)
+nsubj(liked, you)
+dobj(liked, it)
+nsubj(sure, I)
+cop(sure, 'm)
+neg(sure, not)
+ccomp(sure, believed)
+nsubj(believed, I)
+aux(believed, 'd)
+aux(believed, have)
+dobj(believed, you)
+$$$
+I know this.
+nsubj(know, I)
+dobj(know, this)
+$$$
+Bach.
+$$$
+F Minor Concerto.
+compound(Concerto, F)
+compound(Concerto, Minor)
+$$$
+It's one of my favorites.
+nsubj(one, It)
+cop(one, 's)
+nmod(one, favorites)
+case(favorites, of)
+nmod:poss(favorites, my)
+$$$
+You know, I used to live like Robinson Crusoe -- shipwrecked among eight million people.
+ccomp(used, know)
+nsubj(know, You)
+nsubj(used, I)
+xcomp(used, live)
+mark(live, to)
+nmod(live, Crusoe)
+case(Crusoe, like)
+compound(Crusoe, Robinson)
+acl(Crusoe, shipwrecked)
+nmod(shipwrecked, people)
+case(people, among)
+nummod(people, million)
+compound(million, eight)
+$$$
+Then one day I saw a footprint in the sand -- and there you were -- It's a wonderful thing -- dinner for two.
+advmod(saw, Then)
+nmod:tmod(saw, day)
+nummod(day, one)
+nsubj(saw, I)
+dobj(saw, footprint)
+det(footprint, a)
+nmod(saw, sand)
+case(sand, in)
+det(sand, the)
+cc(saw, and)
+conj(saw, dinner)
+advmod(dinner, there)
+nsubjpass(dinner, you)
+auxpass(dinner, were)
+parataxis(dinner, thing)
+nsubj(thing, It)
+cop(thing, 's)
+det(thing, a)
+amod(thing, wonderful)
+nmod(dinner, two)
+case(two, for)
+$$$
+That's it, of course.
+nsubj(it, That)
+cop(it, 's)
+nmod(it, course)
+case(course, of)
+$$$
+When I'm up there and doing it, I'm cheating it every second.
+advcl(cheating, 'm)
+advmod('m, When)
+nsubj('m, I)
+advmod('m, and)
+advmod(and, there)
+advmod(there, up)
+conj(and, doing)
+dobj(doing, it)
+nsubj(cheating, I)
+aux(cheating, 'm)
+xcomp(cheating, second)
+nsubj(second, it)
+det(second, every)
+$$$
+I'm subverting all laws...gravity...whatever.
+nsubj(subverting, I)
+aux(subverting, 'm)
+dobj(subverting, laws)
+det(laws, all)
+dep(laws, gravity)
+xcomp(subverting, whatever)
+$$$
+I'm skating the edge of it.
+nsubj(skating, I)
+aux(skating, 'm)
+dobj(skating, edge)
+det(edge, the)
+nmod(edge, it)
+case(it, of)
+$$$
+After that "The Three Musketeers."
+nmod(Musketeers, that)
+case(that, After)
+det(Musketeers, The)
+amod(Musketeers, Three)
+$$$
+I'd make a great D'Artagnan.
+nsubj(make, I)
+aux(make, 'd)
+dobj(make, D'Artagnan)
+det(D'Artagnan, a)
+amod(D'Artagnan, great)
+$$$
+Fun.
+$$$
+That's funny.
+nsubj(funny, That)
+cop(funny, 's)
+$$$
+Why is that?
+advmod(is, Why)
+nsubj(is, that)
+$$$
+My vocal cords are fine, but Fred's ain't.
+nsubj(fine, cords)
+nmod:poss(cords, My)
+amod(cords, vocal)
+cop(fine, are)
+cc(fine, but)
+conj(fine, ai)
+nsubj(ai, Fred)
+case(Fred, 's)
+neg(ai, n't)
+$$$
+He's been barking, eating the seats and driving me crackers.
+nsubjpass(barking, He)
+auxpass(barking, 's)
+aux(barking, been)
+conj(barking, eating)
+dobj(eating, seats)
+det(seats, the)
+cc(barking, and)
+conj(barking, driving)
+xcomp(driving, crackers)
+nsubj(crackers, me)
+$$$
+Hear that?
+dobj(Hear, that)
+$$$
+Where's his chow?
+advmod('s, Where)
+nsubj('s, chow)
+nmod:poss(chow, his)
+$$$
+Yes sir?
+discourse(sir, Yes)
+$$$
+Right.
+$$$
+Right.
+$$$
+You think it's the wrong moment.
+nsubj(think, You)
+ccomp(think, moment)
+nsubj(moment, it)
+cop(moment, 's)
+det(moment, the)
+amod(moment, wrong)
+$$$
+Fair enough.
+advmod(Fair, enough)
+$$$
+Do you mind if I have a go?
+aux(mind, Do)
+nsubj(mind, you)
+advcl(mind, have)
+mark(have, if)
+nsubj(have, I)
+dobj(have, go)
+det(go, a)
+$$$
+Thanks.
+$$$
+What's all this got to do with me, Mr. Bartholomew?
+cop(What, 's)
+nsubj(What, all)
+acl:relcl(all, got)
+nsubj(got, this)
+xcomp(got, do)
+mark(do, to)
+nmod(do, me)
+case(me, with)
+appos(me, Bartholomew)
+compound(Bartholomew, Mr.)
+$$$
+Of course I do -- I never knew what money really meant till I started spending it.
+nmod(do, course)
+case(course, Of)
+nsubj(do, I)
+parataxis(do, knew)
+nsubj(knew, I)
+neg(knew, never)
+ccomp(knew, meant)
+dobj(meant, what)
+nsubj(meant, money)
+advmod(meant, really)
+advcl(meant, started)
+mark(started, till)
+nsubj(started, I)
+xcomp(started, spending)
+dobj(spending, it)
+$$$
+Do you know -- I can hardly believe that anything so beautiful should come to me from Preysing -- I'll take care of you.
+aux(know, Do)
+nsubj(know, you)
+parataxis(know, believe)
+nsubj(believe, I)
+aux(believe, can)
+advmod(believe, hardly)
+ccomp(believe, come)
+mark(come, that)
+nsubj(come, anything)
+amod(anything, beautiful)
+advmod(beautiful, so)
+aux(come, should)
+nmod(come, me)
+case(me, to)
+nmod(come, Preysing)
+case(Preysing, from)
+ccomp(know, take)
+nsubj(take, I)
+aux(take, 'll)
+dobj(take, care)
+nmod(care, you)
+case(you, of)
+$$$
+Will -- will you let me?
+parataxis(Will, let)
+dep(let, will)
+nsubj(let, you)
+dobj(let, me)
+$$$
+I didn't ask you all that, Sweet Pea.
+nsubj(ask, I)
+aux(ask, did)
+neg(ask, n't)
+dobj(ask, you)
+nmod(ask, that)
+advmod(that, all)
+appos(that, Pea)
+compound(Pea, Sweet)
+$$$
+I asked if you loved her.
+nsubj(asked, I)
+advcl(asked, loved)
+mark(loved, if)
+nsubj(loved, you)
+dobj(loved, her)
+$$$
+Or in the slammer.
+cc(slammer, Or)
+mark(slammer, in)
+det(slammer, the)
+$$$
+What?
+$$$
+Helen-Thomas-Webber!
+$$$
+Maybe we have been down here a little too long!
+advmod(long, Maybe)
+nsubj(long, we)
+aux(long, have)
+cop(long, been)
+advmod(long, here)
+advmod(here, down)
+dep(long, little)
+det(little, a)
+advmod(long, too)
+$$$
+Please excuse her French.
+discourse(excuse, Please)
+dobj(excuse, French)
+nmod:poss(French, her)
+$$$
+Not officially.
+dep(Not, officially)
+$$$
+Her and Steve Kendall were pinned at birth.
+nsubjpass(pinned, Her)
+cc(Her, and)
+conj(Her, Kendall)
+compound(Kendall, Steve)
+auxpass(pinned, were)
+nmod(pinned, birth)
+case(birth, at)
+$$$
+But I was crazy about her.
+cc(crazy, But)
+nsubj(crazy, I)
+cop(crazy, was)
+nmod(crazy, her)
+case(her, about)
+$$$
+And for about three months, I managed to catch her during her "exploring" stage.
+cc(managed, And)
+nmod(managed, months)
+case(months, for)
+nummod(months, three)
+advmod(three, about)
+nsubj(managed, I)
+xcomp(managed, catch)
+mark(catch, to)
+dobj(catch, her)
+nmod(catch, stage)
+case(stage, during)
+nmod:poss(stage, her)
+dep(stage, exploring)
+$$$
+I don't know ... She had gum on her lip, for Christ sake.
+nsubj(know, I)
+aux(know, do)
+neg(know, n't)
+parataxis(know, had)
+nsubj(had, She)
+dobj(had, gum)
+nmod(gum, lip)
+case(lip, on)
+nmod:poss(lip, her)
+nmod(had, sake)
+case(sake, for)
+compound(sake, Christ)
+$$$
+I don't think she's right for the act.
+nsubj(think, I)
+aux(think, do)
+neg(think, n't)
+dobj(think, right)
+nmod:poss(right, she)
+case(she, 's)
+nmod(right, act)
+case(act, for)
+det(act, the)
+$$$
+Vivian...
+$$$
+I'm sorry.
+nsubj(sorry, I)
+cop(sorry, 'm)
+$$$
+I wasn't prepared for questions about us.
+nsubjpass(prepared, I)
+auxpass(prepared, was)
+neg(prepared, n't)
+nmod(prepared, questions)
+case(questions, for)
+nmod(questions, us)
+case(us, about)
+$$$
+It was an idiotic and insensitive thing I did.
+nsubj(thing, It)
+cop(thing, was)
+det(thing, an)
+amod(thing, idiotic)
+cc(idiotic, and)
+conj(idiotic, insensitive)
+acl:relcl(thing, did)
+nsubj(did, I)
+$$$
+I should have known that it would hurt you.
+nsubj(known, I)
+aux(known, should)
+aux(known, have)
+ccomp(known, hurt)
+mark(hurt, that)
+nsubj(hurt, it)
+aux(hurt, would)
+dobj(hurt, you)
+$$$
+Oh, you know, the usual... keeping the world safe.
+discourse(know, Oh)
+nsubj(know, you)
+dep(know, keeping)
+nsubj(keeping, usual)
+det(usual, the)
+xcomp(keeping, safe)
+nsubj(safe, world)
+det(world, the)
+$$$
+No... no, I don't think that's necessarily true.
+dep(think, No)
+discourse(think, no)
+nsubj(think, I)
+aux(think, do)
+neg(think, n't)
+ccomp(think, true)
+mark(true, that)
+cop(true, 's)
+advmod(true, necessarily)
+$$$
+I haven't even told you what's happened.
+nsubj(told, I)
+aux(told, have)
+neg(told, n't)
+advmod(told, even)
+dobj(told, you)
+acl:relcl(you, happened)
+nsubjpass(happened, what)
+auxpass(happened, 's)
+$$$
+Your girl that you have that works there for you threatened me and two men just chased me -- extorted money -- DEAN Go fuck yourself that shit doesn't have anything to do with me - this is a legitimate bossiness.
+nsubj(fuck, girl)
+nmod:poss(girl, Your)
+dep(girl, have)
+mark(have, that)
+nsubj(have, you)
+dobj(have, money)
+dep(money, works)
+nsubj(works, that)
+advmod(works, there)
+advcl(works, threatened)
+mark(threatened, for)
+nsubj(threatened, you)
+dobj(threatened, me)
+cc(threatened, and)
+conj(threatened, chased)
+advmod(chased, just)
+nmod:npmod(just, men)
+nummod(men, two)
+dobj(chased, me)
+amod(money, extorted)
+dep(money, Go)
+compound(Go, DEAN)
+dobj(fuck, yourself)
+ccomp(fuck, have)
+mark(have, that)
+nsubj(have, shit)
+aux(have, does)
+neg(have, n't)
+dobj(have, anything)
+advcl(have, do)
+mark(do, to)
+nmod(do, me)
+case(me, with)
+parataxis(fuck, bossiness)
+nsubj(bossiness, this)
+cop(bossiness, is)
+det(bossiness, a)
+amod(bossiness, legitimate)
+$$$
+Ach!
+$$$
+Here you are, Doctor Zinnowitz.
+advmod(are, Here)
+nsubj(are, you)
+parataxis(are, Zinnowitz)
+compound(Zinnowitz, Doctor)
+$$$
+Young lady, you're drunk!
+nsubj(drunk, lady)
+compound(lady, Young)
+nsubj(drunk, you)
+cop(drunk, 're)
+$$$
+She's not like the others.
+nsubj(others, She)
+cop(others, 's)
+neg(others, not)
+case(others, like)
+det(others, the)
+$$$
+She can't stand to be away from the sea.
+nsubj(stand, She)
+aux(stand, ca)
+neg(stand, n't)
+xcomp(stand, sea)
+mark(sea, to)
+cop(sea, be)
+advmod(sea, away)
+case(sea, from)
+det(sea, the)
+$$$
+No...
+$$$
+They don't kid.
+nsubj(kid, They)
+aux(kid, do)
+neg(kid, n't)
+$$$
+Hana?
+$$$
+Hana?
+$$$
+Are you alright?
+auxpass(alright, Are)
+nsubjpass(alright, you)
+$$$
+What sums?
+nsubj(sums, What)
+$$$
+What d'you think?
+nsubj(think, What)
+advmod(think, d'you)
+$$$
+Yeah, sure.
+discourse(sure, Yeah)
+$$$
+Did you... do something to him?
+nmod(do, you)
+case(you, Did)
+dobj(do, something)
+nmod(do, him)
+case(him, to)
+$$$
+What's the matter?
+cop(What, 's)
+nsubj(What, matter)
+det(matter, the)
+$$$
+I do?
+nsubj(do, I)
+$$$
+Well, thank you!
+discourse(thank, Well)
+dobj(thank, you)
+$$$
+You like ceilings?
+nsubj(like, You)
+dobj(like, ceilings)
+$$$
+Well, Mr. Kringelein, are you getting what you're looking for?
+nsubj(are, Well)
+appos(Well, Kringelein)
+compound(Kringelein, Mr.)
+dep(are, getting)
+nsubj(getting, you)
+ccomp(getting, looking)
+nmod(looking, what)
+case(what, for)
+nsubj(looking, you)
+aux(looking, 're)
+$$$
+No.
+$$$
+Yes?
+$$$
+Forget it.
+dobj(Forget, it)
+$$$
+That is a skill!
+nsubj(skill, That)
+cop(skill, is)
+det(skill, a)
+$$$
+Beyond Devil's Needle, all is unknown.
+nmod(unknown, Needle)
+case(Needle, Beyond)
+nmod:poss(Needle, Devil)
+case(Devil, 's)
+nsubj(unknown, all)
+cop(unknown, is)
+$$$
+I... uh...
+compound(uh, I.)
+compound(uh, .)
+$$$
+I don't know.
+nsubj(know, I)
+aux(know, do)
+neg(know, n't)
+$$$
+I guess don't like to think about it.
+nsubj(guess, I)
+ccomp(guess, like)
+aux(like, do)
+neg(like, n't)
+xcomp(like, think)
+mark(think, to)
+nmod(think, it)
+case(it, about)
+$$$
+Take the boss loading, kid.
+dobj(Take, loading)
+det(loading, the)
+compound(loading, boss)
+dobj(Take, kid)
+$$$
+For God's sake.
+case(sake, For)
+nmod:poss(sake, God)
+case(God, 's)
+$$$
+I don't want to hurt you.
+nsubj(want, I)
+aux(want, do)
+neg(want, n't)
+xcomp(want, hurt)
+mark(hurt, to)
+dobj(hurt, you)
+$$$
+...Thanks.
+$$$
+And that's the job?
+cc('s, And)
+advmod('s, that)
+nsubj('s, job)
+det(job, the)
+$$$
+Nothing about serving your country?
+acl(Nothing, serving)
+mark(serving, about)
+dobj(serving, country)
+nmod:poss(country, your)
+$$$
+I have scruples.
+nsubj(scruples, I)
+aux(scruples, have)
+$$$
+Next.
+$$$
+You mean she's dead?
+nsubj(mean, You)
+ccomp(mean, dead)
+nsubj(dead, she)
+cop(dead, 's)
+$$$
+Feels like warm apple pie, dude.
+nsubj(dude, Feels)
+nmod(Feels, pie)
+case(pie, like)
+amod(pie, warm)
+compound(pie, apple)
+$$$
+That guy who got shot--
+det(guy, That)
+acl:relcl(guy, got)
+nsubj(got, who)
+dobj(got, shot)
+$$$
+Months, Swana.
+appos(Months, Swana)
+$$$
+Son--this is all happening so fast--
+parataxis(Son, happening)
+nsubj(happening, this)
+aux(happening, is)
+advmod(happening, all)
+advmod(happening, fast)
+advmod(fast, so)
+$$$
+You want to know how much I got tied up in deposits with Willie?
+nsubj(want, You)
+xcomp(want, know)
+mark(know, to)
+ccomp(know, tied)
+dep(tied, much)
+advmod(much, how)
+nsubjpass(tied, I)
+auxpass(tied, got)
+compound:prt(tied, up)
+nmod(tied, deposits)
+case(deposits, in)
+nmod(deposits, Willie)
+case(Willie, with)
+$$$
+We're in for three weeks solid, Jack.
+nsubj(weeks, We)
+cop(weeks, 're)
+case(weeks, in)
+case(weeks, for)
+nummod(weeks, three)
+amod(weeks, solid)
+appos(weeks, Jack)
+$$$
+Yes.
+$$$
+I've looked, Adam -- you know I have --
+nsubj(looked, I)
+aux(looked, 've)
+dobj(looked, Adam)
+parataxis(Adam, know)
+nsubj(know, you)
+ccomp(know, have)
+nsubj(have, I)
+$$$
+But, for a time... a passing fancy?
+cc(fancy, But)
+nmod(fancy, time)
+case(time, for)
+det(time, a)
+det(fancy, a)
+compound(fancy, passing)
+$$$
+You going to come talk to me or not?
+acl(You, going)
+xcomp(going, come)
+mark(come, to)
+dobj(come, talk)
+nmod(come, me)
+case(me, to)
+cc(me, or)
+conj(me, not)
+$$$
+Jackie...
+$$$
+Jackie?...
+$$$
+answer me, for God's sake, answer me.
+ccomp(answer, answer)
+nsubj(answer, me)
+nmod(answer, sake)
+case(sake, for)
+nmod:poss(sake, God)
+case(God, 's)
+dobj(answer, me)
+$$$
+You go.
+nsubj(go, You)
+$$$
+I'm staying with it.
+nsubj(staying, I)
+aux(staying, 'm)
+nmod(staying, it)
+case(it, with)
+$$$
+You can't know that for sure.
+nsubj(know, You)
+aux(know, ca)
+neg(know, n't)
+dobj(know, that)
+advcl(know, sure)
+case(sure, for)
+$$$
+Well, that's the point, stupid.
+discourse(point, Well)
+nsubj(point, that)
+cop(point, 's)
+det(point, the)
+amod(point, stupid)
+$$$
+No!
+$$$
+No, I'm not gonna letcha.
+discourse(gon, No)
+nsubj(gon, I)
+aux(gon, 'm)
+neg(gon, not)
+xcomp(gon, letcha)
+mark(letcha, na)
+$$$
+You have a great voice.
+nsubj(have, You)
+dobj(have, voice)
+det(voice, a)
+amod(voice, great)
+$$$
+But I don't go in for that kinda stuff much.
+cc(go, But)
+nsubj(go, I)
+aux(go, do)
+neg(go, n't)
+compound:prt(go, in)
+nmod(go, stuff)
+case(stuff, for)
+det(stuff, that)
+compound(stuff, kinda)
+advmod(stuff, much)
+$$$
+I like to pick my fillies.
+nsubj(like, I)
+xcomp(like, pick)
+mark(pick, to)
+dobj(pick, fillies)
+nmod:poss(fillies, my)
+$$$
+Take you, for instance.
+dobj(Take, you)
+nmod(Take, instance)
+case(instance, for)
+$$$
+You're my type.
+nsubj(type, You)
+cop(type, 're)
+nmod:poss(type, my)
+$$$
+No kiddin' sister.
+nmod:poss(sister, kiddin)
+neg(kiddin, No)
+case(kiddin, ')
+$$$
+I could go for you in a big way.
+nsubj(go, I)
+aux(go, could)
+nmod(go, you)
+case(you, for)
+nmod(go, way)
+case(way, in)
+det(way, a)
+amod(way, big)
+$$$
+"Fun-on-the-side Shapeley" they call me, and the accent is on the fun, believe you me.
+nsubj(believe, Shapeley)
+compound(Shapeley, Fun-on-the-side)
+ccomp(believe, call)
+nsubj(call, they)
+dobj(call, me)
+cc(call, and)
+conj(call, fun)
+nsubj(fun, accent)
+det(accent, the)
+cop(fun, is)
+case(fun, on)
+det(fun, the)
+dobj(believe, you)
+dep(believe, me)
+$$$
+Eighty dollars.
+nummod(dollars, Eighty)
+$$$
+I don't have any business here.
+nsubj(have, I)
+aux(have, do)
+neg(have, n't)
+dobj(have, business)
+det(business, any)
+advmod(have, here)
+$$$
+I came here for you, I didn't have any business.
+ccomp(have, came)
+nsubj(came, I)
+advmod(came, here)
+nmod(came, you)
+case(you, for)
+nsubj(have, I)
+aux(have, did)
+neg(have, n't)
+dobj(have, business)
+det(business, any)
+$$$
+Where are you going?
+advmod(going, Where)
+aux(going, are)
+nsubj(going, you)
+$$$
+I mean, how many times have you told me yourself to watch out for these ho's?
+nsubj(mean, I)
+ccomp(mean, told)
+dep(told, times)
+amod(times, many)
+advmod(many, how)
+aux(told, have)
+nsubj(told, you)
+dobj(told, me)
+dobj(told, yourself)
+xcomp(told, watch)
+mark(watch, to)
+compound:prt(watch, out)
+nmod(watch, ho)
+case(ho, for)
+det(ho, these)
+case(ho, 's)
+$$$
+How were you gonna get home?
+advmod(gon, How)
+aux(gon, were)
+nsubj(gon, you)
+xcomp(gon, get)
+mark(get, na)
+dobj(get, home)
+$$$
+Yes.
+$$$
+Of course..
+amod(course, Of)
+$$$
+You win, Colonel.
+nsubj(win, You)
+parataxis(win, Colonel)
+$$$
+Here's the fifty.
+nsubj(fifty, Here)
+cop(fifty, 's)
+det(fifty, the)
+$$$
+Go on out and get rid of it.
+compound:prt(Go, on)
+advmod(Go, out)
+cc(Go, and)
+conj(Go, get)
+xcomp(get, rid)
+nmod(get, it)
+case(it, of)
+$$$
+Perceptual?
+$$$
+White or black?
+cc(White, or)
+conj(White, black)
+$$$
+Peggy!
+$$$
+Where're you going?
+advmod('re, Where)
+nsubj('re, you)
+acl(you, going)
+$$$
+Come back!
+advmod(Come, back)
+$$$
+I don't mean how'd you do the paperwork, I mean how the hell did you do it without letting me in on it?
+ccomp(mean, mean)
+nsubj(mean, I)
+aux(mean, do)
+neg(mean, n't)
+ccomp(mean, 'd)
+advmod('d, how)
+ccomp('d, do)
+nsubj(do, you)
+dobj(do, paperwork)
+det(paperwork, the)
+nsubj(mean, I)
+ccomp(mean, did)
+advmod(did, how)
+nsubj(did, hell)
+det(hell, the)
+ccomp(did, do)
+nsubj(do, you)
+dobj(do, it)
+advcl(do, letting)
+mark(letting, without)
+dobj(letting, me)
+nmod(letting, it)
+case(it, in)
+case(it, on)
+$$$
+Look, this is serious now.
+ccomp(serious, Look)
+nsubj(serious, this)
+cop(serious, is)
+advmod(serious, now)
+$$$
+They're talking serious money --
+nsubj(talking, They)
+aux(talking, 're)
+dobj(talking, money)
+amod(money, serious)
+$$$
+Suppose that you bear five or six children with your characteristics.
+ccomp(Suppose, bear)
+mark(bear, that)
+nsubj(bear, you)
+dobj(bear, children)
+nummod(children, five)
+cc(five, or)
+conj(five, six)
+nmod(children, characteristics)
+case(characteristics, with)
+nmod:poss(characteristics, your)
+$$$
+All in Siwash Cave.
+nmod(All, Cave)
+case(Cave, in)
+compound(Cave, Siwash)
+$$$
+In a postcatastrophe world, your offspring would of necessity intermarry, forming in time a tribe.
+nmod(intermarry, world)
+case(world, In)
+det(world, a)
+amod(world, postcatastrophe)
+nsubj(intermarry, offspring)
+nmod:poss(offspring, your)
+aux(intermarry, would)
+nmod(intermarry, necessity)
+case(necessity, of)
+xcomp(intermarry, forming)
+nmod(forming, time)
+case(time, in)
+dobj(forming, tribe)
+det(tribe, a)
+$$$
+A tribe every member of which had giant thumbs.
+nsubj(thumbs, tribe)
+det(tribe, A)
+acl:relcl(tribe, had)
+nsubj(had, member)
+det(member, every)
+nmod(member, which)
+case(which, of)
+dobj(had, giant)
+$$$
+A tribe of Big Thumbs would relate to the environment in very special ways.
+nsubj(relate, tribe)
+det(tribe, A)
+nmod(tribe, Thumbs)
+case(Thumbs, of)
+compound(Thumbs, Big)
+aux(relate, would)
+nmod(relate, environment)
+case(environment, to)
+det(environment, the)
+nmod(environment, ways)
+case(ways, in)
+advmod(ways, very)
+amod(ways, special)
+$$$
+It could not use weapons or produce sophisticated tools.
+nsubj(use, It)
+aux(use, could)
+neg(use, not)
+dobj(use, weapons)
+cc(use, or)
+conj(use, produce)
+dobj(produce, tools)
+amod(tools, sophisticated)
+$$$
+It would have to rely on its wits and its senses.
+nsubj(have, It)
+aux(have, would)
+xcomp(have, rely)
+mark(rely, to)
+nmod(rely, wits)
+case(wits, on)
+nmod:poss(wits, its)
+cc(wits, and)
+conj(wits, senses)
+nmod:poss(senses, its)
+$$$
+It would have to live with animals -- and plants!
+nsubj(have, It)
+aux(have, would)
+xcomp(have, live)
+mark(live, to)
+nmod(live, animals)
+case(animals, with)
+cc(animals, and)
+conj(animals, plants)
+$$$
+-- as virtual equals.
+nsubj(equals, virtual)
+advmod(virtual, as)
+$$$
+It's extremely pleasant to me to think about a tribe of physical eccentrics living peacefully with animals and plants, learning their languages, perhaps, and paying them the respect they deserve.
+nsubj(pleasant, It)
+cop(pleasant, 's)
+advmod(pleasant, extremely)
+nmod(pleasant, me)
+case(me, to)
+xcomp(pleasant, think)
+mark(think, to)
+advcl(think, living)
+mark(living, about)
+nsubj(living, tribe)
+det(tribe, a)
+nmod(tribe, eccentrics)
+case(eccentrics, of)
+amod(eccentrics, physical)
+advmod(living, peacefully)
+nmod(living, animals)
+case(animals, with)
+cc(animals, and)
+conj(animals, plants)
+conj(living, learning)
+dobj(learning, languages)
+nmod:poss(languages, their)
+advmod(learning, perhaps)
+cc(living, and)
+conj(living, paying)
+iobj(paying, them)
+dobj(paying, respect)
+det(respect, the)
+acl:relcl(respect, deserve)
+nsubj(deserve, they)
+$$$
+I'm Joel.
+nsubj(Joel, I)
+cop(Joel, 'm)
+$$$
+But you didn't know she was at my place last night when you were.
+cc(know, But)
+nsubj(know, you)
+aux(know, did)
+neg(know, n't)
+ccomp(know, night)
+nsubj(night, she)
+cop(night, was)
+nmod(night, place)
+case(place, at)
+nmod:poss(place, my)
+amod(night, last)
+advcl(night, were)
+advmod(were, when)
+nsubj(were, you)
+$$$
+She came there for the letters of transit.
+nsubj(came, She)
+advmod(came, there)
+nmod(came, letters)
+case(letters, for)
+det(letters, the)
+nmod(letters, transit)
+case(transit, of)
+$$$
+Isn't that true, Ilsa?
+neg(Is, n't)
+nsubj(Is, true)
+det(true, that)
+appos(true, Ilsa)
+$$$
+I remember.
+nsubj(remember, I)
+$$$
+I got rid of him.
+nsubj(got, I)
+xcomp(got, rid)
+nmod(got, him)
+case(him, of)
+$$$
+I wanted to see if...
+nsubj(wanted, I)
+xcomp(wanted, see)
+mark(see, to)
+advmod(see, if)
+$$$
+I wanted to be the only one.
+nsubj(wanted, I)
+xcomp(wanted, one)
+mark(one, to)
+cop(one, be)
+det(one, the)
+amod(one, only)
+$$$
+I wanted to be Snow.
+nsubj(wanted, I)
+xcomp(wanted, Snow)
+mark(Snow, to)
+cop(Snow, be)
+$$$
+You're packing.
+nsubj(packing, You)
+aux(packing, 're)
+$$$
+If there was any way out...
+mark(was, If)
+expl(was, there)
+advmod(was, way)
+det(way, any)
+case(way, out)
+$$$
+You will?
+nsubj(will, You)
+$$$
+Excellent, alright, this is great.
+nsubj(great, Excellent)
+ccomp(great, alright)
+nsubj(great, this)
+cop(great, is)
+$$$
+You will, really?
+nsubj(will, You)
+parataxis(will, really)
+$$$
+Nothing, 'til I find out if it's the gun Julia Wolf was killed with.
+dep(Nothing, find)
+mark(find, 'til)
+nsubj(find, I)
+compound:prt(find, out)
+advcl(find, gun)
+mark(gun, if)
+nsubj(gun, it)
+cop(gun, 's)
+det(gun, the)
+acl:relcl(gun, killed)
+nsubjpass(killed, Wolf)
+compound(Wolf, Julia)
+auxpass(killed, was)
+nmod(killed, with)
+$$$
+Keep her in here, and don't let those reporters see her.
+dobj(Keep, her)
+nmod(Keep, here)
+case(here, in)
+cc(Keep, and)
+conj(Keep, let)
+aux(let, do)
+neg(let, n't)
+ccomp(let, see)
+nsubj(see, reporters)
+det(reporters, those)
+dobj(see, her)
+$$$
+They might believe her.
+nsubj(believe, They)
+aux(believe, might)
+dobj(believe, her)
+$$$
+I'm alright.
+nsubj(alright, I)
+cop(alright, 'm)
+$$$
+Two hours at prayer!
+nummod(hours, Two)
+nmod(hours, prayer)
+case(prayer, at)
+$$$
+Precinct Six.
+dobj(Precinct, Six)
+$$$
+I sent a friend over with bail money.
+nsubj(sent, I)
+dobj(sent, friend)
+det(friend, a)
+compound:prt(sent, over)
+nmod(sent, money)
+case(money, with)
+compound(money, bail)
+$$$
+Seriously, you're amazing.
+advmod(amazing, Seriously)
+nsubj(amazing, you)
+cop(amazing, 're)
+$$$
+You have everything going for you.
+nsubj(have, You)
+dobj(have, everything)
+acl(everything, going)
+nmod(going, you)
+case(you, for)
+$$$
+You're smart, you're beautiful, you're determined.
+nsubj(smart, You)
+cop(smart, 're)
+parataxis(smart, beautiful)
+nsubj(beautiful, you)
+cop(beautiful, 're)
+parataxis(smart, determined)
+nsubjpass(determined, you)
+auxpass(determined, 're)
+$$$
+You're everything I want in a girlfriend.
+nsubj(everything, You)
+cop(everything, 're)
+acl:relcl(everything, want)
+nsubj(want, I)
+nmod(want, girlfriend)
+case(girlfriend, in)
+det(girlfriend, a)
+$$$
+I never make plans that far ahead.
+nsubj(make, I)
+neg(make, never)
+dobj(make, plans)
+advmod(make, ahead)
+advmod(ahead, that)
+advmod(ahead, far)
+$$$
+Yeah, two more chairs and they got a dining-room set.
+discourse(got, Yeah)
+nsubj(got, chairs)
+nummod(chairs, two)
+amod(chairs, more)
+cc(chairs, and)
+conj(chairs, they)
+dobj(got, set)
+det(set, a)
+amod(set, dining-room)
+$$$
+Well, we got that out of the way.
+discourse(got, Well)
+nsubj(got, we)
+dobj(got, that)
+compound:prt(got, out)
+nmod(got, way)
+case(way, of)
+det(way, the)
+$$$
+Tell me, Celeste.
+dobj(Tell, me)
+dobj(Tell, Celeste)
+$$$
+What do you do for a living?
+dobj(do, What)
+aux(do, do)
+nsubj(do, you)
+nmod(do, living)
+case(living, for)
+det(living, a)
+$$$
+I never thought I'd...
+nsubj(thought, I)
+neg(thought, never)
+ccomp(thought, 'd)
+nsubj('d, I)
+$$$
+You're always so coarse... "Do her right here."
+nsubj(coarse, You)
+cop(coarse, 're)
+advmod(coarse, always)
+advmod(coarse, so)
+dep(coarse, Do)
+dobj(Do, right)
+nmod:poss(right, her)
+advmod(Do, here)
+$$$
+Let's just see what happens, okay?
+nsubj(see, Let)
+case(Let, 's)
+advmod(see, just)
+ccomp(see, happens)
+nsubj(happens, what)
+xcomp(see, okay)
+$$$
+"I wish that I could find a way; To speak my thoughts on Mother's Day.
+nsubj(wish, I)
+ccomp(wish, find)
+mark(find, that)
+nsubj(find, I)
+aux(find, could)
+dobj(find, way)
+det(way, a)
+acl(way, speak)
+mark(speak, To)
+dobj(speak, thoughts)
+nmod:poss(thoughts, my)
+nmod(speak, Day)
+case(Day, on)
+nmod:poss(Day, Mother)
+case(Mother, 's)
+$$$
+There are no words that quite express; My gratitude or happiness.
+expl(are, There)
+nsubj(are, words)
+neg(words, no)
+acl:relcl(words, express)
+nsubj(express, that)
+advmod(express, quite)
+dobj(express, gratitude)
+nmod:poss(gratitude, My)
+cc(gratitude, or)
+conj(gratitude, happiness)
+$$$
+A pleasant smile perhaps a kiss; I would not fail to give her this.
+nsubj(smile, pleasant)
+det(pleasant, A)
+dobj(smile, kiss)
+advmod(kiss, perhaps)
+det(kiss, a)
+parataxis(smile, fail)
+nsubj(fail, I)
+aux(fail, would)
+neg(fail, not)
+xcomp(fail, give)
+mark(give, to)
+iobj(give, her)
+dobj(give, this)
+$$$
+I'd make her glad the whole day through; By sayin' 'Mother', I love you!'
+nsubj(make, I)
+aux(make, 'd)
+dobj(make, glad)
+nmod:poss(glad, her)
+nmod:tmod(make, day)
+det(day, the)
+amod(day, whole)
+nmod(make, through)
+parataxis(make, love)
+nmod(love, Mother)
+case(Mother, By)
+nmod:poss(Mother, sayin)
+case(sayin, ')
+nsubj(love, I)
+dobj(love, you)
+$$$
+P.S.
+$$$
+I wish I could say this to my mother's face, but I can't anymore."
+nsubj(wish, I)
+ccomp(wish, say)
+nsubj(say, I)
+aux(say, could)
+dobj(say, this)
+nmod(say, face)
+case(face, to)
+nmod:poss(face, mother)
+nmod:poss(mother, my)
+case(mother, 's)
+cc(wish, but)
+conj(wish, anymore)
+nsubj(anymore, I)
+aux(anymore, ca)
+neg(anymore, n't)
+$$$
+Not for sure, Monsieur, but I will venture to guess that Ugarte left those letters with Monsieur Rick.
+advcl(Not, sure)
+case(sure, for)
+dep(Not, Monsieur)
+cc(Not, but)
+conj(Not, venture)
+nsubj(venture, I)
+aux(venture, will)
+xcomp(venture, guess)
+mark(guess, to)
+ccomp(guess, left)
+mark(left, that)
+nsubj(left, Ugarte)
+dobj(left, letters)
+det(letters, those)
+nmod(left, Rick)
+case(Rick, with)
+compound(Rick, Monsieur)
+$$$
+I'm talking about - I'm not going out.
+nsubj(talking, I)
+aux(talking, 'm)
+dep(talking, about)
+parataxis(talking, going)
+nsubj(going, I)
+aux(going, 'm)
+neg(going, not)
+compound:prt(going, out)
+$$$
+Norville.
+$$$
+How did you know?
+advmod(know, How)
+aux(know, did)
+nsubj(know, you)
+$$$
+He's not.
+nsubj('s, He)
+neg('s, not)
+$$$
+Yeah.
+$$$
+To see if he could expedite my case.
+mark(see, To)
+advcl(see, expedite)
+mark(expedite, if)
+nsubj(expedite, he)
+aux(expedite, could)
+dobj(expedite, case)
+nmod:poss(case, my)
+$$$
+But I wait, and I wait, and...I'm starting to think I'll never see her again.
+cc(wait, But)
+nsubj(wait, I)
+cc(wait, and)
+conj(wait, wait)
+nsubj(wait, I)
+dep(wait, and)
+parataxis(wait, starting)
+nsubj(starting, I)
+aux(starting, 'm)
+xcomp(starting, think)
+mark(think, to)
+ccomp(think, see)
+nsubj(see, I)
+aux(see, 'll)
+neg(see, never)
+dobj(see, her)
+advmod(see, again)
+$$$
+You know what I'm talking about.
+nsubj(know, You)
+ccomp(know, talking)
+dobj(talking, what)
+nsubj(talking, I)
+aux(talking, 'm)
+dep(talking, about)
+$$$
+Miss Daniel.
+compound(Daniel, Miss)
+$$$
+Can't.
+neg(Ca, n't)
+$$$
+I'm feeling too good.
+nsubj(feeling, I)
+aux(feeling, 'm)
+xcomp(feeling, good)
+advmod(good, too)
+$$$
+What makes you think I would do that?
+nsubj(makes, What)
+ccomp(makes, think)
+nsubj(think, you)
+ccomp(think, do)
+nsubj(do, I)
+aux(do, would)
+dobj(do, that)
+$$$
+No.
+$$$
+You can change a directive, George.
+nsubj(change, You)
+aux(change, can)
+dobj(change, directive)
+det(directive, a)
+appos(directive, George)
+$$$
+You've done it before.
+nsubj(done, You)
+aux(done, 've)
+xcomp(done, it)
+advmod(it, before)
+$$$
+Listen to me.
+nmod(Listen, me)
+case(me, to)
+$$$
+He's going somewhere in Death Valley.
+nsubj(going, He)
+aux(going, 's)
+advmod(going, somewhere)
+nmod(going, Valley)
+case(Valley, in)
+compound(Valley, Death)
+$$$
+Lathrop Wells was never anything but a bus stop.
+nsubj(anything, Wells)
+compound(Wells, Lathrop)
+cop(anything, was)
+neg(anything, never)
+nmod(anything, stop)
+case(stop, but)
+det(stop, a)
+compound(stop, bus)
+$$$
+East is the nuclear site.
+nsubj(site, East)
+cop(site, is)
+det(site, the)
+amod(site, nuclear)
+$$$
+There are no roads in there.
+expl(are, There)
+nsubj(are, roads)
+neg(roads, no)
+nmod(roads, there)
+case(there, in)
+$$$
+She was teaching him to hitchhike.
+nsubj(teaching, She)
+aux(teaching, was)
+dobj(teaching, him)
+xcomp(teaching, hitchhike)
+mark(hitchhike, to)
+$$$
+I'm telling you.
+nsubj(telling, I)
+aux(telling, 'm)
+dobj(telling, you)
+$$$
+We block the four roads into Death Valley and we got him.
+nsubj(block, We)
+dobj(block, roads)
+det(roads, the)
+nummod(roads, four)
+nmod(block, Valley)
+case(Valley, into)
+compound(Valley, Death)
+cc(block, and)
+conj(block, got)
+nsubj(got, we)
+dobj(got, him)
+$$$
+Not if you be chaste.
+dep(chaste, Not)
+mark(chaste, if)
+nsubjpass(chaste, you)
+auxpass(chaste, be)
+$$$
+Tis an awesome test of virginity.
+dobj(Tis, test)
+det(test, an)
+amod(test, awesome)
+nmod(test, virginity)
+case(virginity, of)
+$$$
+Is what the money thing?
+cop(thing, Is)
+nsubj(thing, what)
+dep(what, money)
+det(money, the)
+$$$
+He didn't leave with them.
+nsubj(leave, He)
+aux(leave, did)
+neg(leave, n't)
+nmod(leave, them)
+case(them, with)
+$$$
+How am I gonna do that?
+advmod(gon, How)
+aux(gon, am)
+nsubj(gon, I)
+xcomp(gon, do)
+mark(do, na)
+dobj(do, that)
+$$$
+All right, Ma.
+det(right, All)
+appos(right, Ma)
+$$$
+I'll be back in about an hour, an hour anna half.
+nsubj(hour, I)
+aux(hour, 'll)
+cop(hour, be)
+advmod(hour, back)
+case(hour, in)
+advmod(hour, about)
+det(hour, an)
+appos(hour, half)
+det(half, an)
+compound(half, hour)
+compound(half, anna)
+$$$
+It's nice to see you again.
+nsubj(nice, It)
+cop(nice, 's)
+xcomp(nice, see)
+mark(see, to)
+dobj(see, you)
+advmod(see, again)
+$$$
+TELL HIM, WILL YOU TELL HIM?
+compound(HIM, TELL)
+appos(HIM, HIM)
+compound(HIM, WILL)
+dep(HIM, YOU)
+compound(HIM, TELL)
+$$$
+OUR INSTRUMENTS ARE OKAY.
+nsubj(OKAY, INSTRUMENTS)
+compound(INSTRUMENTS, OUR)
+cop(OKAY, ARE)
+$$$
+Good title.
+amod(title, Good)
+$$$
+Nothing happened, Johnny.
+nsubj(happened, Nothing)
+advmod(happened, Johnny)
+$$$
+Denial is not a river in Egypt.
+nsubj(river, Denial)
+cop(river, is)
+neg(river, not)
+det(river, a)
+nmod(river, Egypt)
+case(Egypt, in)
+$$$
+Oh-oh... Maybe I better get back in the truck.
+dep(get, Oh-oh)
+advmod(get, Maybe)
+nsubj(get, I)
+advmod(get, better)
+compound:prt(get, back)
+nmod(get, truck)
+case(truck, in)
+det(truck, the)
+$$$
+He looks me in the eye like some fuckin' gold fish, and says: "I'm going to beat you".
+nsubj(looks, He)
+dobj(looks, me)
+nmod(looks, eye)
+case(eye, in)
+det(eye, the)
+nmod(eye, fish)
+case(fish, like)
+nmod:poss(fish, fuckin)
+det(fuckin, some)
+case(fuckin, ')
+amod(fish, gold)
+cc(looks, and)
+conj(looks, says)
+parataxis(looks, going)
+nsubj(going, I)
+aux(going, 'm)
+xcomp(going, beat)
+mark(beat, to)
+dobj(beat, you)
+$$$
+Is that the last thing you need?
+cop(thing, Is)
+nsubj(thing, that)
+det(thing, the)
+amod(thing, last)
+acl:relcl(thing, need)
+nsubj(need, you)
+$$$
+My your clever.
+dobj(My, clever)
+nmod:poss(clever, your)
+$$$
+It was a business decision.
+nsubj(decision, It)
+cop(decision, was)
+det(decision, a)
+compound(decision, business)
+$$$
+You know exactly...what kind it is.
+nsubj(know, You)
+advmod(know, exactly)
+ccomp(know, is)
+dobj(is, kind)
+det(kind, what)
+nsubj(is, it)
+$$$
+Come on Rose...what do you want from me?
+nmod(Come, Rose)
+case(Rose, on)
+ccomp(Come, want)
+dobj(want, what)
+aux(want, do)
+nsubj(want, you)
+nmod(want, me)
+case(me, from)
+$$$
+It sounds exciting.
+nsubj(sounds, It)
+xcomp(sounds, exciting)
+$$$
+And you resented that he cared for her in a way he once cared for you?
+cc(resented, And)
+nsubj(resented, you)
+ccomp(resented, cared)
+mark(cared, that)
+nsubj(cared, he)
+advcl(cared, cared)
+mark(cared, for)
+nsubj(cared, her)
+nmod(cared, way)
+case(way, in)
+det(way, a)
+nsubj(cared, he)
+advmod(cared, once)
+nmod(cared, you)
+case(you, for)
+$$$
+Central station, locker number 139 - combination JFK.
+amod(139, Central)
+compound(139, station)
+dep(139, locker)
+compound(139, number)
+dep(139, JFK)
+compound(JFK, combination)
+$$$
+I'm still here.
+nsubj('m, I)
+advmod('m, still)
+advmod('m, here)
+$$$
+Would you like to dance with me, Susan?
+aux(like, Would)
+nsubj(like, you)
+xcomp(like, dance)
+mark(dance, to)
+nmod(dance, me)
+case(me, with)
+appos(me, Susan)
+$$$
+I don't know, Melanie.
+nsubj(know, I)
+aux(know, do)
+neg(know, n't)
+advmod(know, Melanie)
+$$$
+Look, do you have to go back to Annie's?
+dep(have, Look)
+aux(have, do)
+nsubj(have, you)
+xcomp(have, go)
+mark(go, to)
+advmod(go, back)
+nmod(back, Annie)
+case(Annie, to)
+case(Annie, 's)
+$$$
+Like, normal style.
+dep(style, Like)
+amod(style, normal)
+$$$
+The...missionary position.
+dep(The, position)
+amod(position, missionary)
+$$$
+You're someone to me.
+nsubj(someone, You)
+cop(someone, 're)
+nmod(someone, me)
+case(me, to)
+$$$
+You're someone real special to me.
+nsubj(special, You)
+cop(special, 're)
+compound(special, someone)
+amod(special, real)
+nmod(special, me)
+case(me, to)
+$$$
+Women.
+$$$
+You know, I can't help feeling rather sorry for Scobie.
+ccomp(help, know)
+nsubj(know, You)
+nsubj(help, I)
+aux(help, ca)
+neg(help, n't)
+xcomp(help, feeling)
+xcomp(feeling, sorry)
+advmod(sorry, rather)
+nmod(feeling, Scobie)
+case(Scobie, for)
+$$$
+Wouldn't it be nice if we were like that?
+aux(nice, Would)
+neg(nice, n't)
+nsubj(nice, it)
+cop(nice, be)
+advcl(nice, that)
+mark(that, if)
+nsubj(that, we)
+cop(that, were)
+case(that, like)
+$$$
+No, but you might need them when you get back.
+discourse(need, No)
+advmod(need, but)
+nsubj(need, you)
+aux(need, might)
+dobj(need, them)
+advcl(need, get)
+advmod(get, when)
+nsubj(get, you)
+advmod(get, back)
+$$$
+There's a call for you --
+expl('s, There)
+nsubj('s, call)
+det(call, a)
+nmod(call, you)
+case(you, for)
+$$$
+What?
+$$$
+I love you.
+nsubj(love, I)
+dobj(love, you)
+$$$
+I think Tom Grunemann's dead.
+nsubj(think, I)
+ccomp(think, dead)
+nsubj(dead, Grunemann)
+compound(Grunemann, Tom)
+cop(dead, 's)
+$$$
+I've been a lot of places - I've asked a lot of people.
+nsubj(lot, I)
+aux(lot, 've)
+cop(lot, been)
+det(lot, a)
+nmod(lot, places)
+case(places, of)
+parataxis(lot, asked)
+nsubj(asked, I)
+aux(asked, 've)
+dobj(asked, lot)
+det(lot, a)
+nmod(lot, people)
+case(people, of)
+$$$
+I've found no proof he's around.
+nsubj(found, I)
+aux(found, 've)
+dobj(found, proof)
+neg(proof, no)
+acl:relcl(proof, 's)
+nsubj('s, he)
+advmod('s, around)
+$$$
+I've found no proof he was ever around.
+nsubj(found, I)
+aux(found, 've)
+dobj(found, proof)
+neg(proof, no)
+acl:relcl(proof, was)
+nsubj(was, he)
+advmod(was, ever)
+advmod(was, around)
+$$$
+I know, it sucks!
+ccomp(sucks, know)
+nsubj(know, I)
+nsubj(sucks, it)
+$$$
+Out.
+$$$
+I've got things to do.
+nsubj(got, I)
+aux(got, 've)
+dobj(got, things)
+advcl(got, do)
+mark(do, to)
+$$$
+Were you with him last night?
+nsubj(Were, you)
+nmod(Were, him)
+case(him, with)
+dep(him, night)
+amod(night, last)
+$$$
+And I was wondering.
+cc(wondering, And)
+nsubj(wondering, I)
+aux(wondering, was)
+$$$
+I know.
+nsubj(know, I)
+$$$
+I borrowed it from your grandparents because I...
+nsubj(borrowed, I)
+dobj(borrowed, it)
+nmod(borrowed, grandparents)
+case(grandparents, from)
+nmod:poss(grandparents, your)
+nmod(borrowed, I.)
+case(I., because)
+$$$
+I... it doesn't matter.
+discourse(matter, I.)
+nsubj(matter, it)
+aux(matter, does)
+neg(matter, n't)
+$$$
+Don't worry, they're fine... Look, I used to feel that same way, said practically those same words, sitting at night in a foxhole in Korea...
+ccomp(fine, worry)
+aux(worry, Do)
+neg(worry, n't)
+nsubj(fine, they)
+cop(fine, 're)
+parataxis(fine, Look)
+ccomp(Look, used)
+nsubj(used, I)
+xcomp(used, feel)
+mark(feel, to)
+dobj(feel, way)
+det(way, that)
+amod(way, same)
+dep(used, said)
+dobj(said, words)
+advmod(words, practically)
+det(words, those)
+amod(words, same)
+advcl(used, sitting)
+nmod(sitting, night)
+case(night, at)
+nmod(sitting, foxhole)
+case(foxhole, in)
+det(foxhole, a)
+nmod(foxhole, Korea)
+case(Korea, in)
+$$$
+I've chased you across the country, Betty, and I come to find out we're a lot more alike than you'd think.
+dep(more, chased)
+nsubj(chased, I)
+aux(chased, 've)
+dobj(chased, you)
+nmod(chased, country)
+case(country, across)
+det(country, the)
+appos(country, Betty)
+cc(chased, and)
+conj(chased, come)
+nsubj(come, I)
+xcomp(come, find)
+mark(find, to)
+compound:prt(find, out)
+nsubj(more, we)
+cop(more, 're)
+nmod:npmod(more, lot)
+det(lot, a)
+ccomp(more, think)
+advmod(think, alike)
+mark(think, than)
+nsubj(think, you)
+aux(think, 'd)
+$$$
+That's impressive.
+nsubj(impressive, That)
+cop(impressive, 's)
+$$$
+How did you do that?
+advmod(do, How)
+aux(do, did)
+nsubj(do, you)
+dobj(do, that)
+$$$
+Now put down the key -- -- and put down the address.
+advmod(put, Now)
+compound:prt(put, down)
+dobj(put, key)
+det(key, the)
+cc(put, and)
+conj(put, put)
+compound:prt(put, down)
+dobj(put, address)
+det(address, the)
+$$$
+Proms always make me sad.
+nsubj(make, Proms)
+advmod(make, always)
+xcomp(make, sad)
+nsubj(sad, me)
+$$$
+They're so final.
+nsubj(final, They)
+cop(final, 're)
+advmod(final, so)
+$$$
+Graduation.
+$$$
+Everyone's scattering, moving on.
+nsubj(scattering, Everyone)
+aux(scattering, 's)
+dep(scattering, moving)
+compound:prt(moving, on)
+$$$
+I am your friend.
+nsubj(friend, I)
+cop(friend, am)
+nmod:poss(friend, your)
+$$$
+If you wanted to call me back I could...
+advcl(could, wanted)
+mark(wanted, If)
+nsubj(wanted, you)
+xcomp(wanted, call)
+mark(call, to)
+dobj(call, me)
+advmod(call, back)
+nsubj(could, I)
+$$$
+If it's too far, then we'll drown.
+advcl(drown, far)
+mark(far, If)
+nsubj(far, it)
+cop(far, 's)
+advmod(far, too)
+nsubj(drown, we)
+advmod(we, then)
+aux(drown, 'll)
+$$$
+But if we don t try then we'll never know.
+cc(know, But)
+advcl(know, don)
+mark(don, if)
+nsubj(don, we)
+ccomp(don, try)
+nsubj(try, t)
+advmod(try, then)
+nsubj(know, we)
+aux(know, 'll)
+neg(know, never)
+$$$
+Lynette, I told you already, it won't work.
+advmod(work, Lynette)
+parataxis(work, told)
+nsubj(told, I)
+dobj(told, you)
+advmod(told, already)
+nsubj(work, it)
+aux(work, wo)
+neg(work, n't)
+$$$
+Then... why are you here so often?
+parataxis(Then, you)
+advmod(you, why)
+cop(you, are)
+advmod(you, often)
+advmod(often, here)
+advmod(often, so)
+$$$
+What are you talking about?
+dobj(talking, What)
+aux(talking, are)
+nsubj(talking, you)
+dep(talking, about)
+$$$
+Bye, Troy!
+appos(Bye, Troy)
+$$$
+Just a guard.
+advmod(guard, Just)
+det(guard, a)
+$$$
+They're both a challenge.
+nsubj(challenge, They)
+cop(challenge, 're)
+det:predet(challenge, both)
+det(challenge, a)
+$$$
+I don't know.
+nsubj(know, I)
+aux(know, do)
+neg(know, n't)
+$$$
+You Yanks and your therapy.
+nsubj(Yanks, You)
+cc(Yanks, and)
+conj(Yanks, therapy)
+nmod:poss(therapy, your)
+$$$
+It s great.
+nsubj(great, It)
+cop(great, s)
+$$$
+It s all a bit too touchy-feely for me.
+nsubj(touchy-feely, It)
+cop(touchy-feely, s)
+advmod(touchy-feely, all)
+dep(touchy-feely, bit)
+det(bit, a)
+advmod(touchy-feely, too)
+nmod(touchy-feely, me)
+case(me, for)
+$$$
+Of course.
+case(course, Of)
+$$$
+No, not again.
+discourse(again, No)
+dep(again, not)
+$$$
+But nothing is happening.
+cc(happening, But)
+nsubj(happening, nothing)
+aux(happening, is)
+$$$
+Where?
+$$$
+Maybe we can.
+advmod(can, Maybe)
+nsubj(can, we)
+$$$
+How would you like to be yourself for the day?
+advmod(like, How)
+aux(like, would)
+nsubj(like, you)
+xcomp(like, yourself)
+mark(yourself, to)
+cop(yourself, be)
+nmod(yourself, day)
+case(day, for)
+det(day, the)
+$$$
+You said we could go to New York.
+nsubj(said, You)
+ccomp(said, go)
+nsubj(go, we)
+aux(go, could)
+nmod(go, York)
+case(York, to)
+compound(York, New)
+$$$
+Grand Central.
+compound(Central, Grand)
+$$$
+You better not be fucking with me cause it's your ass on the line.
+nsubj(be, You)
+advmod(be, better)
+neg(be, not)
+xcomp(be, fucking)
+advcl(fucking, cause)
+mark(cause, with)
+nsubj(cause, me)
+ccomp(cause, ass)
+nsubj(ass, it)
+cop(ass, 's)
+nmod:poss(ass, your)
+nmod(ass, line)
+case(line, on)
+det(line, the)
+$$$
+Are you ready for another?
+auxpass(ready, Are)
+nsubjpass(ready, you)
+nmod(ready, another)
+case(another, for)
+$$$
+Oh, incidentally, my last name is Carruthers.
+discourse(Carruthers, Oh)
+advmod(Carruthers, incidentally)
+nsubj(Carruthers, name)
+nmod:poss(name, my)
+amod(name, last)
+cop(Carruthers, is)
+$$$
+Sounds a little too much like "druthers", doesn't it?
+ccomp(does, Sounds)
+xcomp(Sounds, much)
+dep(much, little)
+det(little, a)
+advmod(much, too)
+nmod(Sounds, druthers)
+case(druthers, like)
+neg(does, n't)
+dobj(does, it)
+$$$
+Well?
+$$$
+Some new things would be useful.
+nsubj(useful, things)
+det(things, Some)
+amod(things, new)
+aux(useful, would)
+cop(useful, be)
+$$$
+I don't need any "new help."
+nsubj(need, I)
+aux(need, do)
+neg(need, n't)
+dobj(need, help)
+det(help, any)
+amod(help, new)
+$$$
+I just told the Father.
+nsubj(told, I)
+advmod(told, just)
+dobj(told, Father)
+det(Father, the)
+$$$
+I only found out you were here yesterday.
+nsubj(found, I)
+advmod(found, only)
+compound:prt(found, out)
+ccomp(found, yesterday)
+nsubj(yesterday, you)
+cop(yesterday, were)
+advmod(yesterday, here)
+$$$
+Waddaya getting so sore about?
+acl(Waddaya, getting)
+dobj(getting, sore)
+advmod(sore, so)
+nmod(getting, about)
+$$$
+Yes.
+$$$
+Beautiful specimen.
+dobj(Beautiful, specimen)
+$$$
+I know.
+nsubj(know, I)
+$$$
+But then I reconsidered.
+cc(reconsidered, But)
+advmod(reconsidered, then)
+nsubj(reconsidered, I)
+$$$
+'Cause I figured out what I really wanna do with my life, what I want to do for a living is I wanna be with your daughter.
+advmod(figured, 'Cause)
+nsubj(figured, I)
+compound:prt(figured, out)
+ccomp(figured, wan)
+dobj(wan, what)
+nsubj(wan, I)
+advmod(wan, really)
+xcomp(wan, do)
+mark(do, na)
+nmod(do, life)
+case(life, with)
+nmod:poss(life, my)
+acl:relcl(life, want)
+dobj(want, what)
+nsubj(want, I)
+xcomp(want, do)
+mark(do, to)
+advcl(do, is)
+mark(is, for)
+nsubj(is, living)
+det(living, a)
+ccomp(is, wan)
+nsubj(wan, I)
+xcomp(wan, daughter)
+mark(daughter, na)
+cop(daughter, be)
+case(daughter, with)
+nmod:poss(daughter, your)
+$$$
+I'm good at it.
+nsubj(good, I)
+cop(good, 'm)
+nmod(good, it)
+case(it, at)
+$$$
+Who ???
+nsubj(???, Who)
+$$$
+?
+$$$
+Is that what you thought?
+cop(what, Is)
+nsubj(what, that)
+acl:relcl(what, thought)
+nsubj(thought, you)
+$$$
+That I betrayed the British?
+nsubj(betrayed, I)
+det(I, That)
+dobj(betrayed, British)
+det(British, the)
+$$$
+The British betrayed me.
+nsubj(betrayed, British)
+det(British, The)
+dobj(betrayed, me)
+$$$
+The British betrayed me.
+nsubj(betrayed, British)
+det(British, The)
+dobj(betrayed, me)
+$$$
+No.
+$$$
+Give in to despair and all is lost.
+compound:prt(Give, in)
+nmod(Give, despair)
+case(despair, to)
+cc(Give, and)
+conj(Give, lost)
+nsubjpass(lost, all)
+auxpass(lost, is)
+$$$
+...A Muncie girl!
+compound(girl, A)
+compound(girl, Muncie)
+$$$
+Talk about the cat's pyjamas!
+nmod(Talk, pyjamas)
+case(pyjamas, about)
+nmod:poss(pyjamas, cat)
+det(cat, the)
+case(cat, 's)
+$$$
+Tell you what, Amy.
+iobj(Tell, you)
+dobj(Tell, what)
+dep(Tell, Amy)
+$$$
+I'm gonna cancel the rest of my appointments this afternoon and get you a job here at the Hud.
+nsubj(gon, I)
+aux(gon, 'm)
+xcomp(gon, cancel)
+mark(cancel, na)
+iobj(cancel, rest)
+det(rest, the)
+nmod(rest, appointments)
+case(appointments, of)
+nmod:poss(appointments, my)
+dobj(cancel, afternoon)
+det(afternoon, this)
+cc(cancel, and)
+conj(cancel, get)
+dobj(get, you)
+nmod(get, Hud)
+advmod(Hud, here)
+nmod:npmod(here, job)
+det(job, a)
+case(Hud, at)
+det(Hud, the)
+$$$
+You?
+$$$
+You're Madame Flocquet?
+nsubj(Flocquet, You)
+cop(Flocquet, 're)
+compound(Flocquet, Madame)
+$$$
+I pictured a fat lady with an apron, not - I don't know - La Femme Nikita.
+nsubj(pictured, I)
+dobj(pictured, lady)
+det(lady, a)
+amod(lady, fat)
+nmod(pictured, apron)
+case(apron, with)
+det(apron, an)
+neg(pictured, not)
+parataxis(pictured, know)
+nsubj(know, I)
+aux(know, do)
+neg(know, n't)
+dobj(know, Nikita)
+compound(Nikita, La)
+compound(Nikita, Femme)
+$$$
+Fine.
+$$$
+Could you please see that she gets this.
+aux(please, Could)
+nsubj(please, you)
+xcomp(please, see)
+ccomp(see, gets)
+mark(gets, that)
+nsubj(gets, she)
+dobj(gets, this)
+$$$
+... if she can find me?
+nmod(find, she)
+case(she, if)
+aux(find, can)
+dobj(find, me)
+$$$
+-- That's a brilliant idea!
+nsubj(idea, That)
+cop(idea, 's)
+det(idea, a)
+amod(idea, brilliant)
+$$$
+If she's really been sent by God she'll discover the trap, and if she's an assassin she'll kill the wrong man!
+advcl(discover, sent)
+mark(sent, If)
+nsubjpass(sent, she)
+auxpass(sent, 's)
+advmod(sent, really)
+auxpass(sent, been)
+nmod(sent, God)
+case(God, by)
+nsubj(discover, she)
+aux(discover, 'll)
+dobj(discover, trap)
+det(trap, the)
+cc(discover, and)
+conj(discover, kill)
+advcl(kill, assassin)
+mark(assassin, if)
+nsubj(assassin, she)
+cop(assassin, 's)
+det(assassin, an)
+nsubj(kill, she)
+aux(kill, 'll)
+dobj(kill, man)
+det(man, the)
+amod(man, wrong)
+$$$
+Bring her up!
+dobj(Bring, her)
+compound:prt(Bring, up)
+$$$
+Your mother is feeling seasick and would like to see you right away.
+nsubj(feeling, mother)
+nmod:poss(mother, Your)
+aux(feeling, is)
+dobj(feeling, seasick)
+cc(feeling, and)
+conj(feeling, like)
+aux(like, would)
+xcomp(like, see)
+mark(see, to)
+dobj(see, you)
+advmod(see, away)
+advmod(away, right)
+$$$
+She was beautiful.
+nsubj(beautiful, She)
+cop(beautiful, was)
+$$$
+So sweet and funky and voluptuous.
+dep(So, sweet)
+cc(sweet, and)
+conj(sweet, funky)
+cc(funky, and)
+conj(funky, voluptuous)
+$$$
+I kind of stole a pair of her panties, is what.
+nsubj(stole, I)
+advmod(stole, kind)
+mwe(kind, of)
+ccomp(stole, what)
+nsubj(what, pair)
+det(pair, a)
+nmod(pair, panties)
+case(panties, of)
+nmod:poss(panties, her)
+cop(what, is)
+$$$
+Thanks.
+$$$
+I'll phone Hildy right away to get that story.
+nsubj(phone, I)
+aux(phone, 'll)
+dobj(phone, Hildy)
+advmod(phone, away)
+advmod(away, right)
+dep(away, get)
+mark(get, to)
+dobj(get, story)
+det(story, that)
+$$$
+You had to deal with him in running the club.
+nsubj(had, You)
+xcomp(had, deal)
+mark(deal, to)
+nmod(deal, him)
+case(him, with)
+advcl(deal, running)
+mark(running, in)
+dobj(running, club)
+det(club, the)
+$$$
+Thank you.
+dobj(Thank, you)
+$$$
+Both pilots!
+det(pilots, Both)
+$$$
+Who's the guy, George's boyfriend?
+nsubj(guy, Who)
+cop(guy, 's)
+det(guy, the)
+appos(guy, boyfriend)
+nmod:poss(boyfriend, George)
+case(George, 's)
+$$$
+No, I-I've been perfectly healthy.
+discourse(healthy, No)
+nsubj(healthy, I-I)
+aux(healthy, 've)
+cop(healthy, been)
+advmod(healthy, perfectly)
+$$$
+You know me.
+nsubj(know, You)
+dobj(know, me)
+$$$
+Well, did you find me?
+advmod(find, Well)
+aux(find, did)
+nsubj(find, you)
+dobj(find, me)
+$$$
+She's a talk show host.
+nsubj(host, She)
+cop(host, 's)
+det(host, a)
+compound(host, talk)
+compound(host, show)
+$$$
+They can't be charmed.
+nsubjpass(charmed, They)
+aux(charmed, ca)
+neg(charmed, n't)
+auxpass(charmed, be)
+$$$
+By definition.
+case(definition, By)
+$$$
+Where I come from, involvement...generally calls for a substantial piece of jewelry.
+advcl(calls, come)
+advmod(come, Where)
+nsubj(come, I)
+nmod(come, from)
+advmod(calls, involvement)
+advmod(calls, generally)
+nmod(calls, piece)
+case(piece, for)
+det(piece, a)
+amod(piece, substantial)
+nmod(piece, jewelry)
+case(jewelry, of)
+$$$
+Come to the railing and I'll hand it up.
+nmod(Come, railing)
+case(railing, to)
+det(railing, the)
+cc(Come, and)
+conj(Come, hand)
+nsubj(hand, I)
+aux(hand, 'll)
+dobj(hand, it)
+compound:prt(hand, up)
+$$$
+What?
+$$$
+...People talk to me more.
+nsubj(talk, People)
+nmod(talk, me)
+case(me, to)
+advmod(talk, more)
+$$$
+Have you got your passport?
+aux(got, Have)
+nsubj(got, you)
+dobj(got, passport)
+nmod:poss(passport, your)
+$$$
+Sure!
+$$$
+Hold it -- Italy just finished.
+dobj(Hold, it)
+dobj(Hold, Italy)
+amod(Italy, finished)
+advmod(finished, just)
+$$$
+They're recognizing Great Britain.
+nsubj(recognizing, They)
+aux(recognizing, 're)
+dobj(recognizing, Britain)
+compound(Britain, Great)
+$$$
+I noticed your hair.
+nsubj(noticed, I)
+dobj(noticed, hair)
+nmod:poss(hair, your)
+$$$
+I guess it made an impression on me, that's why I was pretty sure I recognized you.
+nsubj(guess, I)
+ccomp(guess, made)
+nsubj(made, it)
+dobj(made, impression)
+det(impression, an)
+nmod(made, me)
+case(me, on)
+acl:relcl(me, 's)
+nsubj('s, that)
+advcl('s, sure)
+advmod(sure, why)
+nsubj(sure, I)
+cop(sure, was)
+advmod(sure, pretty)
+ccomp(sure, recognized)
+nsubj(recognized, I)
+dobj(recognized, you)
+$$$
+You, uh, you ever been to Louisville during Derby week, Miss, ah, Packard?
+advcl(Packard, Louisville)
+dobj(Louisville, You)
+discourse(You, uh)
+nsubj(Louisville, you)
+advmod(Louisville, ever)
+cop(Louisville, been)
+case(Louisville, to)
+nmod(Louisville, Derby)
+case(Derby, during)
+advmod(Louisville, week)
+nsubj(Packard, Miss)
+appos(Miss, ah)
+$$$
+Why don't you be a good little boy and leave her alone?
+advmod(boy, Why)
+aux(boy, do)
+neg(boy, n't)
+nsubj(boy, you)
+cop(boy, be)
+det(boy, a)
+amod(boy, good)
+amod(boy, little)
+cc(boy, and)
+conj(boy, leave)
+dobj(leave, her)
+advmod(leave, alone)
+$$$
+People have different emotional levels that --
+nsubj(have, People)
+xcomp(have, that)
+nsubj(that, levels)
+amod(levels, different)
+amod(levels, emotional)
+$$$
+No.
+$$$
+It's perpetual motion.
+nsubj(motion, It)
+cop(motion, 's)
+amod(motion, perpetual)
+$$$
+I can't say.
+nsubj(say, I)
+aux(say, ca)
+neg(say, n't)
+$$$
+Damn right it is, it's a chance to do something meaningful for a change, to leave our mark on this town.
+advmod(is, right)
+nmod:npmod(right, Damn)
+nsubj(is, it)
+ccomp(is, chance)
+nsubj(chance, it)
+cop(chance, 's)
+det(chance, a)
+acl(chance, do)
+mark(do, to)
+dobj(do, something)
+amod(something, meaningful)
+nmod(do, change)
+case(change, for)
+det(change, a)
+advcl(do, leave)
+mark(leave, to)
+dobj(leave, mark)
+nmod:poss(mark, our)
+nmod(leave, town)
+case(town, on)
+det(town, this)
+$$$
+Hell, you'll probably be gone in another six months and all you'll have done is taught some kids the lines to a Led Zep' song - c'mon, don't run out on me now!
+nsubj(run, Hell)
+parataxis(run, gone)
+nsubjpass(gone, you)
+aux(gone, 'll)
+advmod(gone, probably)
+auxpass(gone, be)
+nmod(gone, months)
+case(months, in)
+det(months, another)
+nummod(months, six)
+cc(gone, and)
+conj(gone, taught)
+nsubjpass(taught, all)
+acl:relcl(all, done)
+nsubj(done, you)
+aux(done, 'll)
+aux(done, have)
+auxpass(taught, is)
+iobj(taught, kids)
+det(kids, some)
+dobj(taught, lines)
+det(lines, the)
+nmod(lines, song)
+case(song, to)
+nmod:poss(song, Zep)
+det(Zep, a)
+compound(Zep, Led)
+case(Zep, ')
+dep(lines, c'mon)
+aux(run, do)
+neg(run, n't)
+compound:prt(run, out)
+nmod(run, me)
+case(me, on)
+advmod(run, now)
+$$$
+Right.
+$$$
+Close that door.
+dobj(Close, door)
+det(door, that)
+$$$
+Don't let anybody in or out.
+aux(let, Do)
+neg(let, n't)
+dobj(let, anybody)
+advmod(let, or)
+case(or, in)
+case(or, out)
+$$$
+To be more specific, he was wanted by this agency.
+advcl(wanted, specific)
+mark(specific, To)
+cop(specific, be)
+advmod(specific, more)
+nsubjpass(wanted, he)
+auxpass(wanted, was)
+nmod(wanted, agency)
+case(agency, by)
+det(agency, this)
+$$$
+Stop it!
+dobj(Stop, it)
+$$$
+I've had enough of your sermons!
+nsubj(had, I)
+aux(had, 've)
+dobj(had, enough)
+nmod(enough, sermons)
+case(sermons, of)
+nmod:poss(sermons, your)
+$$$
+You act as if you created the world!
+nsubj(act, You)
+advcl(act, created)
+mark(created, as)
+mwe(as, if)
+nsubj(created, you)
+dobj(created, world)
+det(world, the)
+$$$
+Well, by saying that, you're acknowledging the existence of a higher power.
+advmod(acknowledging, Well)
+advcl(acknowledging, saying)
+mark(saying, by)
+dobj(saying, that)
+nsubj(acknowledging, you)
+aux(acknowledging, 're)
+dobj(acknowledging, existence)
+det(existence, the)
+nmod(existence, power)
+case(power, of)
+det(power, a)
+amod(power, higher)
+$$$
+Which, to a narcissist, is impossible.
+nsubj(impossible, Which)
+nmod(impossible, narcissist)
+case(narcissist, to)
+det(narcissist, a)
+cop(impossible, is)
+$$$
+No wonder he's having so much trouble with it.
+nsubj(wonder, No)
+ccomp(wonder, having)
+nsubj(having, he)
+aux(having, 's)
+dobj(having, trouble)
+amod(trouble, much)
+advmod(much, so)
+nmod(trouble, it)
+case(it, with)
+$$$
+It's just a joke.
+nsubj(joke, It)
+cop(joke, 's)
+advmod(joke, just)
+det(joke, a)
+$$$
+A stupid joke.
+det(joke, A)
+amod(joke, stupid)
+$$$
+Well, well, sure... because he's a singer and you're a singer, you know, so it's perfect.
+dep(know, sure)
+discourse(sure, Well)
+dep(Well, well)
+advcl(know, singer)
+mark(singer, because)
+nsubj(singer, he)
+cop(singer, 's)
+det(singer, a)
+cc(singer, and)
+conj(singer, singer)
+nsubj(singer, you)
+cop(singer, 're)
+det(singer, a)
+nsubj(know, you)
+dep(know, so)
+parataxis(know, perfect)
+nsubj(perfect, it)
+cop(perfect, 's)
+$$$
+So you're trying to suffocate yourself.
+dep(trying, So)
+nsubj(trying, you)
+aux(trying, 're)
+xcomp(trying, suffocate)
+mark(suffocate, to)
+dobj(suffocate, yourself)
+$$$
+It-it makes perfect sense.
+nsubj(makes, It-it)
+dobj(makes, sense)
+amod(sense, perfect)
+$$$
+Uh, uh, that's a perfect analytic... kind of insight.
+nsubj(analytic, Uh)
+discourse(analytic, uh)
+nsubj(analytic, that)
+cop(analytic, 's)
+det(analytic, a)
+amod(analytic, perfect)
+dep(analytic, kind)
+nmod(kind, insight)
+case(insight, of)
+$$$
+He's looking down.
+nsubj(looking, He)
+aux(looking, 's)
+compound:prt(looking, down)
+$$$
+And he's not thinking 'bout the man you were yesterday.
+cc(thinking, And)
+nsubj(thinking, he)
+aux(thinking, 's)
+neg(thinking, not)
+advcl(thinking, bout)
+dobj(bout, man)
+det(man, the)
+acl:relcl(man, yesterday)
+nsubj(yesterday, you)
+cop(yesterday, were)
+$$$
+He's proud of the man you are tonight.
+nsubj(proud, He)
+cop(proud, 's)
+nmod(proud, man)
+case(man, of)
+det(man, the)
+acl:relcl(man, tonight)
+nsubj(tonight, you)
+cop(tonight, are)
+$$$
+That's what counts.
+nsubj('s, That)
+ccomp('s, counts)
+nsubj(counts, what)
+$$$
+So do you, Fast Eddie.
+advmod(do, So)
+dobj(do, you)
+dobj(do, Eddie)
+compound(Eddie, Fast)
+$$$
+Who has?
+nsubj(has, Who)
+$$$
+I'll do it.
+nsubj(do, I)
+aux(do, 'll)
+dobj(do, it)
+$$$
+No, no more for me.
+discourse(more, No)
+neg(more, no)
+nmod(more, me)
+case(me, for)
+$$$
+No no.
+neg(no, No)
+$$$
+What the deuce do I want to
+dep(want, deuce)
+det(deuce, What)
+det(deuce, the)
+aux(want, do)
+nsubj(want, I)
+nmod(want, to)
+$$$
+Well, if it must be, it must.
+advmod(must, Well)
+advcl(must, be)
+mark(be, if)
+nsubj(be, it)
+aux(be, must)
+nsubj(must, it)
+$$$
+For a young fellow, you are the most bloodthirsty I ever saw.
+nmod(bloodthirsty, fellow)
+case(fellow, For)
+det(fellow, a)
+amod(fellow, young)
+nsubj(bloodthirsty, you)
+cop(bloodthirsty, are)
+det(bloodthirsty, the)
+amod(bloodthirsty, most)
+acl:relcl(bloodthirsty, saw)
+nsubj(saw, I)
+advmod(saw, ever)
+$$$
+No officer, bearing His Majesty's commission, can receive a glass of wine on his nose, without resenting it -- fight you must, and Best is a huge, strong fellow.
+nsubj(receive, officer)
+neg(officer, No)
+advcl(receive, bearing)
+dobj(bearing, commission)
+nmod:poss(commission, Majesty)
+nmod:poss(Majesty, His)
+case(Majesty, 's)
+aux(receive, can)
+dobj(receive, glass)
+det(glass, a)
+nmod(glass, wine)
+case(wine, of)
+nmod(receive, nose)
+case(nose, on)
+nmod:poss(nose, his)
+advcl(receive, resenting)
+mark(resenting, without)
+dobj(resenting, it)
+dep(receive, fight)
+ccomp(fight, must)
+nsubj(must, you)
+cc(must, and)
+advmod(must, Best)
+conj(must, fellow)
+cop(fellow, is)
+det(fellow, a)
+amod(fellow, huge)
+amod(fellow, strong)
+$$$
+I'll remember you said that.
+nsubj(remember, I)
+aux(remember, 'll)
+ccomp(remember, said)
+nsubj(said, you)
+dobj(said, that)
+$$$
+Yeah, he needs souls to live.
+discourse(needs, Yeah)
+nsubj(needs, he)
+dobj(needs, souls)
+xcomp(needs, live)
+mark(live, to)
+$$$
+When you guys left, you broke the gates.
+advcl(broke, left)
+advmod(left, When)
+nsubj(left, guys)
+dep(guys, you)
+nsubj(broke, you)
+dobj(broke, gates)
+det(gates, the)
+$$$
+We gotta get the gates burning again before he dies.
+nsubj(got, We)
+ccomp(got, get)
+nsubj(get, ta)
+dep(get, burning)
+nsubj(burning, gates)
+det(gates, the)
+advmod(burning, again)
+advcl(burning, dies)
+mark(dies, before)
+nsubj(dies, he)
+$$$
+A rough estimate.
+det(estimate, A)
+amod(estimate, rough)
+$$$
+Are you laughing at me, dick-brain?
+aux(laughing, Are)
+nsubj(laughing, you)
+nmod(laughing, me)
+case(me, at)
+appos(me, dick-brain)
+$$$
+I have.
+nsubj(have, I)
+$$$
+Sit down over there.
+compound:prt(Sit, down)
+nmod(Sit, there)
+case(there, over)
+$$$
+Uh --Mr. Alexander?
+dep(Uh, Alexander)
+compound(Alexander, Mr.)
+$$$
+Boy, you're so perfect you can look down on me?
+advmod(perfect, Boy)
+nsubj(perfect, you)
+cop(perfect, 're)
+advmod(perfect, so)
+ccomp(perfect, look)
+nsubj(look, you)
+aux(look, can)
+compound:prt(look, down)
+nmod(look, me)
+case(me, on)
+$$$
+...Well, you know me, Amy, at least better than that that dame does.
+discourse(know, Well)
+nsubj(know, you)
+dobj(know, me)
+appos(me, Amy)
+advmod(Amy, least)
+case(least, at)
+advmod(know, better)
+advcl(better, does)
+mark(does, than)
+mark(does, that)
+nsubj(does, dame)
+det(dame, that)
+$$$
+Do you think I'm an imbecile?
+aux(think, Do)
+nsubj(think, you)
+ccomp(think, imbecile)
+nsubj(imbecile, I)
+cop(imbecile, 'm)
+det(imbecile, an)
+$$$
+And stop threatening that boy.
+cc(stop, And)
+xcomp(stop, threatening)
+dobj(threatening, boy)
+det(boy, that)
+$$$
+He doesn't have the money.
+nsubj(have, He)
+aux(have, does)
+neg(have, n't)
+dobj(have, money)
+det(money, the)
+$$$
+Mrs. Lampert doesn't either.
+nsubj(does, Lampert)
+compound(Lampert, Mrs.)
+neg(does, n't)
+advmod(does, either)
+$$$
+You want to work at Carl's?
+nsubj(want, You)
+xcomp(want, work)
+mark(work, to)
+nmod(work, Carl)
+case(Carl, at)
+case(Carl, 's)
+$$$
+I just did, but they said you left.
+nsubj(did, I)
+advmod(did, just)
+cc(did, but)
+conj(did, said)
+nsubj(said, they)
+ccomp(said, left)
+nsubj(left, you)
+$$$
+This is a pickle, George, this is a pickle.
+ccomp(pickle, pickle)
+nsubj(pickle, This)
+cop(pickle, is)
+det(pickle, a)
+appos(pickle, George)
+nsubj(pickle, this)
+cop(pickle, is)
+det(pickle, a)
+$$$
+How's my stomach taste, she says.
+advcl(says, taste)
+advmod(taste, How)
+cop(taste, 's)
+nmod:poss(taste, my)
+compound(taste, stomach)
+nsubj(says, she)
+$$$
+Hey thanks for picking up the lunch tab, Mare.
+dep(Mare, thanks)
+nummod(thanks, Hey)
+mark(thanks, for)
+dep(thanks, picking)
+compound:prt(picking, up)
+dobj(picking, tab)
+det(tab, the)
+compound(tab, lunch)
+$$$
+Sorry I forgot my wallet.
+advmod(forgot, Sorry)
+nsubj(forgot, I)
+dobj(forgot, wallet)
+nmod:poss(wallet, my)
+$$$
+I feel like a dog.
+nsubj(feel, I)
+nmod(feel, dog)
+case(dog, like)
+det(dog, a)
+$$$
+That's why it's okay.
+nsubj('s, That)
+advcl('s, okay)
+advmod(okay, why)
+nsubj(okay, it)
+cop(okay, 's)
+$$$
+You're gonna have to kill me to keep me away from Lula.
+nsubj(gon, You)
+aux(gon, 're)
+xcomp(gon, have)
+mark(have, na)
+xcomp(have, kill)
+mark(kill, to)
+dobj(kill, me)
+xcomp(kill, keep)
+mark(keep, to)
+dobj(keep, me)
+compound:prt(keep, away)
+nmod(keep, Lula)
+case(Lula, from)
+$$$
+Everybody that she plays with dies.
+nsubj(dies, Everybody)
+dep(Everybody, plays)
+mark(plays, that)
+nsubj(plays, she)
+nmod(plays, with)
+$$$
+My God!
+compound(God, My)
+$$$
+The Bumstead contracts!
+nsubj(contracts, Bumstead)
+det(Bumstead, The)
+$$$
+And to prove to the voters that the Red Menace is on the level, the Sheriff has written himself four more letters, threatening his life.
+cc(written, And)
+advcl(written, prove)
+mark(prove, to)
+nmod(prove, voters)
+case(voters, to)
+det(voters, the)
+ccomp(prove, level)
+mark(level, that)
+nsubj(level, Menace)
+det(Menace, the)
+compound(Menace, Red)
+cop(level, is)
+case(level, on)
+det(level, the)
+nsubj(written, Sheriff)
+det(Sheriff, the)
+aux(written, has)
+xcomp(written, letters)
+nsubj(letters, himself)
+nummod(letters, four)
+amod(letters, more)
+acl(letters, threatening)
+dobj(threatening, life)
+nmod:poss(life, his)
+$$$
+I know he wrote 'em on account of the misspellings.
+nsubj(know, I)
+ccomp(know, wrote)
+nsubj(wrote, he)
+dobj(wrote, 'em)
+nmod(wrote, account)
+case(account, on)
+nmod(account, misspellings)
+case(misspellings, of)
+det(misspellings, the)
+$$$
+Oh, that was Phil, trying to give me advice on dating 70's women.
+discourse(Phil, Oh)
+nsubj(Phil, that)
+cop(Phil, was)
+advcl(Phil, trying)
+xcomp(trying, give)
+mark(give, to)
+iobj(give, me)
+dobj(give, advice)
+acl(advice, dating)
+mark(dating, on)
+dobj(dating, women)
+nmod:poss(women, 70)
+case(70, 's)
+$$$
+Look I'm so out of touch, I haven't dated women in ages, not since my wife died.
+ccomp(dated, Look)
+ccomp(Look, touch)
+nsubj(touch, I)
+cop(touch, 'm)
+advmod(touch, out)
+advmod(out, so)
+case(touch, of)
+nsubj(dated, I)
+aux(dated, have)
+neg(dated, n't)
+dobj(dated, women)
+nmod(women, ages)
+case(ages, in)
+advcl(dated, died)
+dep(died, not)
+mark(died, since)
+nsubj(died, wife)
+nmod:poss(wife, my)
+$$$
+Rita.
+$$$
+Rita.
+$$$
+So you're on your way to Tir Asleen, huh?
+dep(way, So)
+nsubj(way, you)
+cop(way, 're)
+case(way, on)
+nmod:poss(way, your)
+nmod(way, Asleen)
+case(Asleen, to)
+compound(Asleen, Tir)
+appos(Asleen, huh)
+$$$
+I hate to tell you this, Willow, but Tir Asleen dosn't exist.
+nsubj(hate, I)
+xcomp(hate, tell)
+mark(tell, to)
+iobj(tell, you)
+dobj(tell, this)
+appos(this, Willow)
+cc(hate, but)
+conj(hate, dos)
+nsubj(dos, Asleen)
+compound(Asleen, Tir)
+neg(dos, n't)
+dep(dos, exist)
+$$$
+You look great.
+nsubj(look, You)
+xcomp(look, great)
+$$$
+How about the "Hell Merchants"?
+nmod(How, Merchants)
+case(Merchants, about)
+det(Merchants, the)
+compound(Merchants, Hell)
+$$$
+Where did you steal the car?
+advmod(steal, Where)
+aux(steal, did)
+nsubj(steal, you)
+dobj(steal, car)
+det(car, the)
+$$$
+Gee, I hope they don't have a fight out there.
+advmod(hope, Gee)
+nsubj(hope, I)
+ccomp(hope, have)
+nsubj(have, they)
+aux(have, do)
+neg(have, n't)
+dobj(have, fight)
+det(fight, a)
+nmod(have, there)
+case(there, out)
+$$$
+You don't think they'll call it off...?
+nsubj(think, You)
+aux(think, do)
+neg(think, n't)
+ccomp(think, call)
+nsubj(call, they)
+aux(call, 'll)
+dobj(call, it)
+compound:prt(call, off)
+$$$
+I'm sorry, Mr. Dobisch.
+nsubj(sorry, I)
+cop(sorry, 'm)
+dep(sorry, Dobisch)
+compound(Dobisch, Mr.)
+$$$
+You know I like to help you guys out -- but it's sort of late -- so why don't we make it some other time?
+nsubj(know, You)
+ccomp(know, like)
+nsubj(like, I)
+xcomp(like, help)
+mark(help, to)
+dobj(help, you)
+advmod(help, guys)
+case(guys, out)
+parataxis(know, sort)
+cc(sort, but)
+nsubj(sort, it)
+cop(sort, 's)
+nmod(sort, late)
+case(late, of)
+dep(sort, make)
+advmod(make, why)
+advmod(why, so)
+aux(make, do)
+neg(make, n't)
+nsubj(make, we)
+iobj(make, it)
+dobj(make, time)
+det(time, some)
+amod(time, other)
+$$$
+Let's just figure that out later -- Ok.
+nsubj(figure, Let)
+case(Let, 's)
+advmod(figure, just)
+advmod(figure, later)
+dep(later, that)
+case(later, out)
+dobj(figure, Ok)
+$$$
+I gotta go.
+nsubj(got, I)
+ccomp(got, go)
+nsubj(go, ta)
+$$$
+I'm just gonna go now and I'll call you from there, you're in charge 'till I get back.
+ccomp('till, gon)
+nsubj(gon, I)
+aux(gon, 'm)
+advmod(gon, just)
+xcomp(gon, go)
+mark(go, na)
+advmod(go, now)
+cc(gon, and)
+conj(gon, call)
+nsubj(call, I)
+aux(call, 'll)
+dobj(call, you)
+nmod(call, there)
+case(there, from)
+nsubj('till, you)
+cop('till, 're)
+nmod('till, charge)
+case(charge, in)
+ccomp('till, get)
+nsubj(get, I)
+advmod(get, back)
+$$$
+And don't tell my sisters anything?
+cc(tell, And)
+aux(tell, do)
+neg(tell, n't)
+dobj(tell, anything)
+nmod:poss(anything, my)
+compound(anything, sisters)
+$$$
+He exits.
+nsubj(exits, He)
+$$$
+Enzo drop it, I'll find something.
+ccomp(find, drop)
+nsubj(drop, Enzo)
+dobj(drop, it)
+nsubj(find, I)
+aux(find, 'll)
+dobj(find, something)
+$$$
+What?
+$$$
+Who's that?
+cop(Who, 's)
+nsubj(Who, that)
+$$$
+You don't think they're too big?
+nsubj(think, You)
+aux(think, do)
+neg(think, n't)
+ccomp(think, big)
+nsubj(big, they)
+cop(big, 're)
+advmod(big, too)
+$$$
+You, maybe you're the company's biggest moron.
+nsubj(moron, You)
+nsubj(moron, you)
+advmod(you, maybe)
+cop(moron, 're)
+nmod:poss(moron, company)
+det(company, the)
+case(company, 's)
+amod(moron, biggest)
+$$$
+We can't use Morris, he's been with us too long, he's a nice guy, too many friends.
+nsubj(use, We)
+aux(use, ca)
+neg(use, n't)
+dobj(use, Morris)
+parataxis(use, us)
+nsubjpass(us, he)
+auxpass(us, 's)
+cop(us, been)
+case(us, with)
+advmod(us, long)
+advmod(long, too)
+parataxis(use, guy)
+nsubj(guy, he)
+cop(guy, 's)
+det(guy, a)
+amod(guy, nice)
+advmod(guy, too)
+dep(guy, friends)
+amod(friends, many)
+$$$
+Matter of fact, why don't you fire him.
+dep(fire, Matter)
+nmod(Matter, fact)
+case(fact, of)
+advmod(fire, why)
+aux(fire, do)
+neg(fire, n't)
+nsubj(fire, you)
+dobj(fire, him)
+$$$
+No -- scratch that; I'll fire him.
+dep(No, scratch)
+dep(scratch, that)
+dep(scratch, fire)
+nsubj(fire, I)
+aux(fire, 'll)
+dobj(fire, him)
+$$$
+...Make it fast, make it fast.
+parataxis(make, Make)
+xcomp(Make, fast)
+nsubj(fast, it)
+dobj(make, it)
+advmod(make, fast)
+$$$
+Alone?
+$$$
+Goodnight.
+$$$
+Uh, well ... we flipped a coin.
+dep(flipped, Uh)
+dep(Uh, well)
+nsubj(flipped, we)
+dobj(flipped, coin)
+det(coin, a)
+$$$
+I am relaxing.
+nsubj(relaxing, I)
+aux(relaxing, am)
+$$$
+I felt pretty low, Sally, when I heard you were running around with a racketeer--
+nsubj(felt, I)
+advmod(felt, low)
+advmod(low, pretty)
+advmod(low, Sally)
+acl:relcl(Sally, heard)
+advmod(heard, when)
+nsubj(heard, I)
+ccomp(heard, running)
+nsubj(running, you)
+aux(running, were)
+compound:prt(running, around)
+nmod(Sally, racketeer)
+case(racketeer, with)
+det(racketeer, a)
+$$$
+Yeah, I appreciate it.
+discourse(appreciate, Yeah)
+nsubj(appreciate, I)
+dobj(appreciate, it)
+$$$
+Thanks, Josef.
+appos(Thanks, Josef)
+$$$
+What it was, probably...
+dep(was, What)
+nsubj(was, it)
+parataxis(was, probably)
+$$$
+Yeah, but how are they making the salmon?
+cc(Yeah, but)
+dep(Yeah, are)
+advmod(are, how)
+dep(are, making)
+nsubj(making, they)
+dobj(making, salmon)
+det(salmon, the)
+$$$
+Poached with a yogurt-dill sauce?
+nmod(Poached, sauce)
+case(sauce, with)
+det(sauce, a)
+amod(sauce, yogurt-dill)
+$$$
+Teriyaki?
+$$$
+Curry?
+$$$
+Thank you, dad, I got it.
+ccomp(got, Thank)
+dobj(Thank, you)
+advmod(got, dad)
+nsubj(got, I)
+dobj(got, it)
+$$$
+I can't make the tenth.
+nsubj(make, I)
+aux(make, ca)
+neg(make, n't)
+dobj(make, tenth)
+det(tenth, the)
+$$$
+I'm sorry.
+nsubj(sorry, I)
+cop(sorry, 'm)
+$$$
+I'm sorry, Wyatt.
+nsubj(sorry, I)
+cop(sorry, 'm)
+dep(sorry, Wyatt)
+$$$
+God, I'm so sorry.
+advmod(sorry, God)
+nsubj(sorry, I)
+cop(sorry, 'm)
+advmod(sorry, so)
+$$$
+He didn't?
+nsubj(did, He)
+neg(did, n't)
+$$$
+I didn't know you were into that.
+nsubj(know, I)
+aux(know, did)
+neg(know, n't)
+ccomp(know, that)
+nsubj(that, you)
+cop(that, were)
+case(that, into)
+$$$
+Isn't it strange that you always happened to be fighting on the side of the underdog?
+cop(strange, Is)
+neg(strange, n't)
+nsubj(strange, it)
+dep(strange, happened)
+mark(happened, that)
+nsubj(happened, you)
+advmod(happened, always)
+xcomp(happened, fighting)
+mark(fighting, to)
+aux(fighting, be)
+nmod(fighting, side)
+case(side, on)
+det(side, the)
+nmod(side, underdog)
+case(underdog, of)
+det(underdog, the)
+$$$
+No, you're wrong.
+discourse(wrong, No)
+nsubj(wrong, you)
+cop(wrong, 're)
+$$$
+It's just beginning.
+nsubj(beginning, It)
+aux(beginning, 's)
+advmod(beginning, just)
+$$$
+Come on, have a drink.
+advcl(have, on)
+case(on, Come)
+dobj(have, drink)
+det(drink, a)
+$$$
+Show your big brother how it's done.
+dobj(Show, brother)
+nmod:poss(brother, your)
+amod(brother, big)
+dep(Show, done)
+advmod(done, how)
+nsubjpass(done, it)
+auxpass(done, 's)
+$$$
+Oh, they'll come.
+discourse(come, Oh)
+nsubj(come, they)
+aux(come, 'll)
+$$$
+I'll have Guild issue the invitations.
+nsubj(have, I)
+aux(have, 'll)
+ccomp(have, issue)
+nsubj(issue, Guild)
+dobj(issue, invitations)
+det(invitations, the)
+$$$
+It's a mistake, honey.
+nsubj(mistake, It)
+cop(mistake, 's)
+det(mistake, a)
+appos(mistake, honey)
+$$$
+You two go on.
+nsubj(go, You)
+nsubj(go, two)
+compound:prt(go, on)
+$$$
+I'll walk back to the depot.
+nsubj(walk, I)
+aux(walk, 'll)
+compound:prt(walk, back)
+nmod(walk, depot)
+case(depot, to)
+det(depot, the)
+$$$
+Oh, yes.
+discourse(Oh, yes)
+$$$
+She's the best operator in the building.
+nsubj(operator, She)
+cop(operator, 's)
+det(operator, the)
+amod(operator, best)
+nmod(operator, building)
+case(building, in)
+det(building, the)
+$$$
+Yes, I get the point.
+discourse(get, Yes)
+nsubj(get, I)
+dobj(get, point)
+det(point, the)
+$$$
+What-are you?
+dobj(What-are, you)
+$$$
+A fucking moron?
+det(moron, A)
+amod(moron, fucking)
+$$$
+It's three o'clock in the morning, Frank.
+nsubj(three, It)
+cop(three, 's)
+advmod(three, o'clock)
+nmod(three, morning)
+case(morning, in)
+det(morning, the)
+appos(morning, Frank)
+$$$
+Who's watching?
+nsubj(watching, Who)
+aux(watching, 's)
+$$$
+Your wife?
+nmod:poss(wife, Your)
+$$$
+Maybe you can get us a gig playing Little Frank's birthday party.
+advmod(get, Maybe)
+nsubj(get, you)
+aux(get, can)
+xcomp(get, gig)
+nsubj(gig, us)
+det(gig, a)
+acl(gig, playing)
+dobj(playing, party)
+nmod:poss(party, Frank)
+compound(Frank, Little)
+case(Frank, 's)
+compound(party, birthday)
+$$$
+What do you think?
+dobj(think, What)
+aux(think, do)
+nsubj(think, you)
+$$$
+Sorry, sorry...
+amod(sorry, Sorry)
+$$$
+Be more specific.
+cop(specific, Be)
+advmod(specific, more)
+$$$
+Well, I'll give you a shot of sodium pentothal.
+discourse(give, Well)
+nsubj(give, I)
+aux(give, 'll)
+iobj(give, you)
+dobj(give, shot)
+det(shot, a)
+nmod(shot, pentothal)
+case(pentothal, of)
+compound(pentothal, sodium)
+$$$
+You can sleep through it.
+nsubj(sleep, You)
+aux(sleep, can)
+nmod(sleep, it)
+case(it, through)
+$$$
+Oh, well...those are...I mean, we don't get to keep our work.
+dep(are, well)
+discourse(well, Oh)
+nsubj(are, those)
+parataxis(are, mean)
+nsubj(mean, I)
+parataxis(are, get)
+nsubj(get, we)
+aux(get, do)
+neg(get, n't)
+xcomp(get, keep)
+mark(keep, to)
+dobj(keep, work)
+nmod:poss(work, our)
+$$$
+I could maybe ask them if you could choose one.
+nsubj(ask, I)
+aux(ask, could)
+advmod(ask, maybe)
+dobj(ask, them)
+advcl(ask, choose)
+mark(choose, if)
+nsubj(choose, you)
+aux(choose, could)
+dobj(choose, one)
+$$$
+But, you know, frankly George, you were the best.
+cc(best, But)
+parataxis(best, know)
+nsubj(know, you)
+advmod(best, frankly)
+nsubj(best, George)
+nsubj(best, you)
+cop(best, were)
+det(best, the)
+$$$
+Computer models can't begin to match the beauty you gave yours.
+nsubj(begin, models)
+compound(models, Computer)
+aux(begin, ca)
+neg(begin, n't)
+xcomp(begin, match)
+mark(match, to)
+dobj(match, beauty)
+det(beauty, the)
+acl:relcl(beauty, gave)
+nsubj(gave, you)
+dobj(gave, yours)
+$$$
+They're a part of this firm.
+nsubj(part, They)
+cop(part, 're)
+det(part, a)
+nmod(part, firm)
+case(firm, of)
+det(firm, this)
+$$$
+They inspire me.
+nsubj(inspire, They)
+dobj(inspire, me)
+$$$
+I go out there and sometimes just stare at something I've designed.
+dep(designed, go)
+nsubj(go, I)
+xcomp(go, there)
+advmod(there, out)
+cc(there, and)
+conj(there, stare)
+advmod(stare, sometimes)
+advmod(stare, just)
+nmod(stare, something)
+case(something, at)
+nsubj(designed, I)
+aux(designed, 've)
+$$$
+It amazes me.
+nsubj(amazes, It)
+dobj(amazes, me)
+$$$
+I would miss that too much.
+nsubj(miss, I)
+aux(miss, would)
+xcomp(miss, much)
+nsubj(much, that)
+advmod(much, too)
+$$$
+Look, I may be going out on a limb, but you go out there and look them over, every single one of them and pick the one you like the best and take it with you.
+ccomp(going, Look)
+nsubj(going, I)
+aux(going, may)
+aux(going, be)
+compound:prt(going, out)
+nmod(going, limb)
+case(limb, on)
+det(limb, a)
+cc(going, but)
+conj(going, go)
+nsubj(go, you)
+compound:prt(go, out)
+advmod(go, there)
+cc(go, and)
+conj(go, look)
+dobj(look, them)
+compound:prt(look, over)
+dobj(go, one)
+det(one, every)
+amod(one, single)
+nmod(one, them)
+case(them, of)
+cc(go, and)
+conj(go, pick)
+dobj(pick, one)
+det(one, the)
+dobj(go, you)
+nmod(go, best)
+case(best, like)
+det(best, the)
+cc(go, and)
+conj(go, take)
+dobj(take, it)
+nmod(take, you)
+case(you, with)
+$$$
+Just run it by me first, just in case, you know...but I'm sure it'll be okay.
+advcl(know, run)
+advmod(run, Just)
+dobj(run, it)
+advcl(run, first)
+nmod(first, me)
+case(me, by)
+dep(first, just)
+nmod(first, case)
+case(case, in)
+nsubj(know, you)
+cc(know, but)
+conj(know, sure)
+nsubj(sure, I)
+cop(sure, 'm)
+ccomp(sure, okay)
+nsubj(okay, it)
+aux(okay, 'll)
+cop(okay, be)
+$$$
+Strip?
+$$$
+Yes.
+$$$
+Friedman s the fuckin Austrian!
+nsubj(Austrian, Friedman)
+cop(Austrian, s)
+det(Austrian, the)
+compound(Austrian, fuckin)
+$$$
+No, sir.
+discourse(sir, No)
+$$$
+I went to St. Severin church.
+nsubj(went, I)
+nmod(went, church)
+case(church, to)
+compound(church, St.)
+compound(church, Severin)
+$$$
+Now look -
+nsubj(look, Now)
+$$$
+I am Inspector Edouard Grandpierre of the Police Judiciaire.
+nsubj(Grandpierre, I)
+cop(Grandpierre, am)
+compound(Grandpierre, Inspector)
+compound(Grandpierre, Edouard)
+nmod(Grandpierre, Judiciaire)
+case(Judiciaire, of)
+det(Judiciaire, the)
+compound(Judiciaire, Police)
+$$$
+Would you be so kind as to come with me, please?
+aux(kind, Would)
+nsubj(kind, you)
+cop(kind, be)
+advmod(kind, so)
+advcl(kind, come)
+mark(come, as)
+mark(come, to)
+nmod(come, me)
+case(me, with)
+discourse(come, please)
+$$$
+So it's not a meaningful symbol, or anything.
+dep(symbol, So)
+nsubj(symbol, it)
+cop(symbol, 's)
+neg(symbol, not)
+det(symbol, a)
+amod(symbol, meaningful)
+cc(symbol, or)
+conj(symbol, anything)
+$$$
+That badge is just the badge of your company.
+nsubj(badge, badge)
+det(badge, That)
+cop(badge, is)
+advmod(badge, just)
+det(badge, the)
+nmod(badge, company)
+case(company, of)
+nmod:poss(company, your)
+$$$
+If I look suspicious on your customers' property-- well, under those heightened circumstances you have the authority to, ah... To shoot me.
+advcl(have, look)
+mark(look, If)
+nsubj(look, I)
+xcomp(look, suspicious)
+nmod(look, property)
+case(property, on)
+nmod:poss(property, customers)
+nmod:poss(customers, your)
+case(customers, ')
+advmod(have, well)
+nmod(have, circumstances)
+case(circumstances, under)
+det(circumstances, those)
+amod(circumstances, heightened)
+case(circumstances, to)
+nsubj(have, you)
+dobj(have, authority)
+det(authority, the)
+advmod(have, ah)
+parataxis(have, shoot)
+mark(shoot, To)
+dobj(shoot, me)
+$$$
+But --
+$$$
+That's it!
+nsubj(it, That)
+cop(it, 's)
+$$$
+Eve!
+$$$
+This guy is un-be-liev-able!
+nsubj(un-be-liev-able, guy)
+det(guy, This)
+cop(un-be-liev-able, is)
+$$$
+Ellie, it was a formal party...
+advmod(party, Ellie)
+nsubj(party, it)
+cop(party, was)
+det(party, a)
+amod(party, formal)
+$$$
+No, the very same one, my boy.
+discourse(same, No)
+det(same, the)
+advmod(same, very)
+dep(same, one)
+appos(same, boy)
+nmod:poss(boy, my)
+$$$
+He recovered from his wound.
+nsubj(recovered, He)
+nmod(recovered, wound)
+case(wound, from)
+nmod:poss(wound, his)
+$$$
+The ball you hit him with was not likely to hurt him.
+nsubj(likely, ball)
+det(ball, The)
+acl:relcl(ball, hit)
+nsubj(hit, you)
+dobj(hit, him)
+nmod(hit, with)
+cop(likely, was)
+neg(likely, not)
+xcomp(likely, hurt)
+mark(hurt, to)
+dobj(hurt, him)
+$$$
+It was only made of tow.
+nsubjpass(made, It)
+auxpass(made, was)
+advmod(made, only)
+nmod(made, tow)
+case(tow, of)
+$$$
+Do you think the Dugans would let you kill fifteen hundred a-year out of the family?
+aux(think, Do)
+nsubj(think, you)
+ccomp(think, let)
+nsubj(let, Dugans)
+det(Dugans, the)
+aux(let, would)
+ccomp(let, kill)
+nsubj(kill, you)
+dobj(kill, fifteen)
+nmod(fifteen, family)
+advmod(family, a-year)
+nummod(a-year, hundred)
+case(a-year, out)
+case(family, of)
+det(family, the)
+$$$
+The plan of the duel was all arranged in order to get you out of the way, for the cowardly Englishman could never be brought to marry from fear of you.
+nsubjpass(arranged, plan)
+det(plan, The)
+nmod(plan, duel)
+case(duel, of)
+det(duel, the)
+auxpass(arranged, was)
+advmod(arranged, all)
+advcl(arranged, in)
+mwe(in, order)
+xcomp(arranged, get)
+mark(get, to)
+dobj(get, you)
+compound:prt(get, out)
+nmod(get, way)
+case(way, of)
+det(way, the)
+advcl(get, brought)
+mark(brought, for)
+nsubjpass(brought, Englishman)
+det(Englishman, the)
+amod(Englishman, cowardly)
+aux(brought, could)
+neg(brought, never)
+auxpass(brought, be)
+xcomp(brought, marry)
+mark(marry, to)
+nmod(marry, fear)
+case(fear, from)
+nmod(fear, you)
+case(you, of)
+$$$
+But hit him you certainly did, Roderick, and with a fine thick plugget of tow, and the fellow was so frightened that he was an hour in coming to.
+cc(hit, But)
+dobj(hit, him)
+ccomp(hit, did)
+nsubj(did, you)
+advmod(did, certainly)
+dobj(did, Roderick)
+cc(did, and)
+conj(did, with)
+xcomp(with, plugget)
+det(plugget, a)
+amod(plugget, thick)
+amod(thick, fine)
+nmod(plugget, tow)
+case(tow, of)
+cc(hit, and)
+conj(hit, frightened)
+nsubj(frightened, fellow)
+det(fellow, the)
+cop(frightened, was)
+advmod(frightened, so)
+ccomp(frightened, hour)
+mark(hour, that)
+nsubj(hour, he)
+cop(hour, was)
+det(hour, an)
+acl(hour, coming)
+mark(coming, in)
+nmod(coming, to)
+$$$
+We told your mother the story afterwards, and a pretty scene she made.
+nsubj(told, We)
+dobj(told, mother)
+nmod:poss(mother, your)
+dep(mother, story)
+det(story, the)
+advmod(story, afterwards)
+cc(mother, and)
+conj(mother, scene)
+det(scene, a)
+amod(scene, pretty)
+acl:relcl(scene, made)
+nsubj(made, she)
+$$$
+If I could lay my hands on those letters, I could make a fortune.
+advcl(make, lay)
+mark(lay, If)
+nsubj(lay, I)
+aux(lay, could)
+dobj(lay, hands)
+nmod:poss(hands, my)
+nmod(lay, letters)
+case(letters, on)
+det(letters, those)
+nsubj(make, I)
+aux(make, could)
+dobj(make, fortune)
+det(fortune, a)
+$$$
+Jeanne -- be careful -- you're not helping yourself by refusing to submit to our judgment...
+advmod(helping, Jeanne)
+parataxis(helping, careful)
+cop(careful, be)
+nsubj(helping, you)
+aux(helping, 're)
+neg(helping, not)
+dobj(helping, yourself)
+advcl(helping, refusing)
+mark(refusing, by)
+xcomp(refusing, submit)
+mark(submit, to)
+nmod(submit, judgment)
+case(judgment, to)
+nmod:poss(judgment, our)
+$$$
+Signora Maria, don't do that.
+nsubj(do, Maria)
+compound(Maria, Signora)
+aux(do, do)
+neg(do, n't)
+dobj(do, that)
+$$$
+He's just a kid.
+nsubj(kid, He)
+cop(kid, 's)
+advmod(kid, just)
+det(kid, a)
+$$$
+And why are you telling fibs?
+cc(telling, And)
+advmod(telling, why)
+aux(telling, are)
+nsubj(telling, you)
+dobj(telling, fibs)
+$$$
+We let him in free.
+nsubj(let, We)
+dobj(let, him)
+advcl(let, free)
+case(free, in)
+$$$
+He must have lost the money inside the movie theatre... How much did you have?
+nsubj(lost, He)
+aux(lost, must)
+aux(lost, have)
+dobj(lost, money)
+det(money, the)
+nmod(money, theatre)
+case(theatre, inside)
+det(theatre, the)
+compound(theatre, movie)
+dep(money, have)
+dep(have, much)
+advmod(much, How)
+aux(have, did)
+nsubj(have, you)
+$$$
+No.
+$$$
+I definitely don't.
+nsubj(do, I)
+advmod(do, definitely)
+neg(do, n't)
+$$$
+I did the sa--
+nsubj(did, I)
+dobj(did, sa)
+det(sa, the)
+$$$
+The Falkner sisters are rather timid, Your Honor, and wish to be together.
+nsubj(timid, sisters)
+det(sisters, The)
+compound(sisters, Falkner)
+cop(timid, are)
+advmod(timid, rather)
+dep(timid, Honor)
+nmod:poss(Honor, Your)
+cc(timid, and)
+conj(timid, wish)
+xcomp(wish, together)
+mark(together, to)
+cop(together, be)
+$$$
+If the court pleases, I will only have one of them testify.
+advcl(have, pleases)
+mark(pleases, If)
+nsubj(pleases, court)
+det(court, the)
+nsubj(have, I)
+aux(have, will)
+advmod(have, only)
+ccomp(have, testify)
+nsubj(testify, one)
+nmod(one, them)
+case(them, of)
+$$$
+Why not you -- Jean d'Aulon?
+advmod(d'Aulon, not)
+advmod(not, Why)
+nsubj(d'Aulon, you)
+nsubj(d'Aulon, Jean)
+$$$
+The only man who's poorer than I am, and so the only man I can trust.
+nsubj(trust, man)
+det(man, The)
+amod(man, only)
+acl:relcl(man, poorer)
+nsubj(poorer, who)
+cop(poorer, 's)
+advcl(poorer, am)
+mark(am, than)
+nsubj(am, I)
+cc(am, and)
+conj(am, I)
+dep(I, man)
+advmod(man, so)
+det(man, the)
+amod(man, only)
+aux(trust, can)
+$$$
+Dignified, honorable, wise... what more could we ask of a king?
+advmod(Dignified, honorable)
+dobj(Dignified, wise)
+dep(wise, ask)
+dobj(ask, more)
+det(more, what)
+aux(ask, could)
+nsubj(ask, we)
+nmod(ask, king)
+case(king, of)
+det(king, a)
+$$$
+It's more than that.
+nsubj(that, It)
+cop(that, 's)
+advmod(that, more)
+case(more, than)
+$$$
+Wait!
+$$$
+Wait!
+$$$
+I guess I'll make me some trouble in that town.
+nsubj(guess, I)
+ccomp(guess, make)
+nsubj(make, I)
+aux(make, 'll)
+xcomp(make, trouble)
+nsubj(trouble, me)
+det(trouble, some)
+nmod(trouble, town)
+case(town, in)
+det(town, that)
+$$$
+Not now.
+dep(Not, now)
+$$$
+What?
+$$$
+I told you, I love other people.
+ccomp(love, told)
+nsubj(told, I)
+dobj(told, you)
+nsubj(love, I)
+dobj(love, people)
+amod(people, other)
+$$$
+There aren't any coyotes in England.
+expl(are, There)
+neg(are, n't)
+nsubj(are, coyotes)
+det(coyotes, any)
+nmod(coyotes, England)
+case(England, in)
+$$$
+Different.
+$$$
+Hey, what about Sunday dinner?
+discourse(what, Hey)
+nmod(what, dinner)
+case(dinner, about)
+compound(dinner, Sunday)
+$$$
+When're you gonna let me know?
+advmod('re, When)
+nsubj('re, you)
+dep('re, gon)
+xcomp(gon, let)
+mark(let, na)
+ccomp(let, know)
+nsubj(know, me)
+$$$
+No.
+$$$
+Oh, you're speaking of my charming wife Mrs. Alabama Worley.
+discourse(speaking, Oh)
+nsubj(speaking, you)
+aux(speaking, 're)
+nmod(speaking, Worley)
+case(Worley, of)
+nmod:poss(Worley, my)
+amod(Worley, charming)
+compound(Worley, wife)
+compound(Worley, Mrs.)
+compound(Worley, Alabama)
+$$$
+I'm Nuke LaLoosh.
+nsubj(LaLoosh, I)
+cop(LaLoosh, 'm)
+compound(LaLoosh, Nuke)
+$$$
+With the Bulls.
+case(Bulls, With)
+det(Bulls, the)
+$$$
+Yeah?
+$$$
+Why not --
+neg(Why, not)
+$$$
+Sir, we have but eighty thousand florins in bank, or two hundred thousand at three months; if your highness' bags do not contain more than eight thousand, we will meet you.
+nsubj(have, Sir)
+nsubj(have, we)
+cc(have, but)
+conj(have, eighty)
+dobj(eighty, florins)
+nummod(florins, thousand)
+nmod(florins, bank)
+case(bank, in)
+cc(florins, or)
+conj(florins, hundred)
+nummod(hundred, two)
+dep(hundred, months)
+nummod(months, three)
+compound(three, thousand)
+advmod(three, at)
+parataxis(have, meet)
+advcl(meet, contain)
+mark(contain, if)
+nsubj(contain, bags)
+nmod:poss(bags, highness)
+nmod:poss(highness, your)
+case(highness, ')
+aux(contain, do)
+neg(contain, not)
+dobj(contain, thousand)
+advmod(thousand, more)
+mwe(more, than)
+compound(thousand, eight)
+nsubj(meet, we)
+aux(meet, will)
+dobj(meet, you)
+$$$
+Just the same.
+advmod(the, Just)
+dep(the, same)
+$$$
+Put my car in the garage and close the door.
+dobj(Put, car)
+nmod:poss(car, my)
+nmod(Put, garage)
+case(garage, in)
+det(garage, the)
+cc(Put, and)
+conj(Put, close)
+dobj(close, door)
+det(door, the)
+$$$
+I was only asking if you are related to the Lavals of Marseilles.
+nsubj(asking, I)
+aux(asking, was)
+advmod(asking, only)
+advcl(asking, related)
+mark(related, if)
+nsubjpass(related, you)
+auxpass(related, are)
+nmod(related, Lavals)
+case(Lavals, to)
+det(Lavals, the)
+nmod(Lavals, Marseilles)
+case(Marseilles, of)
+$$$
+Oh, that's nice.
+discourse(nice, Oh)
+nsubj(nice, that)
+cop(nice, 's)
+$$$
+You do?
+nsubj(do, You)
+$$$
+I'm not settling for anything.
+nsubj(settling, I)
+aux(settling, 'm)
+neg(settling, not)
+nmod(settling, anything)
+case(anything, for)
+$$$
+I like cars, it's just not a move up the ladder to you, so you think it's a waste.
+ccomp('s, like)
+nsubj(like, I)
+dobj(like, cars)
+nsubj('s, it)
+advmod('s, just)
+nmod:npmod(just, move)
+neg(move, not)
+det(move, a)
+advmod('s, up)
+nmod:npmod(up, ladder)
+det(ladder, the)
+nmod(up, you)
+case(you, to)
+advcl('s, think)
+mark(think, so)
+nsubj(think, you)
+ccomp(think, waste)
+nsubj(waste, it)
+cop(waste, 's)
+det(waste, a)
+$$$
+What's Kirshner?
+cop(What, 's)
+nsubj(What, Kirshner)
+$$$
+You just ripped my card in two!
+nsubj(ripped, You)
+advmod(ripped, just)
+dobj(ripped, card)
+nmod:poss(card, my)
+nmod(ripped, two)
+case(two, in)
+$$$
+Are you going to the reunion?
+aux(going, Are)
+nsubj(going, you)
+nmod(going, reunion)
+case(reunion, to)
+det(reunion, the)
+$$$
+How many could you handle?
+dep(handle, many)
+advmod(many, How)
+aux(handle, could)
+nsubj(handle, you)
+$$$
+Why did he try to kill me?
+advmod(try, Why)
+aux(try, did)
+nsubj(try, he)
+xcomp(try, kill)
+mark(kill, to)
+dobj(kill, me)
+$$$
+That's a lie!
+nsubj(lie, That)
+cop(lie, 's)
+det(lie, a)
+$$$
+Listen don't believe what he says .
+nsubj(believe, Listen)
+aux(believe, do)
+neg(believe, n't)
+ccomp(believe, says)
+dobj(says, what)
+nsubj(says, he)
+$$$
+.
+$$$
+.
+$$$
+The one I'm buying this week will cost around 150 million.
+nsubj(cost, one)
+det(one, The)
+acl:relcl(one, buying)
+nsubj(buying, I)
+aux(buying, 'm)
+nmod:tmod(buying, week)
+det(week, this)
+aux(cost, will)
+nmod(cost, million)
+case(million, around)
+compound(million, 150)
+$$$
+That's the wrong one.
+nsubj(one, That)
+cop(one, 's)
+det(one, the)
+amod(one, wrong)
+$$$
+Indeed you must, Baron -- you must.
+advmod(must, Indeed)
+nsubj(must, you)
+dobj(must, Baron)
+parataxis(Baron, must)
+nsubj(must, you)
+$$$
+Humm -- humm, but you must go to jail, Baron, you're a thief.
+dep(Humm, humm)
+dep(Humm, thief)
+ccomp(thief, go)
+cc(go, but)
+nsubj(go, you)
+aux(go, must)
+nmod(go, jail)
+case(jail, to)
+appos(jail, Baron)
+nsubj(thief, you)
+cop(thief, 're)
+det(thief, a)
+$$$
+Did you fix the damn film?
+aux(fix, Did)
+nsubj(fix, you)
+dobj(fix, film)
+det(film, the)
+amod(film, damn)
+$$$
+It broke in the last reel.
+nsubj(broke, It)
+nmod(broke, reel)
+case(reel, in)
+det(reel, the)
+amod(reel, last)
+$$$
+I'm not leaving this room until you say yes.
+nsubj(leaving, I)
+aux(leaving, 'm)
+neg(leaving, not)
+dobj(leaving, room)
+det(room, this)
+advcl(leaving, say)
+mark(say, until)
+nsubj(say, you)
+dobj(say, yes)
+$$$
+Dead at forty-one.
+nmod(Dead, forty-one)
+case(forty-one, at)
+$$$
+Here's another twenty.
+nsubj(twenty, Here)
+cop(twenty, 's)
+det(twenty, another)
+$$$
+Will that do?
+aux(do, Will)
+nsubj(do, that)
+$$$
+I mean, what's it going to take!
+nsubj(mean, I)
+ccomp(mean, going)
+dep(going, what)
+aux(going, 's)
+nsubj(going, it)
+xcomp(going, take)
+mark(take, to)
+$$$
+Reading.
+$$$
+Oh, God.
+discourse(God, Oh)
+$$$
+I'm awake.
+nsubj(awake, I)
+cop(awake, 'm)
+$$$
+C'mon big 'un, you're okay...
+ccomp(okay, un)
+nsubj(un, C'mon)
+amod(C'mon, big)
+nsubj(okay, you)
+cop(okay, 're)
+$$$
+What I'm not.
+dobj('m, What)
+nsubj('m, I)
+neg('m, not)
+$$$
+All France is aghast at this book, yet you've not heard of it?
+nsubj(aghast, France)
+det(France, All)
+cop(aghast, is)
+nmod(aghast, book)
+case(book, at)
+det(book, this)
+cc(aghast, yet)
+conj(aghast, heard)
+nsubj(heard, you)
+aux(heard, 've)
+neg(heard, not)
+nmod(heard, it)
+case(it, of)
+$$$
+My... the acrophobia.
+dep(My, acrophobia)
+det(acrophobia, the)
+$$$
+So you're going to kill her?
+dep(going, So)
+nsubj(going, you)
+aux(going, 're)
+xcomp(going, kill)
+mark(kill, to)
+dobj(kill, her)
+$$$
+Put the gun down Claire.
+dobj(Put, gun)
+det(gun, the)
+nmod(Put, Claire)
+case(Claire, down)
+$$$
+You should get the order you want.
+nsubj(get, You)
+aux(get, should)
+dobj(get, order)
+det(order, the)
+acl:relcl(order, want)
+nsubj(want, you)
+$$$
+Don't worry, it's just a seasonal slump.
+ccomp(slump, worry)
+aux(worry, Do)
+neg(worry, n't)
+nsubj(slump, it)
+cop(slump, 's)
+advmod(slump, just)
+det(slump, a)
+amod(slump, seasonal)
+$$$
+A flaw in your research, my dear.
+det(flaw, A)
+nmod(flaw, research)
+case(research, in)
+nmod:poss(research, your)
+appos(research, dear)
+nmod:poss(dear, my)
+$$$
+I grew up chewing shoe leather for breakfast.
+nsubj(grew, I)
+compound:prt(grew, up)
+dobj(grew, leather)
+amod(leather, chewing)
+compound(leather, shoe)
+nmod(grew, breakfast)
+case(breakfast, for)
+$$$
+Orange juice -- probably not.
+compound(juice, Orange)
+dep(juice, not)
+dep(not, probably)
+$$$
+Thank heaven.
+dobj(Thank, heaven)
+$$$
+They look like acorns.
+nsubj(look, They)
+nmod(look, acorns)
+case(acorns, like)
+$$$
+Oh, sure.
+discourse(sure, Oh)
+$$$
+Sure.
+$$$
+We don't want to fire Arthur.
+nsubj(want, We)
+aux(want, do)
+neg(want, n't)
+xcomp(want, fire)
+mark(fire, to)
+dobj(fire, Arthur)
+$$$
+Yeah.
+$$$
+Well, I do.
+discourse(do, Well)
+nsubj(do, I)
+$$$
+What do you think?
+dobj(think, What)
+aux(think, do)
+nsubj(think, you)
+$$$
+Not that way!
+neg(way, Not)
+det(way, that)
+$$$
+Through the door!
+case(door, Through)
+det(door, the)
+$$$
+I think you saw something -- that probably has a very simple explanation.
+nsubj(think, I)
+ccomp(think, saw)
+nsubj(saw, you)
+dobj(saw, something)
+parataxis(think, has)
+nsubj(has, that)
+advmod(has, probably)
+dobj(has, explanation)
+det(explanation, a)
+amod(explanation, simple)
+advmod(simple, very)
+$$$
+Try again, and this time be polite.
+advmod(Try, again)
+cc(Try, and)
+conj(Try, polite)
+nsubjpass(polite, time)
+det(time, this)
+auxpass(polite, be)
+$$$
+Hey.
+$$$
+Well, that's what I knew then.
+discourse('s, Well)
+nsubj('s, that)
+ccomp('s, knew)
+dobj(knew, what)
+nsubj(knew, I)
+advmod(knew, then)
+$$$
+Or who I knew, I should say.
+cc(say, Or)
+advcl(say, knew)
+dobj(knew, who)
+nsubj(knew, I)
+nsubj(say, I)
+aux(say, should)
+$$$
+You see, I was trying to court Miss Angstrom.
+ccomp(trying, see)
+nsubj(see, You)
+nsubj(trying, I)
+aux(trying, was)
+nmod(trying, Angstrom)
+case(Angstrom, to)
+compound(Angstrom, court)
+compound(Angstrom, Miss)
+$$$
+I went to the meeting to impress her.
+nsubj(went, I)
+nmod(went, meeting)
+case(meeting, to)
+det(meeting, the)
+xcomp(went, impress)
+mark(impress, to)
+dobj(impress, her)
+$$$
+I'd give five years of my life to see the old country again, the greenfields, and the river, and the old round tower, and the burying place.
+nsubj(give, I)
+aux(give, 'd)
+dobj(give, years)
+nummod(years, five)
+nmod(years, life)
+case(life, of)
+nmod:poss(life, my)
+acl(life, see)
+mark(see, to)
+dobj(see, country)
+det(country, the)
+amod(country, old)
+advmod(see, again)
+conj(life, greenfields)
+det(greenfields, the)
+cc(greenfields, and)
+conj(greenfields, river)
+det(river, the)
+cc(greenfields, and)
+conj(greenfields, tower)
+det(tower, the)
+amod(tower, old)
+compound(tower, round)
+cc(life, and)
+conj(life, place)
+det(place, the)
+amod(place, burying)
+$$$
+Sorry.
+$$$
+Right.
+$$$
+That s a major oversight...
+nsubj(oversight, That)
+cop(oversight, s)
+det(oversight, a)
+amod(oversight, major)
+$$$
+So if I m Kate...I can t really afford the finer things, my husband s career is a crushing disappointment to me, I m trapped in suburbia...
+ccomp(trapped, career)
+advmod(career, So)
+advcl(career, Kate)
+mark(Kate, if)
+nsubj(Kate, I)
+cop(Kate, m)
+parataxis(Kate, afford)
+nsubj(afford, I)
+aux(afford, can)
+advmod(afford, t)
+advmod(afford, really)
+dobj(afford, things)
+det(things, the)
+compound(things, finer)
+nsubj(career, husband)
+nmod:poss(husband, my)
+cop(career, s)
+acl:relcl(career, disappointment)
+cop(disappointment, is)
+det(disappointment, a)
+amod(disappointment, crushing)
+nmod(disappointment, me)
+case(me, to)
+nsubjpass(trapped, I)
+auxpass(trapped, m)
+nmod(trapped, suburbia)
+case(suburbia, in)
+$$$
+You killed him.
+nsubj(killed, You)
+dobj(killed, him)
+$$$
+You killed him -- and I got you off.
+nsubj(killed, You)
+dobj(killed, him)
+cc(killed, and)
+conj(killed, got)
+nsubj(got, I)
+dobj(got, you)
+compound:prt(got, off)
+$$$
+You got a little girl?
+nsubj(got, You)
+dobj(got, girl)
+det(girl, a)
+amod(girl, little)
+$$$
+How did you know I was here?
+advmod(know, How)
+aux(know, did)
+nsubj(know, you)
+ccomp(know, was)
+nsubj(was, I)
+advmod(was, here)
+$$$
+To tell you the truth, I am frightened too.
+advcl(frightened, tell)
+mark(tell, To)
+iobj(tell, you)
+dobj(tell, truth)
+det(truth, the)
+nsubj(frightened, I)
+cop(frightened, am)
+advmod(frightened, too)
+$$$
+Shall I remain here in our hotel room hiding, or shall I carry on the best I can?
+dep(carry, Shall)
+ccomp(Shall, remain)
+nsubj(remain, I)
+advmod(remain, here)
+nmod(remain, hiding)
+case(hiding, in)
+nmod:poss(hiding, our)
+compound(hiding, hotel)
+compound(hiding, room)
+cc(remain, or)
+conj(remain, shall)
+nsubj(carry, I)
+nmod(carry, best)
+case(best, on)
+det(best, the)
+acl:relcl(best, can)
+nsubj(can, I)
+$$$
+It's ok if you are.
+nsubj(ok, It)
+cop(ok, 's)
+advcl(ok, are)
+mark(are, if)
+nsubj(are, you)
+$$$
+Would you mind repeating the question?
+aux(mind, Would)
+nsubj(mind, you)
+xcomp(mind, repeating)
+dobj(repeating, question)
+det(question, the)
+$$$
+Gotta keep track of the competition.
+nsubj(keep, ta)
+compound(ta, Got)
+dobj(keep, track)
+nmod(track, competition)
+case(competition, of)
+det(competition, the)
+$$$
+You don't.
+nsubj(do, You)
+neg(do, n't)
+$$$
+Remember.
+$$$
+Maybe you do.
+advmod(do, Maybe)
+nsubj(do, you)
+$$$
+Y'know I'm starting to like this game--baseball's a helluva good way to make a living.
+nsubj(know, Y')
+ccomp(know, starting)
+nsubj(starting, I)
+aux(starting, 'm)
+xcomp(starting, like)
+mark(like, to)
+dobj(like, game)
+det(game, this)
+parataxis(know, way)
+nsubj(way, baseball)
+cop(way, 's)
+det(way, a)
+amod(way, helluva)
+amod(way, good)
+acl(way, make)
+mark(make, to)
+dobj(make, living)
+det(living, a)
+$$$
+Forgive my blood haste, Jimmy Squarefoot, but I want no more surprises from Couer de Noir.
+dobj(Forgive, haste)
+nmod:poss(haste, my)
+compound(haste, blood)
+parataxis(Forgive, want)
+nsubj(want, Squarefoot)
+compound(Squarefoot, Jimmy)
+cc(want, but)
+conj(want, I)
+dobj(want, surprises)
+neg(surprises, no)
+amod(surprises, more)
+nmod(surprises, Noir)
+case(Noir, from)
+compound(Noir, Couer)
+compound(Noir, de)
+$$$
+I'm sorry.
+nsubj(sorry, I)
+cop(sorry, 'm)
+$$$
+I can't sit with you.
+nsubj(sit, I)
+aux(sit, ca)
+neg(sit, n't)
+nmod(sit, you)
+case(you, with)
+$$$
+Tomorrow I'll buy you a whole lot of detective stories.
+nmod:tmod(buy, Tomorrow)
+nsubj(buy, I)
+aux(buy, 'll)
+xcomp(buy, lot)
+nsubj(lot, you)
+det(lot, a)
+amod(lot, whole)
+nmod(lot, stories)
+case(stories, of)
+compound(stories, detective)
+$$$
+You can make it as complicated or as easy as you like.
+nsubj(make, You)
+aux(make, can)
+xcomp(make, like)
+nsubj(like, it)
+dep(like, complicated)
+advmod(complicated, as)
+cc(complicated, or)
+conj(complicated, easy)
+advmod(easy, as)
+mark(like, as)
+nsubj(like, you)
+$$$
+But she's the one who's gonna be riding him, am I right?
+dep(right, one)
+cc(one, But)
+nsubj(one, she)
+cop(one, 's)
+det(one, the)
+acl:relcl(one, gon)
+nsubj(gon, who)
+aux(gon, 's)
+xcomp(gon, riding)
+mark(riding, na)
+aux(riding, be)
+dobj(riding, him)
+cop(right, am)
+nsubj(right, I)
+$$$
+So here's the deal.
+dep(deal, So)
+nsubj(deal, here)
+cop(deal, 's)
+det(deal, the)
+$$$
+I'm not sure I can do anything, but I'm prepared to give it a go -- -- if you'll help.
+nsubj(sure, I)
+cop(sure, 'm)
+neg(sure, not)
+ccomp(sure, do)
+nsubj(do, I)
+aux(do, can)
+dobj(do, anything)
+cc(sure, but)
+conj(sure, prepared)
+nsubj(prepared, I)
+cop(prepared, 'm)
+xcomp(prepared, give)
+mark(give, to)
+ccomp(give, go)
+nsubj(go, it)
+dep(it, a)
+advcl(go, help)
+mark(help, if)
+nsubj(help, you)
+aux(help, 'll)
+$$$
+You have a problem with that?
+nsubj(have, You)
+dobj(have, problem)
+det(problem, a)
+nmod(problem, that)
+case(that, with)
+$$$
+Buffer?
+$$$
+Good morning.
+amod(morning, Good)
+$$$
+Excellent.
+$$$
+What is it?
+cop(What, is)
+nsubj(What, it)
+$$$
+And I want to get into my apartment and go to work.
+cc(want, And)
+nsubj(want, I)
+xcomp(want, get)
+mark(get, to)
+nmod(get, apartment)
+case(apartment, into)
+nmod:poss(apartment, my)
+cc(get, and)
+conj(get, go)
+xcomp(go, work)
+mark(work, to)
+$$$
+Please, what do you say, another cup of coffee?
+dep(say, Please)
+dep(say, what)
+aux(say, do)
+nsubj(say, you)
+dobj(say, cup)
+det(cup, another)
+nmod(cup, coffee)
+case(coffee, of)
+$$$
+If you're in such a hurry, you could lower a rope, or a tree branch, or find something useful to do.
+advcl(lower, hurry)
+mark(hurry, If)
+nsubj(hurry, you)
+cop(hurry, 're)
+case(hurry, in)
+det:predet(hurry, such)
+det(hurry, a)
+nsubj(lower, you)
+aux(lower, could)
+dobj(lower, rope)
+det(rope, a)
+cc(rope, or)
+conj(rope, branch)
+det(branch, a)
+compound(branch, tree)
+cc(lower, or)
+conj(lower, find)
+xcomp(find, useful)
+nsubj(useful, something)
+xcomp(useful, do)
+mark(do, to)
+$$$
+--------------------------------------------------------------------------- 26.
+nummod(---------------------------------------------------------------------------, 26)
+$$$
+I can't.
+nsubj(ca, I)
+neg(ca, n't)
+$$$
+Slim Jim?
+compound(Jim, Slim)
+$$$
+Apple?
+$$$
+Yogurt?
+$$$
+You like yogurt.
+nsubj(like, You)
+dobj(like, yogurt)
+$$$
+My name is John Ferguson.
+nsubj(Ferguson, name)
+nmod:poss(name, My)
+cop(Ferguson, is)
+compound(Ferguson, John)
+$$$
+Fine.
+$$$
+Friends it is.
+advmod(is, Friends)
+nsubj(is, it)
+$$$
+I can live with that.
+nsubj(live, I)
+aux(live, can)
+nmod(live, that)
+case(that, with)
+$$$
+Barrytown.
+$$$
+Barrytown?
+$$$
+Is there no end to your arrogance?
+expl(Is, there)
+nsubj(Is, end)
+neg(end, no)
+nmod(end, arrogance)
+case(arrogance, to)
+nmod:poss(arrogance, your)
+$$$
+Claire!
+$$$
+Sixteen weeks is a long time.
+nsubj(time, weeks)
+compound(weeks, Sixteen)
+cop(time, is)
+det(time, a)
+amod(time, long)
+$$$
+I agree.
+nsubj(agree, I)
+$$$
+And take the twenty thousand francs ...
+cc(take, And)
+dobj(take, francs)
+det(francs, the)
+nummod(francs, twenty)
+nummod(francs, thousand)
+$$$
+Yep--everybody's having a good time but me--What do you want, Mary?
+dep(Yep, having)
+nsubj(having, everybody)
+aux(having, 's)
+dobj(having, time)
+det(time, a)
+amod(time, good)
+nmod(time, me)
+case(me, but)
+acl:relcl(Yep, do)
+nsubj(do, What)
+ccomp(do, want)
+nsubj(want, you)
+advmod(do, Mary)
+$$$
+Hey, this is it, the hour approach- es, I'm getting all excited.
+discourse(it, Hey)
+nsubj(it, this)
+cop(it, is)
+parataxis(it, approach)
+nsubj(approach, hour)
+det(hour, the)
+parataxis(it, getting)
+advmod(getting, es)
+nsubj(getting, I)
+aux(getting, 'm)
+xcomp(getting, excited)
+advmod(excited, all)
+$$$
+So what do you think, is it -- -- just the 'Executive Committee' or could you guys use me?
+advmod(use, So)
+dep(use, do)
+nsubj(do, what)
+ccomp(do, think)
+nsubj(think, you)
+dep(think, it)
+cop(it, is)
+dep(use, Executive)
+nsubj(Executive, the)
+advmod(the, just)
+dobj(Executive, Committee)
+cc(Executive, or)
+conj(Executive, could)
+nsubj(use, guys)
+dep(guys, you)
+dobj(use, me)
+$$$
+Come on, let's go...
+advcl(go, on)
+case(on, Come)
+nsubj(go, let)
+case(let, 's)
+$$$
+I knew you'd want it again...
+nsubj(knew, I)
+ccomp(knew, want)
+nsubj(want, you)
+aux(want, 'd)
+dobj(want, it)
+advmod(want, again)
+$$$
+Well, I feel that...things are getting to that point in a relationship.
+discourse(feel, Well)
+nsubj(feel, I)
+dobj(feel, that)
+parataxis(feel, getting)
+nsubj(getting, things)
+aux(getting, are)
+nmod(getting, point)
+case(point, to)
+det(point, that)
+nmod(point, relationship)
+case(relationship, in)
+det(relationship, a)
+$$$
+When two people share...a special moment between them.
+advmod(share, When)
+nsubj(share, people)
+nummod(people, two)
+dobj(share, moment)
+det(moment, a)
+amod(moment, special)
+nmod(moment, them)
+case(them, between)
+$$$
+Not particularly.
+dep(Not, particularly)
+$$$
+No, no.
+discourse(No, no)
+$$$
+I-I-I understand completely.
+nsubj(understand, I-I-I)
+advmod(understand, completely)
+$$$
+No problem.
+neg(problem, No)
+$$$
+Y-you're busy.
+nsubj(busy, Y-you)
+cop(busy, 're)
+$$$
+I-I-I...
+$$$
+Hey, I ain't cryin'...
+discourse(cryin, Hey)
+nsubj(cryin, I)
+cop(cryin, ai)
+neg(cryin, n't)
+$$$
+I still fight.
+nsubj(fight, I)
+advmod(fight, still)
+$$$
+Kinda do it like a hobby.
+nsubj(do, Kinda)
+dobj(do, it)
+nmod(do, hobby)
+case(hobby, like)
+det(hobby, a)
+$$$
+See I'm a natural southpaw an' most pugs won't fight a southpaw 'cause we mess up their timin' an' look awkward -- Southpaw means lefthanded...
+ccomp(See, southpaw)
+nsubj(southpaw, I)
+cop(southpaw, 'm)
+det(southpaw, a)
+amod(southpaw, natural)
+dep(southpaw, fight)
+nsubj(fight, pugs)
+amod(pugs, most)
+aux(fight, wo)
+neg(fight, n't)
+dobj(fight, 'cause)
+det('cause, a)
+compound('cause, southpaw)
+acl:relcl('cause, mess)
+nsubj(mess, we)
+compound:prt(mess, up)
+dobj(mess, timin)
+nmod:poss(timin, their)
+dep(southpaw, look)
+dobj(look, awkward)
+dep(awkward, means)
+nsubj(means, Southpaw)
+xcomp(means, lefthanded)
+$$$
+But I guess in the long run things probably worked out for the best, right?
+cc(guess, But)
+nsubj(guess, I)
+nmod(guess, things)
+case(things, in)
+det(things, the)
+amod(things, long)
+compound(things, run)
+dep(guess, worked)
+advmod(worked, probably)
+compound:prt(worked, out)
+nmod(worked, best)
+case(best, for)
+det(best, the)
+advmod(worked, right)
+$$$
+Has it got a wow finish?
+aux(got, Has)
+nsubj(got, it)
+dobj(got, finish)
+det(finish, a)
+compound(finish, wow)
+$$$
+Gee!
+$$$
+That musta been terrible.
+det(musta, That)
+acl(musta, terrible)
+cop(terrible, been)
+$$$
+I guess he had it coming to him though.
+nsubj(guess, I)
+ccomp(guess, had)
+nsubj(had, he)
+ccomp(had, coming)
+nsubj(coming, it)
+nmod(coming, him)
+case(him, to)
+advmod(coming, though)
+$$$
+But don't you worry about me.
+cc(worry, But)
+aux(worry, do)
+neg(worry, n't)
+nsubj(worry, you)
+nmod(worry, me)
+case(me, about)
+$$$
+I don't talk.
+nsubj(talk, I)
+aux(talk, do)
+neg(talk, n't)
+$$$
+I never talk.
+nsubj(talk, I)
+neg(talk, never)
+$$$
+Take my word for it.
+dobj(Take, word)
+nmod:poss(word, my)
+nmod(Take, it)
+case(it, for)
+$$$
+Gee, I wouldn't want anything to happen to my kids.
+advmod(want, Gee)
+nsubj(want, I)
+aux(want, would)
+neg(want, n't)
+dobj(want, anything)
+advcl(want, happen)
+mark(happen, to)
+nmod(happen, kids)
+case(kids, to)
+nmod:poss(kids, my)
+$$$
+Are you going to deny it?
+aux(going, Are)
+nsubj(going, you)
+xcomp(going, deny)
+mark(deny, to)
+dobj(deny, it)
+$$$
+Tch, no!
+dep(Tch, no)
+$$$
+We were, we were both going in different directions.
+ccomp(going, were)
+nsubj(were, We)
+nsubj(going, we)
+aux(going, were)
+dep(going, both)
+nmod(going, directions)
+case(directions, in)
+amod(directions, different)
+$$$
+I don't know.
+nsubj(know, I)
+aux(know, do)
+neg(know, n't)
+$$$
+What do you feel like doing?
+dobj(feel, What)
+aux(feel, do)
+nsubj(feel, you)
+advcl(feel, doing)
+mark(doing, like)
+$$$
+In part, yes.
+case(part, In)
+discourse(part, yes)
+$$$
+And he carried you like this, I suppose.
+ccomp(suppose, carried)
+cc(carried, And)
+nsubj(carried, he)
+dobj(carried, you)
+nmod(carried, this)
+case(this, like)
+nsubj(suppose, I)
+$$$
+I didn't care about the money.
+nsubj(care, I)
+aux(care, did)
+neg(care, n't)
+nmod(care, money)
+case(money, about)
+det(money, the)
+$$$
+I think he wanted you to tip him.
+nsubj(think, I)
+ccomp(think, wanted)
+nsubj(wanted, he)
+dobj(wanted, you)
+xcomp(wanted, tip)
+mark(tip, to)
+dobj(tip, him)
+$$$
+Hi.
+$$$
+I'm a little worried --
+nsubj(worried, I)
+cop(worried, 'm)
+nmod:npmod(worried, little)
+det(little, a)
+$$$
+Aw, you've been reading a lot of cheap tabloids.
+discourse(reading, Aw)
+nsubj(reading, you)
+aux(reading, 've)
+aux(reading, been)
+dobj(reading, lot)
+det(lot, a)
+nmod(lot, tabloids)
+case(tabloids, of)
+amod(tabloids, cheap)
+$$$
+Anne and myself are going to move downtown in a nice little flat, we're gonna forget all about this social stuff, and we're gonna be known as Mr. and Mrs. Stew Smith.
+nsubj(going, Anne)
+cc(Anne, and)
+conj(Anne, myself)
+aux(going, are)
+xcomp(going, move)
+mark(move, to)
+dobj(move, downtown)
+nmod(move, flat)
+case(flat, in)
+det(flat, a)
+amod(flat, nice)
+amod(flat, little)
+dep(going, gon)
+nsubj(gon, we)
+aux(gon, 're)
+xcomp(gon, forget)
+mark(forget, na)
+dobj(forget, all)
+nmod(all, stuff)
+case(stuff, about)
+det(stuff, this)
+amod(stuff, social)
+cc(going, and)
+conj(going, gon)
+nsubj(gon, we)
+aux(gon, 're)
+xcomp(gon, known)
+mark(known, na)
+auxpass(known, be)
+nmod(known, Mr.)
+case(Mr., as)
+cc(Mr., and)
+conj(Mr., Smith)
+compound(Smith, Mrs.)
+compound(Smith, Stew)
+$$$
+How do you like that?
+advmod(like, How)
+aux(like, do)
+nsubj(like, you)
+dobj(like, that)
+$$$
+But if you could, you would?
+cc(would, But)
+advcl(would, could)
+mark(could, if)
+nsubj(could, you)
+nsubj(would, you)
+$$$
+Not yet.
+dep(Not, yet)
+$$$
+Dallas.
+$$$
+Korben Dallas.
+compound(Dallas, Korben)
+$$$
+How's everything?
+advmod('s, How)
+nsubj('s, everything)
+$$$
+Didn't everybody?
+advmod(n't, Did)
+dep(n't, everybody)
+$$$
+What will be okay?
+nsubj(okay, What)
+aux(okay, will)
+cop(okay, be)
+$$$
+I know how it is.
+nsubj(know, I)
+ccomp(know, is)
+advmod(is, how)
+nsubj(is, it)
+$$$
+I mean...
+nsubj(mean, I)
+$$$
+"Ants."
+$$$
+"I've got a problem with ants."
+nsubj(got, I)
+aux(got, 've)
+dobj(got, problem)
+det(problem, a)
+nmod(got, ants)
+case(ants, with)
+$$$
+What.
+$$$
+Why are you doing this?
+advmod(doing, Why)
+aux(doing, are)
+nsubj(doing, you)
+dobj(doing, this)
+$$$
+What's a scam?
+cop(What, 's)
+nsubj(What, scam)
+det(scam, a)
+$$$
+So what's that mean?
+advmod(what, So)
+cop(what, 's)
+nsubj(what, mean)
+det(mean, that)
+$$$
+That you're disappointed by what you found or you're sorry you robbed all those banks?
+advcl(robbed, disappointed)
+mark(disappointed, That)
+nsubjpass(disappointed, you)
+auxpass(disappointed, 're)
+advcl(disappointed, found)
+mark(found, by)
+dep(found, what)
+nsubj(found, you)
+cc(found, or)
+conj(found, sorry)
+nsubj(sorry, you)
+cop(sorry, 're)
+nsubj(robbed, you)
+dobj(robbed, banks)
+det:predet(banks, all)
+det(banks, those)
+$$$
+What?
+$$$
+Just think though, it would make a hell of a cafe, that way we keep the auditorium clear.
+advcl(make, think)
+advmod(think, Just)
+advmod(think, though)
+nsubj(make, it)
+aux(make, would)
+dobj(make, hell)
+det(hell, a)
+nmod(hell, cafe)
+case(cafe, of)
+det(cafe, a)
+acl:relcl(cafe, keep)
+dobj(keep, way)
+det(way, that)
+nsubj(keep, we)
+xcomp(keep, clear)
+nsubj(clear, auditorium)
+det(auditorium, the)
+$$$
+What the hell have you done?
+dobj(done, hell)
+det(hell, What)
+det(hell, the)
+aux(done, have)
+nsubj(done, you)
+$$$
+Yo, Rocky -- Look at this mirror.
+compound(Rocky, Yo)
+dep(Rocky, Look)
+nmod(Look, mirror)
+case(mirror, at)
+det(mirror, this)
+$$$
+I'd like to kill the friggin' moron who broke this mirror.
+nsubj(like, I)
+aux(like, 'd)
+xcomp(like, kill)
+mark(kill, to)
+dobj(kill, moron)
+nmod:poss(moron, friggin)
+det(friggin, the)
+case(friggin, ')
+ccomp(moron, broke)
+nsubj(broke, who)
+dobj(broke, mirror)
+det(mirror, this)
+$$$
+Give the guy air.
+iobj(Give, guy)
+det(guy, the)
+dobj(Give, air)
+$$$
+Everyone to a neutral corner.
+nmod(Everyone, corner)
+case(corner, to)
+det(corner, a)
+amod(corner, neutral)
+$$$
+Get that idea out of your mind.
+dobj(Get, idea)
+det(idea, that)
+nmod(idea, mind)
+advmod(mind, out)
+case(mind, of)
+nmod:poss(mind, your)
+$$$
+It will only lead you in the wrong direction.
+nsubj(lead, It)
+aux(lead, will)
+advmod(lead, only)
+dobj(lead, you)
+nmod(lead, direction)
+case(direction, in)
+det(direction, the)
+amod(direction, wrong)
+$$$
+Absolutely nothing.
+dep(nothing, Absolutely)
+$$$
+The Blizzard always came straight with his messages.
+nsubj(came, Blizzard)
+det(Blizzard, The)
+advmod(came, always)
+advmod(came, straight)
+nmod(came, messages)
+case(messages, with)
+nmod:poss(messages, his)
+$$$
+But wrap your minds around this one.
+cc(wrap, But)
+dobj(wrap, minds)
+nmod:poss(minds, your)
+nmod(wrap, one)
+case(one, around)
+det(one, this)
+$$$
+Yes.
+$$$
+Well, Comrade, I am afraid you will have to turn over that work to someone else.
+dep(afraid, Comrade)
+discourse(Comrade, Well)
+nsubj(afraid, I)
+cop(afraid, am)
+ccomp(afraid, have)
+nsubj(have, you)
+aux(have, will)
+xcomp(have, turn)
+mark(turn, to)
+compound:prt(turn, over)
+dobj(turn, work)
+det(work, that)
+nmod(turn, someone)
+case(someone, to)
+advmod(someone, else)
+$$$
+What can I do?
+dobj(do, What)
+aux(do, can)
+nsubj(do, I)
+$$$
+You'll never get the chance.
+nsubj(get, You)
+aux(get, 'll)
+neg(get, never)
+dobj(get, chance)
+det(chance, the)
+$$$
+...the fuck is this...
+nsubj(this, fuck)
+det(fuck, the)
+cop(this, is)
+$$$
+I love you.
+nsubj(love, I)
+dobj(love, you)
+$$$
+I want to have your baby.
+nsubj(want, I)
+xcomp(want, have)
+mark(have, to)
+dobj(have, baby)
+nmod:poss(baby, your)
+$$$
+Pretty good shot you are.
+nsubj(shot, Pretty)
+amod(Pretty, good)
+ccomp(shot, are)
+nsubj(are, you)
+$$$
+What did she do?
+dobj(do, What)
+aux(do, did)
+nsubj(do, she)
+$$$
+Le montage, l emballage.
+nsubj(montage, Le)
+parataxis(montage, emballage)
+dep(emballage, l)
+$$$
+Not your regular street muck, is it?
+dep(is, muck)
+dep(muck, Not)
+nsubj(muck, street)
+nmod:poss(street, your)
+amod(street, regular)
+nsubj(is, it)
+$$$
+This is collectors stuff.
+nsubj(stuff, This)
+cop(stuff, is)
+compound(stuff, collectors)
+$$$
+How much would it cost me?
+dep(cost, much)
+advmod(much, How)
+aux(cost, would)
+nsubj(cost, it)
+dobj(cost, me)
+$$$
+Was bankrupt and dead before I was twenty.
+cop(bankrupt, Was)
+cc(bankrupt, and)
+conj(bankrupt, dead)
+advcl(bankrupt, twenty)
+mark(twenty, before)
+nsubj(twenty, I)
+cop(twenty, was)
+$$$
+Bandits at 2 o'clock.
+nmod(Bandits, 2)
+case(2, at)
+advmod(2, o'clock)
+$$$
+Well, Mr. Felson, maybe you could come out to my place some evening.
+discourse(come, Well)
+nsubj(come, Felson)
+compound(Felson, Mr.)
+nsubj(come, you)
+advmod(you, maybe)
+aux(come, could)
+compound:prt(come, out)
+nmod(come, place)
+case(place, to)
+nmod:poss(place, my)
+nmod:tmod(come, evening)
+det(evening, some)
+$$$
+We could play a few games of billiards.
+nsubj(play, We)
+aux(play, could)
+dobj(play, games)
+det(games, a)
+amod(games, few)
+nmod(games, billiards)
+case(billiards, of)
+$$$
+But I can't leave with you.
+cc(leave, But)
+nsubj(leave, I)
+aux(leave, ca)
+neg(leave, n't)
+nmod(leave, you)
+case(you, with)
+$$$
+I won't make it.
+nsubj(make, I)
+aux(make, wo)
+neg(make, n't)
+dobj(make, it)
+$$$
+No, for a candlelight dinner, yes, for her show.
+nmod(No, dinner)
+case(dinner, for)
+det(dinner, a)
+compound(dinner, candlelight)
+dep(No, yes)
+nmod(yes, show)
+case(show, for)
+nmod:poss(show, her)
+$$$
+No.
+$$$
+I mean it doesn't sound like it could be much worse.
+nsubj(mean, I)
+ccomp(mean, sound)
+nsubj(sound, it)
+aux(sound, does)
+neg(sound, n't)
+advcl(sound, worse)
+mark(worse, like)
+nsubj(worse, it)
+aux(worse, could)
+cop(worse, be)
+advmod(worse, much)
+$$$
+If you hated him at least you'd hate him.
+advcl(hate, hated)
+mark(hated, If)
+nsubj(hated, you)
+dobj(hated, him)
+advmod(hated, at)
+mwe(at, least)
+nsubj(hate, you)
+aux(hate, 'd)
+dobj(hate, him)
+$$$
+You are the young man who M. de Seebach recommended?
+nsubj(man, You)
+cop(man, are)
+det(man, the)
+amod(man, young)
+acl:relcl(man, recommended)
+dobj(recommended, who)
+nsubj(recommended, Seebach)
+compound(Seebach, M.)
+compound(Seebach, de)
+$$$
+Orange, New Jersey.
+appos(Orange, Jersey)
+compound(Jersey, New)
+$$$
+Great.
+$$$
+Hell, I'm just like him.
+advmod(him, Hell)
+nsubj(him, I)
+cop(him, 'm)
+advmod(him, just)
+case(him, like)
+$$$
+Just until we find another girl.
+dep(Just, find)
+mark(find, until)
+nsubj(find, we)
+dobj(find, girl)
+det(girl, another)
+$$$
+Not at all, Dr. Lester.
+nmod(Not, all)
+case(all, at)
+appos(all, Lester)
+compound(Lester, Dr.)
+$$$
+I simply misspoke.
+nsubj(misspoke, I)
+advmod(misspoke, simply)
+$$$
+I .
+$$$
+.
+$$$
+.
+$$$
+Look.
+$$$
+Tell me about Catherine.
+dobj(Tell, me)
+nmod(Tell, Catherine)
+case(Catherine, about)
+$$$
+Put the pension funds on hold until I say otherwise.
+dobj(Put, funds)
+det(funds, the)
+compound(funds, pension)
+nmod(Put, hold)
+case(hold, on)
+advcl(Put, say)
+mark(say, until)
+nsubj(say, I)
+advmod(say, otherwise)
+$$$
+I mean, after that?
+nsubj(mean, I)
+nmod(mean, that)
+case(that, after)
+$$$
+No.
+$$$
+Who invited you?
+nsubj(invited, Who)
+dobj(invited, you)
+$$$
+Stop it!
+dobj(Stop, it)
+$$$
+You know where he lives?
+nsubj(know, You)
+ccomp(know, lives)
+advmod(lives, where)
+nsubj(lives, he)
+$$$
+Anything.
+$$$
+Just don't let Salucci think we're onto him.
+csubj(think, let)
+advmod(let, Just)
+aux(let, do)
+neg(let, n't)
+dobj(let, Salucci)
+ccomp(think, him)
+nsubj(him, we)
+cop(him, 're)
+case(him, onto)
+$$$
+Coming to the pool for a swim?
+nmod(Coming, pool)
+case(pool, to)
+det(pool, the)
+nmod(pool, swim)
+case(swim, for)
+det(swim, a)
+$$$
+What are you doing here?
+dobj(doing, What)
+aux(doing, are)
+nsubj(doing, you)
+advmod(doing, here)
+$$$
+Sure.
+$$$
+Now, let's move on to our French exam.
+advmod(move, Now)
+nsubj(move, let)
+case(let, 's)
+nmod(move, exam)
+case(exam, on)
+case(exam, to)
+nmod:poss(exam, our)
+amod(exam, French)
+$$$
+Don't DO that!
+aux(DO, Do)
+neg(DO, n't)
+dobj(DO, that)
+$$$
+!
+$$$
+Few beers is all.
+nsubj(all, beers)
+amod(beers, Few)
+cop(all, is)
+$$$
+Feelin' any better?
+dobj(Feelin, better)
+det(better, any)
+$$$
+Spanish in Florida called him Juan Caballo.
+nsubj(called, Spanish)
+nmod(Spanish, Florida)
+case(Florida, in)
+xcomp(called, Caballo)
+nsubj(Caballo, him)
+compound(Caballo, Juan)
+$$$
+John Horse.
+compound(Horse, John)
+$$$
+What do you think has happened to your son, Mrs Spitz?
+dobj(think, What)
+aux(think, do)
+nsubj(think, you)
+ccomp(think, happened)
+aux(happened, has)
+nmod(happened, son)
+case(son, to)
+nmod:poss(son, your)
+appos(son, Spitz)
+compound(Spitz, Mrs)
+$$$
+Hi, Aaron...What's doing?
+appos(Hi, Aaron)
+acl:relcl(Hi, doing)
+nsubj(doing, What)
+aux(doing, 's)
+$$$
+I know.
+nsubj(know, I)
+$$$
+Everyone went home.
+nsubj(went, Everyone)
+dobj(went, home)
+$$$
+We offered them refunds.
+nsubj(offered, We)
+iobj(offered, them)
+dobj(offered, refunds)
+$$$
+Now Ed, are we cross?
+advmod(are, Now)
+nsubj(are, Ed)
+ccomp(are, cross)
+nsubj(cross, we)
+$$$
+Look... you do well for people, they don't ask you to stop.
+xcomp(Look, do)
+nsubj(do, you)
+advmod(do, well)
+nmod(do, people)
+case(people, for)
+parataxis(do, ask)
+nsubj(ask, they)
+aux(ask, do)
+neg(ask, n't)
+dobj(ask, you)
+xcomp(ask, stop)
+mark(stop, to)
+$$$
+Nobody wants you to stop making money, doll, not even Uncle Sam.
+nsubj(wants, Nobody)
+dobj(wants, you)
+xcomp(wants, stop)
+mark(stop, to)
+xcomp(stop, making)
+dobj(making, money)
+appos(money, doll)
+neg(money, not)
+advmod(money, even)
+dep(money, Sam)
+compound(Sam, Uncle)
+$$$
+They all want their share.
+nsubj(want, They)
+advmod(want, all)
+dobj(want, share)
+nmod:poss(share, their)
+$$$
+How?
+$$$
+Out of her favour, where I am in love.
+nmod(Out, favour)
+case(favour, of)
+nmod:poss(favour, her)
+acl:relcl(favour, love)
+advmod(love, where)
+nsubj(love, I)
+cop(love, am)
+case(love, in)
+$$$
+Put your fucking hands up!
+dobj(Put, hands)
+nmod:poss(hands, your)
+amod(hands, fucking)
+compound:prt(Put, up)
+$$$
+Don't move.
+aux(move, Do)
+neg(move, n't)
+$$$
+Those same men will be sitting on the jury.
+nsubj(sitting, men)
+det(men, Those)
+amod(men, same)
+aux(sitting, will)
+aux(sitting, be)
+nmod(sitting, jury)
+case(jury, on)
+det(jury, the)
+$$$
+Willow...this may be a bad time to ask this question but...what if Raziel's wrong?
+parataxis(Willow, time)
+nsubj(time, this)
+aux(time, may)
+cop(time, be)
+det(time, a)
+amod(time, bad)
+advcl(time, ask)
+mark(ask, to)
+dobj(ask, question)
+det(question, this)
+advmod(ask, but)
+parataxis(ask, wrong)
+dep(wrong, what)
+mark(wrong, if)
+nsubj(wrong, Raziel)
+cop(wrong, 's)
+$$$
+It's just a marvel to me that you still have such high expectations of people.
+nsubj(marvel, It)
+cop(marvel, 's)
+advmod(marvel, just)
+det(marvel, a)
+nmod(marvel, me)
+case(me, to)
+ccomp(marvel, have)
+mark(have, that)
+nsubj(have, you)
+advmod(have, still)
+dobj(have, expectations)
+amod(expectations, such)
+amod(expectations, high)
+nmod(expectations, people)
+case(people, of)
+$$$
+How's your new book?
+advmod('s, How)
+nsubj('s, book)
+nmod:poss(book, your)
+amod(book, new)
+$$$
+C'mon, c'mon, let's hurry this up.
+nsubj(let, C'mon)
+appos(C'mon, c'mon)
+ccomp(let, hurry)
+nsubj(hurry, 's)
+dobj(hurry, this)
+compound:prt(hurry, up)
+$$$
+Oh, yes.
+discourse(Oh, yes)
+$$$
+Who doesn't?
+nsubj(does, Who)
+neg(does, n't)
+$$$
+Look!
+$$$
+And what do you know?
+cc(know, And)
+dobj(know, what)
+aux(know, do)
+nsubj(know, you)
+$$$
+You tell me my life?
+nsubj(tell, You)
+xcomp(tell, life)
+nsubj(life, me)
+nmod:poss(life, my)
+$$$
+I'll tell you yours.
+nsubj(tell, I)
+aux(tell, 'll)
+xcomp(tell, yours)
+nsubj(yours, you)
+$$$
+I'm a wolf?
+nsubj(wolf, I)
+cop(wolf, 'm)
+det(wolf, a)
+$$$
+You run to the wolf in me, that don't make you no lamb!
+nsubj(run, You)
+nmod(run, wolf)
+case(wolf, to)
+det(wolf, the)
+nmod(wolf, me)
+case(me, in)
+acl:relcl(wolf, make)
+nsubj(make, that)
+aux(make, do)
+neg(make, n't)
+xcomp(make, lamb)
+nsubj(lamb, you)
+neg(lamb, no)
+$$$
+You're gonna marry my brother?
+nsubj(gon, You)
+aux(gon, 're)
+xcomp(gon, marry)
+mark(marry, na)
+dobj(marry, brother)
+nmod:poss(brother, my)
+$$$
+Why you wanna sell your life short?
+advmod(wan, Why)
+nsubj(wan, you)
+xcomp(wan, sell)
+mark(sell, na)
+dobj(sell, life)
+nmod:poss(life, your)
+advmod(sell, short)
+$$$
+Playing it safe is just about the most dangerous thing a woman like you could do.
+xcomp(Playing, safe)
+nsubj(safe, it)
+aux(Playing, thing)
+cop(thing, is)
+advmod(thing, just)
+advmod(thing, about)
+det(thing, the)
+amod(thing, dangerous)
+advmod(dangerous, most)
+nsubj(Playing, woman)
+det(woman, a)
+ccomp(woman, do)
+mark(do, like)
+nsubj(do, you)
+aux(do, could)
+$$$
+You waited for the right man the first time, why didn't you wait for the right man again?
+nsubj(waited, You)
+nmod(waited, man)
+case(man, for)
+det(man, the)
+amod(man, right)
+dep(man, time)
+det(time, the)
+amod(time, first)
+dep(waited, wait)
+advmod(wait, why)
+aux(wait, did)
+neg(wait, n't)
+nsubj(wait, you)
+nmod(wait, man)
+case(man, for)
+det(man, the)
+amod(man, right)
+advmod(wait, again)
+$$$
+I don't know, I mean, I-
+nsubj(know, I)
+aux(know, do)
+neg(know, n't)
+parataxis(know, mean)
+nsubj(mean, I)
+dobj(know, I)
+$$$

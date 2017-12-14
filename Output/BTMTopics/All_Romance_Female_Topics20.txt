@@ -1,0 +1,48 @@
+=============== Index Docs =============
+index file: ../sample-data/All_Romance_Female_Lines.txt
+write file: ../output/doc_wids.txt
+n(w)=11642
+write:../output/voca.txt
+=============== Topic Learning =============
+make: Entering directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+make: Nothing to be done for `all'.
+make: Leaving directory `/nfsdirs/home3/home3/grad3/nmonaiku/BTM-master/src'
+../src/btm est 20 11642 2.500 0.005 5 501 ../output/doc_wids.txt ../output/model/
+Run BTM, K=20, W=11642, alpha=2.5, beta=0.005, n_iter=5, save_step=501 ====
+load docs: ../output/doc_wids.txt
+Begin iteration
+iter 1/5iter 2/5iter 3/5iter 4/5iter 5/5
+write p(z): ../output/model/k20.pz
+write p(w|z): ../output/model/k20.pw_z
+cost 1.580000s
+================ Infer P(z|d)===============
+../src/btm inf sum_b 20 ../output/doc_wids.txt ../output/model/
+Run inference:K=20, type sum_b ====
+load p(z):../output/model/k20.pz
+load p(w|z):../output/model/k20.pw_z
+n(z)=20, n(w)=11642
+Infer p(z|d) for docs in: ../output/doc_wids.txt
+write p(z|d): ../output/model/k20.pz_d
+================ Topic Display =============
+K:20, n(W):11642
+p(z)		Top words
+0.054791	d:0.011922 oh:0.011635 think:0.011607 used:0.007537 come:0.007480 right:0.007365 time:0.007251 gonna:0.006706 good:0.006649 could:0.006133
+0.053854	think:0.008893 time:0.008689 said:0.008018 way:0.006648 oh:0.006619 never:0.006560 thing:0.006502 d:0.006473 could:0.006269 right:0.006123
+0.052536	think:0.011237 come:0.008757 oh:0.007890 love:0.006964 look:0.006276 mr:0.006097 people:0.006067 say:0.005858 mean:0.005708 night:0.005469
+0.051523	think:0.011062 d:0.010544 oh:0.010330 little:0.008014 right:0.007954 life:0.007801 mean:0.007314 really:0.006857 good:0.006278 time:0.005973
+0.051284	think:0.011664 look:0.009950 d:0.009583 love:0.008480 never:0.007837 come:0.007623 right:0.006950 good:0.006399 way:0.006062 time:0.006001
+0.050551	think:0.013200 d:0.010373 guy:0.008075 very:0.008044 never:0.007951 people:0.007050 little:0.007050 oh:0.006678 tell:0.006646 good:0.006398
+0.050161	d:0.010391 uh:0.009640 right:0.008545 good:0.008326 think:0.008044 never:0.007261 tell:0.006510 mean:0.006260 come:0.006103 time:0.006041
+0.050073	think:0.009877 oh:0.008716 d:0.008183 time:0.008183 right:0.007964 look:0.007776 mean:0.007212 really:0.007086 yeah:0.006647 could:0.006459
+0.049995	think:0.010049 oh:0.008322 d:0.008196 let:0.007537 things:0.006375 never:0.006030 time:0.006030 could:0.005778 make:0.005778 people:0.005527
+0.049831	right:0.010460 never:0.009168 oh:0.008979 little:0.008538 think:0.008097 day:0.006207 feel:0.005923 said:0.005860 let:0.005734 father:0.005671
+0.049728	time:0.007956 think:0.007672 good:0.007514 look:0.006030 d:0.005904 little:0.005904 could:0.005746 make:0.005525 oh:0.005367 said:0.004988
+0.049485	oh:0.015990 think:0.009930 said:0.008344 could:0.007202 love:0.006916 right:0.006345 first:0.006155 tell:0.005838 life:0.005838 really:0.005806
+0.049306	oh:0.010444 time:0.009871 never:0.009170 really:0.008024 think:0.007674 mr:0.006591 right:0.006177 life:0.005572 men:0.005477 man:0.005445
+0.049032	think:0.009670 say:0.009574 right:0.007492 d:0.007332 really:0.007140 let:0.007012 could:0.006340 love:0.005795 good:0.005603 make:0.005571
+0.049032	never:0.009414 right:0.009061 think:0.008549 tell:0.007268 time:0.006916 life:0.006404 come:0.006020 d:0.005603 say:0.005507 could:0.005315
+0.049029	night:0.013513 love:0.013097 good:0.010311 think:0.009510 d:0.007301 right:0.006500 make:0.006468 day:0.006340 feel:0.006276 tell:0.005924
+0.047925	say:0.008910 little:0.008779 oh:0.008484 mean:0.007960 right:0.007043 d:0.007010 never:0.006748 very:0.006584 love:0.006551 look:0.006486
+0.047438	love:0.010821 d:0.008770 think:0.008670 feel:0.007876 good:0.006883 time:0.006321 gonna:0.005891 never:0.005858 said:0.005758 let:0.005560
+0.047381	really:0.008747 old:0.008581 oh:0.007886 time:0.007852 right:0.007389 think:0.007389 little:0.007289 tell:0.007024 say:0.006859 yes:0.006693
+0.047041	think:0.012114 d:0.008977 tell:0.007942 oh:0.007375 right:0.006741 could:0.006608 time:0.006508 new:0.005239 thing:0.005039 make:0.004972
